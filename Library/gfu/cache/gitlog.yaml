@@ -13,9 +13,279 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 3
-  lastUpdatedAtString: 2022-07-12T14:02:10.937+02:00
-  initializedAtString: 2022-07-12T13:51:23.015+02:00
+  lastUpdatedAtString: 2022-07-14T12:17:27.950+02:00
+  initializedAtString: 2022-07-14T11:00:19.251+02:00
   log:
+  - commitID: 71c57a840e5d20ce919b375df32ed78d783ba671
+    mergeA: 
+    mergeB: 
+    authorName: Aidan
+    authorEmail: aidankeane93@gmail.com
+    commitEmail: aidankeane93@gmail.com
+    commitName: Aidan
+    summary: Basic player and camera movement
+    description: 
+    timeString: 2022-07-12T14:04:07.000+02:00
+    commitTimeString: 2022-07-12T14:04:07.000+02:00
+    changes:
+    - path: .vs\Multiplayer Shooter\FileContentIndex\5ab49742-4782-40d9-8645-1b60c4b8dba4.vsidx
+      fullPath: C:\Users\Aidan\Multiplayer Shooter\.vs\Multiplayer Shooter\FileContentIndex\5ab49742-4782-40d9-8645-1b60c4b8dba4.vsidx
+      projectPath: .vs\Multiplayer Shooter\FileContentIndex\5ab49742-4782-40d9-8645-1b60c4b8dba4.vsidx
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: .vs\Multiplayer Shooter\FileContentIndex\read.lock
+      fullPath: C:\Users\Aidan\Multiplayer Shooter\.vs\Multiplayer Shooter\FileContentIndex\read.lock
+      projectPath: .vs\Multiplayer Shooter\FileContentIndex\read.lock
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: .vs\Multiplayer Shooter\v17\.suo
+      fullPath: C:\Users\Aidan\Multiplayer Shooter\.vs\Multiplayer Shooter\v17\.suo
+      projectPath: .vs\Multiplayer Shooter\v17\.suo
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: .vsconfig
+      fullPath: C:\Users\Aidan\Multiplayer Shooter\.vsconfig
+      projectPath: .vsconfig
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assembly-CSharp-Editor-firstpass.csproj
+      fullPath: C:\Users\Aidan\Multiplayer Shooter\Assembly-CSharp-Editor-firstpass.csproj
+      projectPath: Assembly-CSharp-Editor-firstpass.csproj
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assembly-CSharp.csproj
+      fullPath: C:\Users\Aidan\Multiplayer Shooter\Assembly-CSharp.csproj
+      projectPath: Assembly-CSharp.csproj
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scenes\Movement Testing.unity
+      fullPath: C:\Users\Aidan\Multiplayer Shooter\Assets\Scenes\Movement Testing.unity
+      projectPath: Assets\Scenes\Movement Testing.unity
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Scenes\SampleScene.unity
+      fullPath: C:\Users\Aidan\Multiplayer Shooter\Assets\Scenes\SampleScene.unity
+      projectPath: Assets\Scenes\SampleScene.unity
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Scenes\SampleScene.unity.meta
+      fullPath: C:\Users\Aidan\Multiplayer Shooter\Assets\Scenes\SampleScene.unity.meta
+      projectPath: Assets\Scenes\SampleScene.unity.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Scripts\PlayerController.cs
+      fullPath: C:\Users\Aidan\Multiplayer Shooter\Assets\Scripts\PlayerController.cs
+      projectPath: Assets\Scripts\PlayerController.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\ArtifactDB
+      fullPath: C:\Users\Aidan\Multiplayer Shooter\Library\ArtifactDB
+      projectPath: Library\ArtifactDB
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\Artifacts\1f\1fe54318fe85aeab159f1a8b425c1aa5
+      fullPath: C:\Users\Aidan\Multiplayer Shooter\Library\Artifacts\1f\1fe54318fe85aeab159f1a8b425c1aa5
+      projectPath: Library\Artifacts\1f\1fe54318fe85aeab159f1a8b425c1aa5
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\21\2178a8a0fa8308fcfa83c6c3cf779a0c
+      fullPath: C:\Users\Aidan\Multiplayer Shooter\Library\Artifacts\21\2178a8a0fa8308fcfa83c6c3cf779a0c
+      projectPath: Library\Artifacts\21\2178a8a0fa8308fcfa83c6c3cf779a0c
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\5a\5a3d45a71c545c5d3d3d044f90a36aa3
+      fullPath: C:\Users\Aidan\Multiplayer Shooter\Library\Artifacts\5a\5a3d45a71c545c5d3d3d044f90a36aa3
+      projectPath: Library\Artifacts\5a\5a3d45a71c545c5d3d3d044f90a36aa3
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\bd\bd3b3e5efd1936c5316dab4dc453bbb0
+      fullPath: C:\Users\Aidan\Multiplayer Shooter\Library\Artifacts\bd\bd3b3e5efd1936c5316dab4dc453bbb0
+      projectPath: Library\Artifacts\bd\bd3b3e5efd1936c5316dab4dc453bbb0
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\fe\fe484095c29209168b25e59910f6b655
+      fullPath: C:\Users\Aidan\Multiplayer Shooter\Library\Artifacts\fe\fe484095c29209168b25e59910f6b655
+      projectPath: Library\Artifacts\fe\fe484095c29209168b25e59910f6b655
+      originalPath: Library\Artifacts\9c\9ca225e38ead9e307e69fc1aead36f7e
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Library\Artifacts\fe\fe8127e4b4492690c3a5c77828bba706
+      fullPath: C:\Users\Aidan\Multiplayer Shooter\Library\Artifacts\fe\fe8127e4b4492690c3a5c77828bba706
+      projectPath: Library\Artifacts\fe\fe8127e4b4492690c3a5c77828bba706
+      originalPath: Library\Artifacts\ca\ca015e1262f11d3e852776457f5643f4
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Library\CurrentLayout-default.dwlt
+      fullPath: C:\Users\Aidan\Multiplayer Shooter\Library\CurrentLayout-default.dwlt
+      projectPath: Library\CurrentLayout-default.dwlt
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\CurrentMaximizeLayout.dwlt
+      fullPath: C:\Users\Aidan\Multiplayer Shooter\Library\CurrentMaximizeLayout.dwlt
+      projectPath: Library\CurrentMaximizeLayout.dwlt
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\LastSceneManagerSetup.txt
+      fullPath: C:\Users\Aidan\Multiplayer Shooter\Library\LastSceneManagerSetup.txt
+      projectPath: Library\LastSceneManagerSetup.txt
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\SceneVisibilityState.asset
+      fullPath: C:\Users\Aidan\Multiplayer Shooter\Library\SceneVisibilityState.asset
+      projectPath: Library\SceneVisibilityState.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\ScriptAssemblies\Assembly-CSharp.dll
+      fullPath: C:\Users\Aidan\Multiplayer Shooter\Library\ScriptAssemblies\Assembly-CSharp.dll
+      projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\ScriptAssemblies\Assembly-CSharp.pdb
+      fullPath: C:\Users\Aidan\Multiplayer Shooter\Library\ScriptAssemblies\Assembly-CSharp.pdb
+      projectPath: Library\ScriptAssemblies\Assembly-CSharp.pdb
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\ScriptAssemblies\BuiltinAssemblies.stamp
+      fullPath: C:\Users\Aidan\Multiplayer Shooter\Library\ScriptAssemblies\BuiltinAssemblies.stamp
+      projectPath: Library\ScriptAssemblies\BuiltinAssemblies.stamp
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\ShaderCache\EditorEncounteredVariants
+      fullPath: C:\Users\Aidan\Multiplayer Shooter\Library\ShaderCache\EditorEncounteredVariants
+      projectPath: Library\ShaderCache\EditorEncounteredVariants
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\SourceAssetDB
+      fullPath: C:\Users\Aidan\Multiplayer Shooter\Library\SourceAssetDB
+      projectPath: Library\SourceAssetDB
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\StateCache\SceneView\f6\f6723d637d7e19dc4d3d27c8d200cafc.json
+      fullPath: C:\Users\Aidan\Multiplayer Shooter\Library\StateCache\SceneView\f6\f6723d637d7e19dc4d3d27c8d200cafc.json
+      projectPath: Library\StateCache\SceneView\f6\f6723d637d7e19dc4d3d27c8d200cafc.json
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\gfu\cache\branches.yaml
+      fullPath: C:\Users\Aidan\Multiplayer Shooter\Library\gfu\cache\branches.yaml
+      projectPath: Library\gfu\cache\branches.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\gfu\cache\gitlocks.yaml
+      fullPath: C:\Users\Aidan\Multiplayer Shooter\Library\gfu\cache\gitlocks.yaml
+      projectPath: Library\gfu\cache\gitlocks.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\gfu\cache\gitlog.yaml
+      fullPath: C:\Users\Aidan\Multiplayer Shooter\Library\gfu\cache\gitlog.yaml
+      projectPath: Library\gfu\cache\gitlog.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\gfu\cache\gitstatusentries.yaml
+      fullPath: C:\Users\Aidan\Multiplayer Shooter\Library\gfu\cache\gitstatusentries.yaml
+      projectPath: Library\gfu\cache\gitstatusentries.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\gfu\cache\gittrackingstatus.yaml
+      fullPath: C:\Users\Aidan\Multiplayer Shooter\Library\gfu\cache\gittrackingstatus.yaml
+      projectPath: Library\gfu\cache\gittrackingstatus.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\gfu\cache\repoinfo.yaml
+      fullPath: C:\Users\Aidan\Multiplayer Shooter\Library\gfu\cache\repoinfo.yaml
+      projectPath: Library\gfu\cache\repoinfo.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Logs\AssetImportWorker0-prev.log
+      fullPath: C:\Users\Aidan\Multiplayer Shooter\Logs\AssetImportWorker0-prev.log
+      projectPath: Logs\AssetImportWorker0-prev.log
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Logs\AssetImportWorker0.log
+      fullPath: C:\Users\Aidan\Multiplayer Shooter\Logs\AssetImportWorker0.log
+      projectPath: Logs\AssetImportWorker0.log
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Logs\shadercompiler-AssetImportWorker0.log
+      fullPath: C:\Users\Aidan\Multiplayer Shooter\Logs\shadercompiler-AssetImportWorker0.log
+      projectPath: Logs\shadercompiler-AssetImportWorker0.log
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Multiplayer Shooter.sln
+      fullPath: C:\Users\Aidan\Multiplayer Shooter\Multiplayer Shooter.sln
+      projectPath: Multiplayer Shooter.sln
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\QualitySettings.asset
+      fullPath: C:\Users\Aidan\Multiplayer Shooter\ProjectSettings\QualitySettings.asset
+      projectPath: ProjectSettings\QualitySettings.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: UpgradeLog.htm
+      fullPath: C:\Users\Aidan\Multiplayer Shooter\UpgradeLog.htm
+      projectPath: UpgradeLog.htm
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: UserSettings\EditorUserSettings.asset
+      fullPath: C:\Users\Aidan\Multiplayer Shooter\UserSettings\EditorUserSettings.asset
+      projectPath: UserSettings\EditorUserSettings.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: obj\Debug\Assembly-CSharp-Editor-firstpass.csproj.AssemblyReference.cache
+      fullPath: C:\Users\Aidan\Multiplayer Shooter\obj\Debug\Assembly-CSharp-Editor-firstpass.csproj.AssemblyReference.cache
+      projectPath: obj\Debug\Assembly-CSharp-Editor-firstpass.csproj.AssemblyReference.cache
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: obj\Debug\Assembly-CSharp.csproj.AssemblyReference.cache
+      fullPath: C:\Users\Aidan\Multiplayer Shooter\obj\Debug\Assembly-CSharp.csproj.AssemblyReference.cache
+      projectPath: obj\Debug\Assembly-CSharp.csproj.AssemblyReference.cache
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
+      fullPath: C:\Users\Aidan\Multiplayer Shooter\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
+      projectPath: obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
   - commitID: c64cfad6488d110eb0c7e74da6264ea86bfb3ce5
     mergeA: 
     mergeB: 

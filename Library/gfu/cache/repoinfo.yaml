@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 1
-  lastUpdatedAtString: 2022-07-12T13:51:22.745+02:00
-  initializedAtString: 2022-07-12T13:51:22.745+02:00
+  lastUpdatedAtString: 2022-07-14T12:04:39.432+02:00
+  initializedAtString: 2022-07-14T11:00:18.986+02:00
   currentGitRemote:
     name: origin
     url: git@github.com:ClashKeano/Unity-Multiplayer-Shooter.git
