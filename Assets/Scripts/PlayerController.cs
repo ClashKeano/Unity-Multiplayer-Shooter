@@ -17,6 +17,13 @@ public class PlayerController : MonoBehaviour
     private Camera cam;
 
     public float jump = 7;
+
+    public GameObject bulletImpact;
+    public float fireRate = 0.1f;
+    private float nextFire = 0.0f;
+
+
+    
    
     // Start is called before the first frame update
     void Start()
@@ -58,6 +65,13 @@ public class PlayerController : MonoBehaviour
         charControl.Move (moveDir * Time.deltaTime); // Move player
         /*******************/
 
+        if (Input.GetMouseButton(0) && Time.time > nextFire)
+        {
+            nextFire = Time.time + fireRate;
+            Shoot();
+        }
+        
+
         /* Cursor Lock*/
         if (Input.GetKeyDown(KeyCode.Escape))
         {
@@ -72,6 +86,23 @@ public class PlayerController : MonoBehaviour
             
         }
         /*******************/
+
+    }
+
+    private void Shoot()
+    {
+        Ray ray = cam.ViewportPointToRay(new Vector3(.5f, .5f, 0f)); // Create direction for raycast from centre of player view
+
+        ray.origin = cam.transform.position;
+
+        if(Physics.Raycast(ray, out RaycastHit hit))
+        {
+            Debug.Log("We Hit " + hit.collider.gameObject.name); // Print to debug log the name of the object that was hit by raycast
+
+            GameObject bulletImpactObject = Instantiate(bulletImpact, hit.point + (hit.normal * .001f), Quaternion.LookRotation(hit.normal, Vector3.up)) ; // Place bullet impact in correct location
+
+            Destroy(bulletImpactObject, 5f); // Remove bullet impacts after 5 seconds
+        }
 
     }
 
