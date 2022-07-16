@@ -20,7 +20,12 @@ public class PlayerController : MonoBehaviour
 
     public GameObject bulletImpact;
     public float fireRate = 0.1f;
-    private float nextFire = 0.0f;
+    private float shotCounter;
+
+    public float maxWeaponHeat = 10f, weaponHeatPerShot = 1f, coolRate = 4f, overheatCoolRate = 5f;
+    private float heatCounter;
+    private bool overheated;
+
 
 
     
@@ -30,7 +35,9 @@ public class PlayerController : MonoBehaviour
     {
         Cursor.lockState = CursorLockMode.Locked; //Prevent cursor from clicking outside the game window
 
-        cam = Camera.main; 
+        cam = Camera.main;
+
+        UIController.instance.weaponHeatSlider.maxValue = maxWeaponHeat;
     }
 
     // Update is called once per frame
@@ -65,11 +72,44 @@ public class PlayerController : MonoBehaviour
         charControl.Move (moveDir * Time.deltaTime); // Move player
         /*******************/
 
-        if (Input.GetMouseButton(0) && Time.time > nextFire)
+        if (!overheated)
         {
-            nextFire = Time.time + fireRate;
-            Shoot();
+            if (Input.GetMouseButtonDown(0))
+            {
+                Shoot();
+            }
+
+            if (Input.GetMouseButton(0))
+            {
+                shotCounter -= Time.deltaTime;
+
+                if (shotCounter <= 0)
+                {
+                    Shoot();
+                }
+
+            }
+
+            heatCounter -= coolRate * Time.deltaTime;
         }
+        else
+        {
+            heatCounter -= overheatCoolRate * Time.deltaTime;
+            if (heatCounter <= 0)
+            {
+                overheated = false;
+
+                UIController.instance.overheatedMessage.gameObject.SetActive(false);
+
+            }
+        }
+
+        if (heatCounter < 0)
+        {
+            heatCounter = 0;
+        }
+        
+        UIController.instance.weaponHeatSlider.value = heatCounter;
         
 
         /* Cursor Lock*/
@@ -104,6 +144,19 @@ public class PlayerController : MonoBehaviour
             Destroy(bulletImpactObject, 5f); // Remove bullet impacts after 5 seconds
         }
 
+        shotCounter = fireRate;
+
+        heatCounter += weaponHeatPerShot;
+
+        if(heatCounter >= maxWeaponHeat)
+        {
+            heatCounter = maxWeaponHeat;
+
+            overheated = true;
+
+            UIController.instance.overheatedMessage.gameObject.SetActive(true);
+
+        }
     }
 
     // Called once per frame, after every update function is complete
