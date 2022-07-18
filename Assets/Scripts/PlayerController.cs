@@ -19,13 +19,14 @@ public class PlayerController : MonoBehaviour
     public float jump = 7;
 
     public GameObject bulletImpact;
-    public float fireRate = 0.1f;
     private float shotCounter;
 
-    public float maxWeaponHeat = 10f, weaponHeatPerShot = 1f, coolRate = 4f, overheatCoolRate = 5f;
+    public float maxWeaponHeat = 10f, coolRate = 4f, overheatCoolRate = 5f;
     private float heatCounter;
     private bool overheated;
 
+    public Weapons[] allWeapons;
+    private int currentWeapon;
 
 
     
@@ -38,6 +39,8 @@ public class PlayerController : MonoBehaviour
         cam = Camera.main;
 
         UIController.instance.weaponHeatSlider.maxValue = maxWeaponHeat;
+
+        switchWeapon();  // Activate first weapon in array
     }
 
     // Update is called once per frame
@@ -72,6 +75,11 @@ public class PlayerController : MonoBehaviour
         charControl.Move (moveDir * Time.deltaTime); // Move player
         /*******************/
 
+
+        /* Gun Shooting and Overheating */
+
+        allWeapons[currentWeapon].muzzleFlash.gameObject.SetActive(false);
+
         if (!overheated)
         {
             if (Input.GetMouseButtonDown(0))
@@ -79,7 +87,7 @@ public class PlayerController : MonoBehaviour
                 Shoot();
             }
 
-            if (Input.GetMouseButton(0))
+            if (Input.GetMouseButton(0) && (allWeapons[currentWeapon].isAutomatic == true))
             {
                 shotCounter -= Time.deltaTime;
 
@@ -110,7 +118,38 @@ public class PlayerController : MonoBehaviour
         }
         
         UIController.instance.weaponHeatSlider.value = heatCounter;
-        
+        /*******************/
+
+
+        /* Weapon Controls */
+
+        if (Input.GetAxisRaw("Mouse ScrollWheel") > 0f)
+        {
+            currentWeapon++;
+
+            if (currentWeapon >= allWeapons.Length)
+            {
+                currentWeapon = 0;
+            }
+
+            
+            switchWeapon();
+
+        }else if(Input.GetAxisRaw("Mouse ScrollWheel") < 0f)
+        {
+            currentWeapon--;
+
+            if (currentWeapon < 0)
+            {
+                currentWeapon = allWeapons.Length - 1;
+            }
+
+            switchWeapon();
+        }
+
+        /*******************/
+
+
 
         /* Cursor Lock*/
         if (Input.GetKeyDown(KeyCode.Escape))
@@ -144,9 +183,12 @@ public class PlayerController : MonoBehaviour
             Destroy(bulletImpactObject, 5f); // Remove bullet impacts after 5 seconds
         }
 
-        shotCounter = fireRate;
+        allWeapons[currentWeapon].muzzleFlash.gameObject.SetActive(true); //Activate muzzle flush when firing
+        
 
-        heatCounter += weaponHeatPerShot;
+        shotCounter = allWeapons[currentWeapon].fireRate;
+
+        heatCounter += allWeapons[currentWeapon].heatPerShot;
 
         if(heatCounter >= maxWeaponHeat)
         {
@@ -159,12 +201,26 @@ public class PlayerController : MonoBehaviour
         }
     }
 
+    void switchWeapon()
+    {
+        foreach(Weapons weapons in allWeapons)
+        {
+            weapons.gameObject.SetActive(false); // De-activate all weapons
+        }
+
+        allWeapons[currentWeapon].gameObject.SetActive(true); // Activate only currently selected weapon
+
+        heatCounter = 0; // Reset heat counter when switching weapons
+       
+    }
+
     // Called once per frame, after every update function is complete
     private void LateUpdate()
     {
         cam.transform.position = viewPoint.position;
         cam.transform.rotation = viewPoint.rotation;
 
+        
         // Tie main camera to view point location
     }
 }
