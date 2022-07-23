@@ -41,6 +41,11 @@ public class PlayerController : MonoBehaviour
         UIController.instance.weaponHeatSlider.maxValue = maxWeaponHeat;
 
         switchWeapon();  // Activate first weapon in array
+
+        Transform newSpawnTransform = SpawnManager.instance.spawn(); // Generate random spawn tranform values
+
+        transform.position = newSpawnTransform.position;
+        transform.rotation = newSpawnTransform.rotation;  // Apply above transform values to plaher spawn location
     }
 
     // Update is called once per frame
@@ -125,11 +130,11 @@ public class PlayerController : MonoBehaviour
 
         if (Input.GetAxisRaw("Mouse ScrollWheel") > 0f)
         {
-            currentWeapon++;
+            currentWeapon++; // Scroll up through weapons with mouse wheel
 
             if (currentWeapon >= allWeapons.Length)
             {
-                currentWeapon = 0;
+                currentWeapon = 0; // Allow for looping when scrolling
             }
 
             
@@ -137,14 +142,23 @@ public class PlayerController : MonoBehaviour
 
         }else if(Input.GetAxisRaw("Mouse ScrollWheel") < 0f)
         {
-            currentWeapon--;
+            currentWeapon--;  // SCroll down through weapons with mouse wheel
 
             if (currentWeapon < 0)
             {
-                currentWeapon = allWeapons.Length - 1;
+                currentWeapon = allWeapons.Length - 1;// Allow for looping when scrolling
             }
 
             switchWeapon();
+        }
+
+        for (int i = 1; i <= allWeapons.Length; i++)
+        {
+            if(Input.GetKeyDown(i.ToString()))
+            {
+                currentWeapon = i - 1;
+                switchWeapon();            // Change weapon based on number key input
+            }
         }
 
         /*******************/

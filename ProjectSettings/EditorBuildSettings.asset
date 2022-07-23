@@ -6,6 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Movement Testing.unity
+    path: Assets/Scenes/Mars.unity
     guid: 2d00a7b1b4be1f449ae6ded5fc4e455b
   m_configObjects: {}
