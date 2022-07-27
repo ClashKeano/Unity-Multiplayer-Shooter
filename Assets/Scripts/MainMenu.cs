@@ -13,6 +13,10 @@ public class MainMenu : MonoBehaviour
        
     }
 
+    public void quitGame()
+    {
+        Application.Quit(); // Exit Game
+    }
 
     // Start is called before the first frame update
     void Start()

@@ -4,12 +4,12 @@ ScriptsOnlyBuild:
     - MainMenu
     - MultiplayerLauncher
     - PlayerController
+    - RoomButton
     - SpawnManager
     - UIController
     - Weapons
     GitHub.Unity.45.dll:
     - GitHub.Unity.ApplicationCache
-    - GitHub.Unity.BranchesCache
     - GitHub.Unity.EnvironmentCache
     - GitHub.Unity.GitAheadBehindCache
     - GitHub.Unity.GitLocksCache
@@ -37,11 +37,15 @@ ScriptsOnlyBuild:
     - UnityEngine.EventSystems.StandaloneInputModule
     - UnityEngine.UI.Button
     - UnityEngine.UI.CanvasScaler
+    - UnityEngine.UI.ContentSizeFitter
     - UnityEngine.UI.GraphicRaycaster
     - UnityEngine.UI.Image
     - UnityEngine.UI.LayoutElement
+    - UnityEngine.UI.Mask
     - UnityEngine.UI.Outline
     - UnityEngine.UI.RectMask2D
+    - UnityEngine.UI.ScrollRect
+    - UnityEngine.UI.Scrollbar
     - UnityEngine.UI.Slider
     - UnityEngine.UI.VerticalLayoutGroup
   sceneClasses:
@@ -81,19 +85,19 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1986}
     - Class: 114
-      Script: {instanceID: 2704}
+      Script: {instanceID: 2702}
     - Class: 114
-      Script: {instanceID: 2824}
+      Script: {instanceID: 2822}
     - Class: 114
-      Script: {instanceID: 2870}
+      Script: {instanceID: 2868}
     - Class: 114
-      Script: {instanceID: 3002}
+      Script: {instanceID: 3000}
     - Class: 114
-      Script: {instanceID: 3204}
+      Script: {instanceID: 3202}
     - Class: 114
-      Script: {instanceID: 3426}
+      Script: {instanceID: 3424}
     - Class: 114
-      Script: {instanceID: 3512}
+      Script: {instanceID: 3510}
     - Class: 114
       Script: {instanceID: 3838}
     - Class: 114
@@ -156,21 +160,21 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 2282}
     - Class: 114
-      Script: {instanceID: 2704}
+      Script: {instanceID: 2702}
     - Class: 114
-      Script: {instanceID: 2824}
+      Script: {instanceID: 2822}
     - Class: 114
-      Script: {instanceID: 2870}
+      Script: {instanceID: 2868}
     - Class: 114
-      Script: {instanceID: 3002}
+      Script: {instanceID: 3000}
     - Class: 114
-      Script: {instanceID: 3204}
+      Script: {instanceID: 3202}
     - Class: 114
-      Script: {instanceID: 3288}
+      Script: {instanceID: 3286}
     - Class: 114
-      Script: {instanceID: 3512}
+      Script: {instanceID: 3510}
     - Class: 114
-      Script: {instanceID: 3574}
+      Script: {instanceID: 3572}
     - Class: 114
       Script: {instanceID: 4330}
     - Class: 114
@@ -184,6 +188,85 @@ ScriptsOnlyBuild:
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/Movement Testing 1.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 64
+      Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1678}
+    - Class: 114
+      Script: {instanceID: 1894}
+    - Class: 114
+      Script: {instanceID: 1986}
+    - Class: 114
+      Script: {instanceID: 2702}
+    - Class: 114
+      Script: {instanceID: 2822}
+    - Class: 114
+      Script: {instanceID: 2868}
+    - Class: 114
+      Script: {instanceID: 3000}
+    - Class: 114
+      Script: {instanceID: 3202}
+    - Class: 114
+      Script: {instanceID: 3510}
+    - Class: 114
+      Script: {instanceID: 3838}
+    - Class: 114
+      Script: {instanceID: 4496}
+    - Class: 114
+      Script: {instanceID: 4590}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 136
+      Script: {instanceID: 0}
+    - Class: 143
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 198
+      Script: {instanceID: 0}
+    - Class: 199
+      Script: {instanceID: 0}
+    - Class: 213
       Script: {instanceID: 0}
     - Class: 222
       Script: {instanceID: 0}
@@ -225,25 +308,37 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1848}
     - Class: 114
+      Script: {instanceID: 1982}
+    - Class: 114
       Script: {instanceID: 1986}
     - Class: 114
       Script: {instanceID: 2198}
     - Class: 114
-      Script: {instanceID: 2704}
+      Script: {instanceID: 2702}
     - Class: 114
-      Script: {instanceID: 2824}
+      Script: {instanceID: 2822}
     - Class: 114
-      Script: {instanceID: 2870}
+      Script: {instanceID: 2868}
     - Class: 114
-      Script: {instanceID: 3002}
+      Script: {instanceID: 3000}
     - Class: 114
-      Script: {instanceID: 3204}
+      Script: {instanceID: 3202}
     - Class: 114
-      Script: {instanceID: 3288}
+      Script: {instanceID: 3208}
     - Class: 114
-      Script: {instanceID: 3512}
+      Script: {instanceID: 3286}
     - Class: 114
-      Script: {instanceID: 3574}
+      Script: {instanceID: 3454}
+    - Class: 114
+      Script: {instanceID: 3510}
+    - Class: 114
+      Script: {instanceID: 3572}
+    - Class: 114
+      Script: {instanceID: 3662}
+    - Class: 114
+      Script: {instanceID: 4068}
+    - Class: 114
+      Script: {instanceID: 4226}
     - Class: 114
       Script: {instanceID: 4312}
     - Class: 115
@@ -361,7 +456,7 @@ ScriptsOnlyBuild:
     className: OnPointerOverTooltip
   - hash:
       serializedVersion: 2
-      Hash: d7e402b83f68892cbd7a8f35c4bdd6d5
+      Hash: de666347ed6079a07f9dca022c4d7a7b
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: MultiplayerLauncher
@@ -659,6 +754,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
     className: BaseInput
+  - hash:
+      serializedVersion: 2
+      Hash: 65579e21699400a441dd23cb33c51f1f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: RoomButton
   - hash:
       serializedVersion: 2
       Hash: 18c222bef9ae745ce69ddde9b74337ca
@@ -968,6 +1069,7 @@ ScriptsOnlyBuild:
   platform: 19
   scenePathNames:
   - Assets/Scenes/Main Menu.unity
+  - Assets/Scenes/Movement Testing 1.unity
   - Assets/Scenes/Future City Map.unity
   - Assets/Scenes/Multiplayer Menu.unity
   playerPath: C:/Users/Aidan/Builds/Multiplayer Shooter.exe

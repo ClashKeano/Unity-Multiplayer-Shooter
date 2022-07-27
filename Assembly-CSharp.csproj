@@ -61,12 +61,12 @@
     <Compile Include="Assets\Photon\PhotonLibs\WebSocket\SocketWebTcp.cs" />
     <Compile Include="Assets\Scripts\MultiplayerLauncher.cs" />
     <Compile Include="Assets\SoftEffects\Scripts\CGHolder.cs" />
-    <Compile Include="Assets\Scripts\Test1.cs" />
     <Compile Include="Assets\SoftEffects\Scripts\GPUWorker.cs" />
     <Compile Include="Assets\SoftEffects\Scripts\PrintData.cs" />
     <Compile Include="Assets\Scripts\SpawnManager.cs" />
     <Compile Include="Assets\SoftEffects\Scripts\SoftEffects.cs" />
     <Compile Include="Assets\SoftEffects\Scripts\Styles.cs" />
+    <Compile Include="Assets\Scripts\RoomButton.cs" />
     <Compile Include="Assets\SoftEffects\Scripts\ClassExtensions.cs" />
     <Compile Include="Assets\Scripts\Weapons.cs" />
     <Compile Include="Assets\Scripts\UIController.cs" />
