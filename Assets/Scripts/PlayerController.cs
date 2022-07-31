@@ -15,22 +15,21 @@ public class PlayerController : MonoBehaviour
     public CharacterController charControl;
 
     private Camera cam;
-
     public float jump = 7;
 
-    public GameObject bulletImpact;
-    private float shotCounter;
+    //public GameObject bulletImpact;
+    //private float shotCounter;
 
-    public float maxWeaponHeat = 10f, coolRate = 4f, overheatCoolRate = 5f;
-    private float heatCounter;
-    private bool overheated;
+    //public float maxWeaponHeat = 10f, coolRate = 4f, overheatCoolRate = 5f;
+    //private float heatCounter;
+    //private bool overheated;
 
     public Weapons[] allWeapons;
     private int currentWeapon;
 
 
-    
-   
+
+
     // Start is called before the first frame update
     void Start()
     {
@@ -38,7 +37,7 @@ public class PlayerController : MonoBehaviour
 
         cam = Camera.main;
 
-        UIController.instance.weaponHeatSlider.maxValue = maxWeaponHeat;
+        //UIController.instance.weaponHeatSlider.maxValue = maxWeaponHeat;
 
         switchWeapon();  // Activate first weapon in array
 
@@ -59,7 +58,7 @@ public class PlayerController : MonoBehaviour
         vertRotation -= mouseInput.y;
         vertRotation = Mathf.Clamp(vertRotation, -60, 60); // Limit vertical rotation between -60 and 60 degrees
 
-        viewPoint.rotation = Quaternion.Euler( vertRotation, viewPoint.rotation.eulerAngles.y,  viewPoint.rotation.eulerAngles.z); // Move camera on Y axis based on mouse input
+        viewPoint.rotation = Quaternion.Euler(vertRotation, viewPoint.rotation.eulerAngles.y, viewPoint.rotation.eulerAngles.z); // Move camera on Y axis based on mouse input
         /*******************/
 
 
@@ -70,59 +69,60 @@ public class PlayerController : MonoBehaviour
         moveDir = ((transform.forward * moveInput.z) + (transform.right * moveInput.x).normalized) * moveSpeed;  //Set the values to move in direction relative to current view point location
         moveDir.y = velY;
 
-        if (Input.GetButtonDown("Jump") && charControl.isGrounded){
+        if (Input.GetButtonDown("Jump") && charControl.isGrounded)
+        {
             moveDir.y = jump;
             // Add jump functionality
         }
 
         moveDir.y += Physics.gravity.y * Time.deltaTime; // Apply gravity to movement
 
-        charControl.Move (moveDir * Time.deltaTime); // Move player
+        charControl.Move(moveDir * Time.deltaTime); // Move player
         /*******************/
 
 
         /* Gun Shooting and Overheating */
 
-        allWeapons[currentWeapon].muzzleFlash.gameObject.SetActive(false);
+        //allWeapons[currentWeapon].muzzleFlash.gameObject.SetActive(false);
 
-        if (!overheated)
-        {
-            if (Input.GetMouseButtonDown(0))
-            {
-                Shoot();
-            }
+        //if (!overheated)
+        //{
+        //    if (Input.GetMouseButtonDown(0))
+        //    {
+        //        Shoot();
+        //    }
 
-            if (Input.GetMouseButton(0) && (allWeapons[currentWeapon].isAutomatic == true))
-            {
-                shotCounter -= Time.deltaTime;
+        //    if (Input.GetMouseButton(0) && (allWeapons[currentWeapon].isAutomatic == true))
+        //    {
+        //        shotCounter -= Time.deltaTime;
 
-                if (shotCounter <= 0)
-                {
-                    Shoot();
-                }
+        //        if (shotCounter <= 0)
+        //        {
+        //            Shoot();
+        //        }
 
-            }
+        //    }
 
-            heatCounter -= coolRate * Time.deltaTime;
-        }
-        else
-        {
-            heatCounter -= overheatCoolRate * Time.deltaTime;
-            if (heatCounter <= 0)
-            {
-                overheated = false;
+        //    heatCounter -= coolRate * Time.deltaTime;
+        //}
+        //else
+        //{
+        //    heatCounter -= overheatCoolRate * Time.deltaTime;
+        //    if (heatCounter <= 0)
+        //    {
+        //        overheated = false;
 
-                UIController.instance.overheatedMessage.gameObject.SetActive(false);
+        //        UIController.instance.overheatedMessage.gameObject.SetActive(false);
 
-            }
-        }
+        //    }
+        //}
 
-        if (heatCounter < 0)
-        {
-            heatCounter = 0;
-        }
-        
-        UIController.instance.weaponHeatSlider.value = heatCounter;
+        //if (heatCounter < 0)
+        //{
+        //    heatCounter = 0;
+        //}
+
+        //UIController.instance.weaponHeatSlider.value = heatCounter;
         /*******************/
 
 
@@ -137,10 +137,11 @@ public class PlayerController : MonoBehaviour
                 currentWeapon = 0; // Allow for looping when scrolling
             }
 
-            
+
             switchWeapon();
 
-        }else if(Input.GetAxisRaw("Mouse ScrollWheel") < 0f)
+        }
+        else if (Input.GetAxisRaw("Mouse ScrollWheel") < 0f)
         {
             currentWeapon--;  // SCroll down through weapons with mouse wheel
 
@@ -154,7 +155,7 @@ public class PlayerController : MonoBehaviour
 
         for (int i = 1; i <= allWeapons.Length; i++)
         {
-            if(Input.GetKeyDown(i.ToString()))
+            if (Input.GetKeyDown(i.ToString()))
             {
                 currentWeapon = i - 1;
                 switchWeapon();            // Change weapon based on number key input
@@ -176,56 +177,55 @@ public class PlayerController : MonoBehaviour
             {
                 Cursor.lockState = CursorLockMode.Locked; // Re-lock cursor if player clicks within game window again
             }
-            
+
         }
         /*******************/
 
     }
 
-    private void Shoot()
-    {
-        Ray ray = cam.ViewportPointToRay(new Vector3(.5f, .5f, 0f)); // Create direction for raycast from centre of player view
+    //private void Shoot()
+    //{
+    //    Ray ray = cam.ViewportPointToRay(new Vector3(.5f, .5f, 0f)); // Create direction for raycast from centre of player view
 
-        ray.origin = cam.transform.position;
+    //    ray.origin = cam.transform.position;
 
-        if(Physics.Raycast(ray, out RaycastHit hit))
-        {
-            Debug.Log("We Hit " + hit.collider.gameObject.name); // Print to debug log the name of the object that was hit by raycast
+    //    if(Physics.Raycast(ray, out RaycastHit hit))
+    //    {
+    //        Debug.Log("We Hit " + hit.collider.gameObject.name); // Print to debug log the name of the object that was hit by raycast
 
-            GameObject bulletImpactObject = Instantiate(bulletImpact, hit.point + (hit.normal * .001f), Quaternion.LookRotation(hit.normal, Vector3.up)) ; // Place bullet impact in correct location
+    //        GameObject bulletImpactObject = Instantiate(bulletImpact, hit.point + (hit.normal * .001f), Quaternion.LookRotation(hit.normal, Vector3.up)) ; // Place bullet impact in correct location
 
-            Destroy(bulletImpactObject, 5f); // Remove bullet impacts after 5 seconds
-        }
+    //        Destroy(bulletImpactObject, 5f); // Remove bullet impacts after 5 seconds
+    //    }
 
-        allWeapons[currentWeapon].muzzleFlash.gameObject.SetActive(true); //Activate muzzle flush when firing
-        
+    //    allWeapons[currentWeapon].muzzleFlash.gameObject.SetActive(true); //Activate muzzle flush when firing
 
-        shotCounter = allWeapons[currentWeapon].fireRate;
 
-        heatCounter += allWeapons[currentWeapon].heatPerShot;
+    //    shotCounter = allWeapons[currentWeapon].fireRate;
 
-        if(heatCounter >= maxWeaponHeat)
-        {
-            heatCounter = maxWeaponHeat;
+    //    heatCounter += allWeapons[currentWeapon].heatPerShot;
 
-            overheated = true;
+    //    if(heatCounter >= maxWeaponHeat)
+    //    {
+    //        heatCounter = maxWeaponHeat;
 
-            UIController.instance.overheatedMessage.gameObject.SetActive(true);
+    //        overheated = true;
 
-        }
-    }
+    //        UIController.instance.overheatedMessage.gameObject.SetActive(true);
+
+    //    }
+    //}
 
     void switchWeapon()
     {
-        foreach(Weapons weapons in allWeapons)
+        foreach (Weapons weapons in allWeapons)
         {
             weapons.gameObject.SetActive(false); // De-activate all weapons
         }
 
         allWeapons[currentWeapon].gameObject.SetActive(true); // Activate only currently selected weapon
 
-        heatCounter = 0; // Reset heat counter when switching weapons
-       
+
     }
 
     // Called once per frame, after every update function is complete
@@ -234,7 +234,7 @@ public class PlayerController : MonoBehaviour
         cam.transform.position = viewPoint.position;
         cam.transform.rotation = viewPoint.rotation;
 
-        
+
         // Tie main camera to view point location
     }
 }

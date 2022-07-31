@@ -1202,6 +1202,11 @@ MonoBehaviour:
   fireRate: 0.1
   heatPerShot: 1
   muzzleFlash: {fileID: 778753626}
+  BulletTrail: {fileID: 7664428862410593828, guid: 9ae0bb3dd9602f24b9bae8b90730de8c, type: 3}
+  bulletImpact: {fileID: 9124136987186845368, guid: 7a15eacef8d147d43bae9d1857ffdeae, type: 3}
+  maxWeaponHeat: 10
+  coolRate: 4
+  overheatCoolRate: 5
 --- !u!1 &486236869
 GameObject:
   m_ObjectHideFlags: 0
@@ -1808,10 +1813,6 @@ MonoBehaviour:
   moveSpeed: 5
   charControl: {fileID: 679728344}
   jump: 5
-  bulletImpact: {fileID: 9124136987186845368, guid: 7a15eacef8d147d43bae9d1857ffdeae, type: 3}
-  maxWeaponHeat: 10
-  coolRate: 4
-  overheatCoolRate: 5
   allWeapons:
   - {fileID: 1924587301}
   - {fileID: 481697428}
@@ -3538,6 +3539,11 @@ MonoBehaviour:
   fireRate: 0.35
   heatPerShot: 5
   muzzleFlash: {fileID: 1418691920}
+  BulletTrail: {fileID: 7664428862410593828, guid: 9ae0bb3dd9602f24b9bae8b90730de8c, type: 3}
+  bulletImpact: {fileID: 9124136987186845368, guid: 7a15eacef8d147d43bae9d1857ffdeae, type: 3}
+  maxWeaponHeat: 10
+  coolRate: 4
+  overheatCoolRate: 5
 --- !u!1 &1167370447
 GameObject:
   m_ObjectHideFlags: 0
@@ -5163,6 +5169,11 @@ MonoBehaviour:
   fireRate: 0.2
   heatPerShot: 2
   muzzleFlash: {fileID: 161679350}
+  BulletTrail: {fileID: 7664428862410593828, guid: 9ae0bb3dd9602f24b9bae8b90730de8c, type: 3}
+  bulletImpact: {fileID: 9124136987186845368, guid: 7a15eacef8d147d43bae9d1857ffdeae, type: 3}
+  maxWeaponHeat: 10
+  coolRate: 4
+  overheatCoolRate: 5
 --- !u!1 &1962691091 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7103153012782714218, guid: 0b91dd02b4dad5e4e9c023c58f82d6a6, type: 3}
