@@ -72,11 +72,18 @@ public class Weapons : MonoBehaviour
 
     private void Shoot()
     {
-        Ray ray = cam.ViewportPointToRay(new Vector3(.5f, .5f, 0f)); // Create direction for raycast from centre of player view
+        Ray ray;
+        if (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.A))
+        {
+            ray = cam.ViewportPointToRay(new Vector3(Random.Range(.45f, .55f), Random.Range(.45f, .55f), 0f)); // will shoot at random direction when player moving
+        }
+        else
+        {
+            ray = cam.ViewportPointToRay(new Vector3(.5f, .5f, 0f)); //shoot straight when player stand
+        }
 
         ray.origin = cam.transform.position;
-
-        if (Physics.Raycast(ray, out RaycastHit hit))
+       if (Physics.Raycast(ray, out RaycastHit hit))
         {
             TrailRenderer trail = Instantiate(BulletTrail, muzzleFlash.transform.position, Quaternion.identity);
             StartCoroutine(SpawnTrail(trail, hit));
@@ -101,6 +108,7 @@ public class Weapons : MonoBehaviour
         }
     }
 
+
     IEnumerator SpawnTrail(TrailRenderer trail, RaycastHit hit)
     {
         float time = 0;
@@ -113,8 +121,9 @@ public class Weapons : MonoBehaviour
             yield return null;
         }
         trail.transform.position = hit.point;
-        Instantiate(bulletImpact, hit.point, Quaternion.LookRotation(hit.normal));
+        GameObject bulletImpactObject = Instantiate(bulletImpact, hit.point, Quaternion.LookRotation(hit.normal));
 
         Destroy(trail.gameObject, trail.time);
+        Destroy(bulletImpactObject, 5f);
     }
 }

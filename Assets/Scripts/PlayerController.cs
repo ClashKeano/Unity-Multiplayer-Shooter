@@ -17,6 +17,7 @@ public class PlayerController : MonoBehaviour
     private Camera cam;
     public float jump = 7;
 
+
     //public GameObject bulletImpact;
     //private float shotCounter;
 
@@ -33,6 +34,7 @@ public class PlayerController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+
         Cursor.lockState = CursorLockMode.Locked; //Prevent cursor from clicking outside the game window
 
         cam = Camera.main;
@@ -78,6 +80,7 @@ public class PlayerController : MonoBehaviour
         moveDir.y += Physics.gravity.y * Time.deltaTime; // Apply gravity to movement
 
         charControl.Move(moveDir * Time.deltaTime); // Move player
+
         /*******************/
 
 
