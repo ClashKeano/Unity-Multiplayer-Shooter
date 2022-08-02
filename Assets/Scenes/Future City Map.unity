@@ -1207,6 +1207,8 @@ MonoBehaviour:
   maxWeaponHeat: 10
   coolRate: 4
   overheatCoolRate: 5
+  normalPosition: {x: 0.25, y: -0.1, z: 0.4}
+  aimSmoothing: 100
 --- !u!1 &486236869
 GameObject:
   m_ObjectHideFlags: 0
@@ -3544,6 +3546,8 @@ MonoBehaviour:
   maxWeaponHeat: 10
   coolRate: 4
   overheatCoolRate: 5
+  normalPosition: {x: 0.25, y: -0.1, z: 0.4}
+  aimSmoothing: 100
 --- !u!1 &1167370447
 GameObject:
   m_ObjectHideFlags: 0
@@ -5174,6 +5178,8 @@ MonoBehaviour:
   maxWeaponHeat: 10
   coolRate: 4
   overheatCoolRate: 5
+  normalPosition: {x: 0.25, y: 0.33, z: 0.292}
+  aimSmoothing: 100
 --- !u!1 &1962691091 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7103153012782714218, guid: 0b91dd02b4dad5e4e9c023c58f82d6a6, type: 3}

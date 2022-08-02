@@ -13,36 +13,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2022-08-01T16:09:52.312+02:00
-  initializedAtString: 2022-08-01T13:08:56.206+02:00
+  lastUpdatedAtString: 2022-08-02T16:48:45.777+02:00
+  initializedAtString: 2022-08-02T16:04:51.090+02:00
   entries:
-  - path: .vs\Unity-Multiplayer-Shooter\FileContentIndex\65a8688f-6b97-45f3-be1e-b6690e3f3f31.vsidx
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\.vs\Unity-Multiplayer-Shooter\FileContentIndex\65a8688f-6b97-45f3-be1e-b6690e3f3f31.vsidx
-    projectPath: .vs\Unity-Multiplayer-Shooter\FileContentIndex\65a8688f-6b97-45f3-be1e-b6690e3f3f31.vsidx
+  - path: .vs\Unity-Multiplayer-Shooter\FileContentIndex\7c6d6667-30d5-4b09-8480-49c618f0f45f.vsidx
+    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\.vs\Unity-Multiplayer-Shooter\FileContentIndex\7c6d6667-30d5-4b09-8480-49c618f0f45f.vsidx
+    projectPath: .vs\Unity-Multiplayer-Shooter\FileContentIndex\7c6d6667-30d5-4b09-8480-49c618f0f45f.vsidx
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
+    indexStatus: 1
+    workTreeStatus: 1
   - path: .vs\Unity-Multiplayer-Shooter\FileContentIndex\9a362862-ceaa-4f49-90d4-23573be69ab6.vsidx
     fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\.vs\Unity-Multiplayer-Shooter\FileContentIndex\9a362862-ceaa-4f49-90d4-23573be69ab6.vsidx
     projectPath: .vs\Unity-Multiplayer-Shooter\FileContentIndex\9a362862-ceaa-4f49-90d4-23573be69ab6.vsidx
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: .vs\Unity-Multiplayer-Shooter\v17\.suo
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\.vs\Unity-Multiplayer-Shooter\v17\.suo
-    projectPath: .vs\Unity-Multiplayer-Shooter\v17\.suo
-    originalPath: 
     indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\Prefabs\Trail.prefab
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Assets\Prefabs\Trail.prefab
-    projectPath: Assets\Prefabs\Trail.prefab
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\Scripts\PlayerController.cs
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Assets\Scripts\PlayerController.cs
-    projectPath: Assets\Scripts\PlayerController.cs
+    workTreeStatus: 5
+  - path: Assets\Scenes\Future City Map.unity
+    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Assets\Scenes\Future City
+      Map.unity
+    projectPath: Assets\Scenes\Future City Map.unity
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -58,243 +47,21 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\Artifacts\00\0024f257833789b7ac374674590ebe4d
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\00\0024f257833789b7ac374674590ebe4d
-    projectPath: Library\Artifacts\00\0024f257833789b7ac374674590ebe4d
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\00\0047dbf1e7bb78494df068c3dcb1edad
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\00\0047dbf1e7bb78494df068c3dcb1edad
-    projectPath: Library\Artifacts\00\0047dbf1e7bb78494df068c3dcb1edad
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\00\0058085a69dfd25f1b9af2bdc512aa91
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\00\0058085a69dfd25f1b9af2bdc512aa91
-    projectPath: Library\Artifacts\00\0058085a69dfd25f1b9af2bdc512aa91
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\03\033759426ec4c8e979ce69f9e800148f
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\03\033759426ec4c8e979ce69f9e800148f
-    projectPath: Library\Artifacts\03\033759426ec4c8e979ce69f9e800148f
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\05\05c4fdfcda7e759c9dc69bce68b9fbad
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\05\05c4fdfcda7e759c9dc69bce68b9fbad
-    projectPath: Library\Artifacts\05\05c4fdfcda7e759c9dc69bce68b9fbad
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\05\05d6bd124c25743394c4d9d821e7ba47
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\05\05d6bd124c25743394c4d9d821e7ba47
-    projectPath: Library\Artifacts\05\05d6bd124c25743394c4d9d821e7ba47
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\05\05e2948593d59cb91be50d9cfc08dd7a
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\05\05e2948593d59cb91be50d9cfc08dd7a
-    projectPath: Library\Artifacts\05\05e2948593d59cb91be50d9cfc08dd7a
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\06\06f689be06ecd812433d1db1d97c87c6
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\06\06f689be06ecd812433d1db1d97c87c6
-    projectPath: Library\Artifacts\06\06f689be06ecd812433d1db1d97c87c6
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\07\074bb38efa199744a50d473d011b8840
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\07\074bb38efa199744a50d473d011b8840
-    projectPath: Library\Artifacts\07\074bb38efa199744a50d473d011b8840
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\07\07fe7c07fb52384e83cdd96a2be06ea2
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\07\07fe7c07fb52384e83cdd96a2be06ea2
-    projectPath: Library\Artifacts\07\07fe7c07fb52384e83cdd96a2be06ea2
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
   - path: Library\Artifacts\08\08240939b2c36b8c1c010c26f100dd9d
     fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\08\08240939b2c36b8c1c010c26f100dd9d
     projectPath: Library\Artifacts\08\08240939b2c36b8c1c010c26f100dd9d
     originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\0d\0d16dd4313724b9ae979fb5aebb897db
+    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\0d\0d16dd4313724b9ae979fb5aebb897db
+    projectPath: Library\Artifacts\0d\0d16dd4313724b9ae979fb5aebb897db
+    originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\Artifacts\09\090171b6bf349b42b3d702a6404474cc
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\09\090171b6bf349b42b3d702a6404474cc
-    projectPath: Library\Artifacts\09\090171b6bf349b42b3d702a6404474cc
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\09\09497e545d19b722d0bb39755e1ee86a
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\09\09497e545d19b722d0bb39755e1ee86a
-    projectPath: Library\Artifacts\09\09497e545d19b722d0bb39755e1ee86a
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\09\09c64f1b5e896ca6c413fab3847a60ce
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\09\09c64f1b5e896ca6c413fab3847a60ce
-    projectPath: Library\Artifacts\09\09c64f1b5e896ca6c413fab3847a60ce
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\09\09d624c49ca4f73d57d881ea820c765a
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\09\09d624c49ca4f73d57d881ea820c765a
-    projectPath: Library\Artifacts\09\09d624c49ca4f73d57d881ea820c765a
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\0a\0a805135e6ddf3853fec4e6abc6bddf3
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\0a\0a805135e6ddf3853fec4e6abc6bddf3
-    projectPath: Library\Artifacts\0a\0a805135e6ddf3853fec4e6abc6bddf3
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\0b\0bb624359697502fb0994a1771766b66
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\0b\0bb624359697502fb0994a1771766b66
-    projectPath: Library\Artifacts\0b\0bb624359697502fb0994a1771766b66
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\0d\0d3fcfc39ae3ae387cffd842935d8bfa
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\0d\0d3fcfc39ae3ae387cffd842935d8bfa
-    projectPath: Library\Artifacts\0d\0d3fcfc39ae3ae387cffd842935d8bfa
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\0e\0eae47e7dcf4fedbaf6700dabbb2c299
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\0e\0eae47e7dcf4fedbaf6700dabbb2c299
-    projectPath: Library\Artifacts\0e\0eae47e7dcf4fedbaf6700dabbb2c299
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\0f\0f778e415d9c83ba8ff418de7176e213
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\0f\0f778e415d9c83ba8ff418de7176e213
-    projectPath: Library\Artifacts\0f\0f778e415d9c83ba8ff418de7176e213
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\0f\0f9302f67e088ea352a278fc6376091a
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\0f\0f9302f67e088ea352a278fc6376091a
-    projectPath: Library\Artifacts\0f\0f9302f67e088ea352a278fc6376091a
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\10\100ecb8831cf43d36ee3727ab6bd4498
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\10\100ecb8831cf43d36ee3727ab6bd4498
-    projectPath: Library\Artifacts\10\100ecb8831cf43d36ee3727ab6bd4498
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\10\101d8d548e806606da0265439f987189
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\10\101d8d548e806606da0265439f987189
-    projectPath: Library\Artifacts\10\101d8d548e806606da0265439f987189
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\10\102ede887b25e81ed46a7fd4e68f49f0
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\10\102ede887b25e81ed46a7fd4e68f49f0
-    projectPath: Library\Artifacts\10\102ede887b25e81ed46a7fd4e68f49f0
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\10\104a988f697ed519fabe2a3dc852f985
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\10\104a988f697ed519fabe2a3dc852f985
-    projectPath: Library\Artifacts\10\104a988f697ed519fabe2a3dc852f985
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\11\1176815506e122b39e7f4ba150036a53
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\11\1176815506e122b39e7f4ba150036a53
-    projectPath: Library\Artifacts\11\1176815506e122b39e7f4ba150036a53
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\12\12e1449c500a2cf793d71833e1ac91dd
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\12\12e1449c500a2cf793d71833e1ac91dd
-    projectPath: Library\Artifacts\12\12e1449c500a2cf793d71833e1ac91dd
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\13\13f0ebf60b370ef54afa27d4ed0c2284
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\13\13f0ebf60b370ef54afa27d4ed0c2284
-    projectPath: Library\Artifacts\13\13f0ebf60b370ef54afa27d4ed0c2284
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\14\144032902c561246c0a7755f64d888a3
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\14\144032902c561246c0a7755f64d888a3
-    projectPath: Library\Artifacts\14\144032902c561246c0a7755f64d888a3
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\17\17a3de5f710cfc222861f1a485538281
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\17\17a3de5f710cfc222861f1a485538281
-    projectPath: Library\Artifacts\17\17a3de5f710cfc222861f1a485538281
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
   - path: Library\Artifacts\19\19962e3c7aa0c2dcbaf65375d0211b9d
     fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\19\19962e3c7aa0c2dcbaf65375d0211b9d
     projectPath: Library\Artifacts\19\19962e3c7aa0c2dcbaf65375d0211b9d
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\19\19b24e493b20d0ec7936deb6ef2ce415
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\19\19b24e493b20d0ec7936deb6ef2ce415
-    projectPath: Library\Artifacts\19\19b24e493b20d0ec7936deb6ef2ce415
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\1d\1dff256e91e1a46a5136fd54147f2877
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\1d\1dff256e91e1a46a5136fd54147f2877
-    projectPath: Library\Artifacts\1d\1dff256e91e1a46a5136fd54147f2877
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\1e\1ed5d4f3ce1bb35b320ef0308fa91662
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\1e\1ed5d4f3ce1bb35b320ef0308fa91662
-    projectPath: Library\Artifacts\1e\1ed5d4f3ce1bb35b320ef0308fa91662
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\1e\1eeb1106110e92dd8b276eb9094f9b1b
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\1e\1eeb1106110e92dd8b276eb9094f9b1b
-    projectPath: Library\Artifacts\1e\1eeb1106110e92dd8b276eb9094f9b1b
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\20\206458d9a021f74868925f48f4b5ac0d
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\20\206458d9a021f74868925f48f4b5ac0d
-    projectPath: Library\Artifacts\20\206458d9a021f74868925f48f4b5ac0d
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\20\20ad84b0601d461c152fb4d0ead6ec56
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\20\20ad84b0601d461c152fb4d0ead6ec56
-    projectPath: Library\Artifacts\20\20ad84b0601d461c152fb4d0ead6ec56
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\21\21f6f65d86f0ef395d50e4957b317a63
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\21\21f6f65d86f0ef395d50e4957b317a63
-    projectPath: Library\Artifacts\21\21f6f65d86f0ef395d50e4957b317a63
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\22\227fab1a1140d0d0287c365397c5e6db
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\22\227fab1a1140d0d0287c365397c5e6db
-    projectPath: Library\Artifacts\22\227fab1a1140d0d0287c365397c5e6db
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\22\22acb610d93002670ff701a975afb4fe
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\22\22acb610d93002670ff701a975afb4fe
-    projectPath: Library\Artifacts\22\22acb610d93002670ff701a975afb4fe
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
@@ -302,983 +69,143 @@ MonoBehaviour:
     fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\23\239479780a19ee221f196fde2f750a8d
     projectPath: Library\Artifacts\23\239479780a19ee221f196fde2f750a8d
     originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\26\266d0b857e35634769b3960794993a16
+    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\26\266d0b857e35634769b3960794993a16
+    projectPath: Library\Artifacts\26\266d0b857e35634769b3960794993a16
+    originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\Artifacts\23\23bc43354aa38b0969a8d43ff88d772f
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\23\23bc43354aa38b0969a8d43ff88d772f
-    projectPath: Library\Artifacts\23\23bc43354aa38b0969a8d43ff88d772f
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\27\27593281cbc6984f03114d0cac38009f
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\27\27593281cbc6984f03114d0cac38009f
-    projectPath: Library\Artifacts\27\27593281cbc6984f03114d0cac38009f
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\27\27914280ee1a7957d97707b8327599f8
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\27\27914280ee1a7957d97707b8327599f8
-    projectPath: Library\Artifacts\27\27914280ee1a7957d97707b8327599f8
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\2b\2b459042fe513ef15d91d97dbb60c553
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\2b\2b459042fe513ef15d91d97dbb60c553
-    projectPath: Library\Artifacts\2b\2b459042fe513ef15d91d97dbb60c553
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\2e\2e139f421f4414e83a3a4bd1c00fffc9
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\2e\2e139f421f4414e83a3a4bd1c00fffc9
-    projectPath: Library\Artifacts\2e\2e139f421f4414e83a3a4bd1c00fffc9
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\2e\2e3fb82b057877d5f9b88bb99c8f45a0
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\2e\2e3fb82b057877d5f9b88bb99c8f45a0
-    projectPath: Library\Artifacts\2e\2e3fb82b057877d5f9b88bb99c8f45a0
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\2e\2e9502fee40ad4139f180caca480d379
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\2e\2e9502fee40ad4139f180caca480d379
-    projectPath: Library\Artifacts\2e\2e9502fee40ad4139f180caca480d379
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\30\301f83adf5a02ad548bc3bb2ac4b6c26
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\30\301f83adf5a02ad548bc3bb2ac4b6c26
-    projectPath: Library\Artifacts\30\301f83adf5a02ad548bc3bb2ac4b6c26
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\31\312e3cde29244fb929fcf285c5281c2b
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\31\312e3cde29244fb929fcf285c5281c2b
-    projectPath: Library\Artifacts\31\312e3cde29244fb929fcf285c5281c2b
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\31\316b88f049283efea0651654cb6ea1a8
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\31\316b88f049283efea0651654cb6ea1a8
-    projectPath: Library\Artifacts\31\316b88f049283efea0651654cb6ea1a8
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\31\31eaa2c4a766f38202741a9970a55fb6
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\31\31eaa2c4a766f38202741a9970a55fb6
-    projectPath: Library\Artifacts\31\31eaa2c4a766f38202741a9970a55fb6
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\32\3225e33b77c5d43fc0ae663d590201aa
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\32\3225e33b77c5d43fc0ae663d590201aa
-    projectPath: Library\Artifacts\32\3225e33b77c5d43fc0ae663d590201aa
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\33\33e346c2efbbb1859efe07f1a1723424
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\33\33e346c2efbbb1859efe07f1a1723424
-    projectPath: Library\Artifacts\33\33e346c2efbbb1859efe07f1a1723424
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\35\35a9ca1dfed30183b282aee3a08c5f79
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\35\35a9ca1dfed30183b282aee3a08c5f79
-    projectPath: Library\Artifacts\35\35a9ca1dfed30183b282aee3a08c5f79
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\35\35b5b36629bf256a183764c2f7f5a1c0
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\35\35b5b36629bf256a183764c2f7f5a1c0
-    projectPath: Library\Artifacts\35\35b5b36629bf256a183764c2f7f5a1c0
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\35\35def34a39193460a17ed1fbe7093ae9
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\35\35def34a39193460a17ed1fbe7093ae9
-    projectPath: Library\Artifacts\35\35def34a39193460a17ed1fbe7093ae9
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\36\36ddbdad9fbef65d33c1cc4bd50b5100
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\36\36ddbdad9fbef65d33c1cc4bd50b5100
-    projectPath: Library\Artifacts\36\36ddbdad9fbef65d33c1cc4bd50b5100
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\36\36ea689b46370cc09a354cc224976e74
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\36\36ea689b46370cc09a354cc224976e74
-    projectPath: Library\Artifacts\36\36ea689b46370cc09a354cc224976e74
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\37\370627daaf4062103b5dfbdc8ca9eb3a
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\37\370627daaf4062103b5dfbdc8ca9eb3a
-    projectPath: Library\Artifacts\37\370627daaf4062103b5dfbdc8ca9eb3a
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\37\37beb103b927ef29a77317b3bd32b13f
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\37\37beb103b927ef29a77317b3bd32b13f
-    projectPath: Library\Artifacts\37\37beb103b927ef29a77317b3bd32b13f
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
   - path: Library\Artifacts\39\39164f2945662babaee708cea3dc02c6
     fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\39\39164f2945662babaee708cea3dc02c6
     projectPath: Library\Artifacts\39\39164f2945662babaee708cea3dc02c6
     originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\3a\3abd3e5b1477d91a41718c4c2ed05782
+    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\3a\3abd3e5b1477d91a41718c4c2ed05782
+    projectPath: Library\Artifacts\3a\3abd3e5b1477d91a41718c4c2ed05782
+    originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\Artifacts\39\397818acc6379916fa49c633d4ea3da8
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\39\397818acc6379916fa49c633d4ea3da8
-    projectPath: Library\Artifacts\39\397818acc6379916fa49c633d4ea3da8
+  - path: Library\Artifacts\3a\3af3985ed5e648e679f3b45f012e73c1
+    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\3a\3af3985ed5e648e679f3b45f012e73c1
+    projectPath: Library\Artifacts\3a\3af3985ed5e648e679f3b45f012e73c1
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\39\39b3939615d0e98b4518f52363b7db4c
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\39\39b3939615d0e98b4518f52363b7db4c
-    projectPath: Library\Artifacts\39\39b3939615d0e98b4518f52363b7db4c
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\39\39bb091e363e10ca1b1b6284d9c889f4
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\39\39bb091e363e10ca1b1b6284d9c889f4
-    projectPath: Library\Artifacts\39\39bb091e363e10ca1b1b6284d9c889f4
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\39\39d8d6772c23b18e72fbc7e97657bac9
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\39\39d8d6772c23b18e72fbc7e97657bac9
-    projectPath: Library\Artifacts\39\39d8d6772c23b18e72fbc7e97657bac9
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\3a\3ad1ea85ea806bd990c1558e4d52fff8
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\3a\3ad1ea85ea806bd990c1558e4d52fff8
-    projectPath: Library\Artifacts\3a\3ad1ea85ea806bd990c1558e4d52fff8
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\3b\3b4cbf664224224cb2b1e862852a872e
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\3b\3b4cbf664224224cb2b1e862852a872e
-    projectPath: Library\Artifacts\3b\3b4cbf664224224cb2b1e862852a872e
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Library\Artifacts\3b\3b6116218c46af1a5ac11660cc40e40b
     fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\3b\3b6116218c46af1a5ac11660cc40e40b
     projectPath: Library\Artifacts\3b\3b6116218c46af1a5ac11660cc40e40b
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\3c\3c5676907ddc501349b1aa5c5a96001f
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\3c\3c5676907ddc501349b1aa5c5a96001f
-    projectPath: Library\Artifacts\3c\3c5676907ddc501349b1aa5c5a96001f
-    originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: Library\Artifacts\3d\3d7007e0cecbedc159328db168374da9
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\3d\3d7007e0cecbedc159328db168374da9
-    projectPath: Library\Artifacts\3d\3d7007e0cecbedc159328db168374da9
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\3e\3ea390d29d925863cd5c30b14c0800fe
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\3e\3ea390d29d925863cd5c30b14c0800fe
-    projectPath: Library\Artifacts\3e\3ea390d29d925863cd5c30b14c0800fe
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\3f\3f193df8fe5f4b5f37b12cc3728b7dcf
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\3f\3f193df8fe5f4b5f37b12cc3728b7dcf
-    projectPath: Library\Artifacts\3f\3f193df8fe5f4b5f37b12cc3728b7dcf
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\3f\3fde39a0ac32981cd308c39f571c105a
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\3f\3fde39a0ac32981cd308c39f571c105a
-    projectPath: Library\Artifacts\3f\3fde39a0ac32981cd308c39f571c105a
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\40\403bb114379978de29555be2f0b1f328
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\40\403bb114379978de29555be2f0b1f328
-    projectPath: Library\Artifacts\40\403bb114379978de29555be2f0b1f328
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\40\40871abe4c4d123e2138319e83abc8f7
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\40\40871abe4c4d123e2138319e83abc8f7
-    projectPath: Library\Artifacts\40\40871abe4c4d123e2138319e83abc8f7
+  - path: Library\Artifacts\40\4008afcf3fab66cb3e081e4b9bf2f218
+    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\40\4008afcf3fab66cb3e081e4b9bf2f218
+    projectPath: Library\Artifacts\40\4008afcf3fab66cb3e081e4b9bf2f218
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\Artifacts\40\40b45fd4d0f35c13f7c2ddef12c465d7
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\40\40b45fd4d0f35c13f7c2ddef12c465d7
-    projectPath: Library\Artifacts\40\40b45fd4d0f35c13f7c2ddef12c465d7
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\41\411cbac12c9408cf4a286ea70a25a5fd
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\41\411cbac12c9408cf4a286ea70a25a5fd
-    projectPath: Library\Artifacts\41\411cbac12c9408cf4a286ea70a25a5fd
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
   - path: Library\Artifacts\42\42698b9e32ef0c5229820904a6a6fd50
     fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\42\42698b9e32ef0c5229820904a6a6fd50
     projectPath: Library\Artifacts\42\42698b9e32ef0c5229820904a6a6fd50
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library\Artifacts\44\44638c0f6556517fdfcf679a4ea454b0
     fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\44\44638c0f6556517fdfcf679a4ea454b0
     projectPath: Library\Artifacts\44\44638c0f6556517fdfcf679a4ea454b0
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\44\44ded36d92479180b22734f1c1eb5081
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\44\44ded36d92479180b22734f1c1eb5081
-    projectPath: Library\Artifacts\44\44ded36d92479180b22734f1c1eb5081
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\48\48d7590fa5183e7516469eaaab7c6725
+    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\48\48d7590fa5183e7516469eaaab7c6725
+    projectPath: Library\Artifacts\48\48d7590fa5183e7516469eaaab7c6725
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: Library\Artifacts\47\47da60be22e6eb4f38bfb761a01811ac
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\47\47da60be22e6eb4f38bfb761a01811ac
-    projectPath: Library\Artifacts\47\47da60be22e6eb4f38bfb761a01811ac
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\49\494c157b46b476a1f5ee48774a9b6143
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\49\494c157b46b476a1f5ee48774a9b6143
-    projectPath: Library\Artifacts\49\494c157b46b476a1f5ee48774a9b6143
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\49\497468cff89b09e3523de7b70092090b
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\49\497468cff89b09e3523de7b70092090b
-    projectPath: Library\Artifacts\49\497468cff89b09e3523de7b70092090b
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\4b\4b0e1bba01a25aad4d661c24247ba371
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\4b\4b0e1bba01a25aad4d661c24247ba371
-    projectPath: Library\Artifacts\4b\4b0e1bba01a25aad4d661c24247ba371
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\4c\4c0319a66c91b8184fffcf470baef673
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\4c\4c0319a66c91b8184fffcf470baef673
-    projectPath: Library\Artifacts\4c\4c0319a66c91b8184fffcf470baef673
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\4d\4d9a5add1e9503be8ac3e2bc2c1b40c0
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\4d\4d9a5add1e9503be8ac3e2bc2c1b40c0
-    projectPath: Library\Artifacts\4d\4d9a5add1e9503be8ac3e2bc2c1b40c0
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\51\51cc252a6c85761b45dfff0c18b128f1
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\51\51cc252a6c85761b45dfff0c18b128f1
-    projectPath: Library\Artifacts\51\51cc252a6c85761b45dfff0c18b128f1
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\52\52f5b5ecc0df8248f9e1f72dc3553e41
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\52\52f5b5ecc0df8248f9e1f72dc3553e41
-    projectPath: Library\Artifacts\52\52f5b5ecc0df8248f9e1f72dc3553e41
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\53\5315a25b2e173c567ebb2345a5aa884d
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\53\5315a25b2e173c567ebb2345a5aa884d
-    projectPath: Library\Artifacts\53\5315a25b2e173c567ebb2345a5aa884d
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\53\531fd1ab9e407aa24564a9d72df7a4a9
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\53\531fd1ab9e407aa24564a9d72df7a4a9
-    projectPath: Library\Artifacts\53\531fd1ab9e407aa24564a9d72df7a4a9
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\53\53a4e942ca21ca3f61a9a82a416f96c3
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\53\53a4e942ca21ca3f61a9a82a416f96c3
-    projectPath: Library\Artifacts\53\53a4e942ca21ca3f61a9a82a416f96c3
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\54\54047176f022933e20dbbdb4add37773
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\54\54047176f022933e20dbbdb4add37773
-    projectPath: Library\Artifacts\54\54047176f022933e20dbbdb4add37773
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\54\54b3e689c19a7c83fec4bebd4e5e99b7
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\54\54b3e689c19a7c83fec4bebd4e5e99b7
-    projectPath: Library\Artifacts\54\54b3e689c19a7c83fec4bebd4e5e99b7
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\55\556bd80532d38bf539e1ecb8adae0dfe
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\55\556bd80532d38bf539e1ecb8adae0dfe
-    projectPath: Library\Artifacts\55\556bd80532d38bf539e1ecb8adae0dfe
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\56\56f6af899524e02368131b6ddc0065bb
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\56\56f6af899524e02368131b6ddc0065bb
-    projectPath: Library\Artifacts\56\56f6af899524e02368131b6ddc0065bb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\57\571e17b5b62d07475ca93734509e8636
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\57\571e17b5b62d07475ca93734509e8636
-    projectPath: Library\Artifacts\57\571e17b5b62d07475ca93734509e8636
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\57\5723228b536359d9792743d94ab40faa
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\57\5723228b536359d9792743d94ab40faa
-    projectPath: Library\Artifacts\57\5723228b536359d9792743d94ab40faa
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\57\5750d51cc47d5589ba17e20ed702942d
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\57\5750d51cc47d5589ba17e20ed702942d
-    projectPath: Library\Artifacts\57\5750d51cc47d5589ba17e20ed702942d
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\57\57b2d434354c919070882f56af8b7e7c
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\57\57b2d434354c919070882f56af8b7e7c
-    projectPath: Library\Artifacts\57\57b2d434354c919070882f56af8b7e7c
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\57\57c9aa9ab7c0481c5c10e3fdfdacbe9f
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\57\57c9aa9ab7c0481c5c10e3fdfdacbe9f
-    projectPath: Library\Artifacts\57\57c9aa9ab7c0481c5c10e3fdfdacbe9f
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\58\58b58990317b91513bedeffe53950a11
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\58\58b58990317b91513bedeffe53950a11
-    projectPath: Library\Artifacts\58\58b58990317b91513bedeffe53950a11
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\58\58b8537dfe06bca73ee1c05d78396d27
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\58\58b8537dfe06bca73ee1c05d78396d27
-    projectPath: Library\Artifacts\58\58b8537dfe06bca73ee1c05d78396d27
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\58\58d0891501307f76fc791bdeb7061195
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\58\58d0891501307f76fc791bdeb7061195
-    projectPath: Library\Artifacts\58\58d0891501307f76fc791bdeb7061195
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\58\58dc602882211bef5d93a19908fbb4d1
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\58\58dc602882211bef5d93a19908fbb4d1
-    projectPath: Library\Artifacts\58\58dc602882211bef5d93a19908fbb4d1
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\5a\5a0784946bb646e49ec033227eed2805
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\5a\5a0784946bb646e49ec033227eed2805
-    projectPath: Library\Artifacts\5a\5a0784946bb646e49ec033227eed2805
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\5a\5a3d45a71c545c5d3d3d044f90a36aa3
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\5a\5a3d45a71c545c5d3d3d044f90a36aa3
-    projectPath: Library\Artifacts\5a\5a3d45a71c545c5d3d3d044f90a36aa3
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\5a\5af5d22a29dfd0119d40de7376d2a327
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\5a\5af5d22a29dfd0119d40de7376d2a327
-    projectPath: Library\Artifacts\5a\5af5d22a29dfd0119d40de7376d2a327
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\5b\5b0eabf42c022daa6b8046796809a9b8
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\5b\5b0eabf42c022daa6b8046796809a9b8
-    projectPath: Library\Artifacts\5b\5b0eabf42c022daa6b8046796809a9b8
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\5b\5b26994a6d5cdd9a8ea77c9495a6621b
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\5b\5b26994a6d5cdd9a8ea77c9495a6621b
-    projectPath: Library\Artifacts\5b\5b26994a6d5cdd9a8ea77c9495a6621b
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\5b\5b5aa56cf67bb325c220fc48906fcf76
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\5b\5b5aa56cf67bb325c220fc48906fcf76
-    projectPath: Library\Artifacts\5b\5b5aa56cf67bb325c220fc48906fcf76
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\5c\5c1f832069d14095a6aefb4e4b8493aa
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\5c\5c1f832069d14095a6aefb4e4b8493aa
-    projectPath: Library\Artifacts\5c\5c1f832069d14095a6aefb4e4b8493aa
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\5c\5cb40a8fd708d088aef5347b5b24ae97
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\5c\5cb40a8fd708d088aef5347b5b24ae97
-    projectPath: Library\Artifacts\5c\5cb40a8fd708d088aef5347b5b24ae97
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\5c\5cc0df4556b77f0fe2607c5feab25f39
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\5c\5cc0df4556b77f0fe2607c5feab25f39
-    projectPath: Library\Artifacts\5c\5cc0df4556b77f0fe2607c5feab25f39
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\5d\5dc3de5297be981c25d6e93cb0de25f4
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\5d\5dc3de5297be981c25d6e93cb0de25f4
-    projectPath: Library\Artifacts\5d\5dc3de5297be981c25d6e93cb0de25f4
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\5d\5dc90195cf341dcf13ed134133206529
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\5d\5dc90195cf341dcf13ed134133206529
-    projectPath: Library\Artifacts\5d\5dc90195cf341dcf13ed134133206529
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\61\610b4bea66cf3fd83ff9dd06f40b48fc
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\61\610b4bea66cf3fd83ff9dd06f40b48fc
-    projectPath: Library\Artifacts\61\610b4bea66cf3fd83ff9dd06f40b48fc
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\61\61469c3a4c910cf3865cf34d8d224319
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\61\61469c3a4c910cf3865cf34d8d224319
-    projectPath: Library\Artifacts\61\61469c3a4c910cf3865cf34d8d224319
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\61\6165440c350a51c73f6bcc6ce476924e
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\61\6165440c350a51c73f6bcc6ce476924e
-    projectPath: Library\Artifacts\61\6165440c350a51c73f6bcc6ce476924e
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\64\6433348520dbe91f939b05c8d30ba258
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\64\6433348520dbe91f939b05c8d30ba258
-    projectPath: Library\Artifacts\64\6433348520dbe91f939b05c8d30ba258
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\64\6499d59cfa8aae449f60d613bca72965
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\64\6499d59cfa8aae449f60d613bca72965
-    projectPath: Library\Artifacts\64\6499d59cfa8aae449f60d613bca72965
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\66\664fd0594584a1c28eba3eeb1b1ffa38
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\66\664fd0594584a1c28eba3eeb1b1ffa38
-    projectPath: Library\Artifacts\66\664fd0594584a1c28eba3eeb1b1ffa38
+  - path: Library\Artifacts\4b\4b71aded0af94236c442fa85ff27c2fc
+    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\4b\4b71aded0af94236c442fa85ff27c2fc
+    projectPath: Library\Artifacts\4b\4b71aded0af94236c442fa85ff27c2fc
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\Artifacts\66\6651a7f6cceed03a7111b677c74a2f50
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\66\6651a7f6cceed03a7111b677c74a2f50
-    projectPath: Library\Artifacts\66\6651a7f6cceed03a7111b677c74a2f50
+  - path: Library\Artifacts\4e\4ee2ea47c6baa7102e01d750d20dbe32
+    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\4e\4ee2ea47c6baa7102e01d750d20dbe32
+    projectPath: Library\Artifacts\4e\4ee2ea47c6baa7102e01d750d20dbe32
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\66\6661e2b44599279f27d439802b616487
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\66\6661e2b44599279f27d439802b616487
-    projectPath: Library\Artifacts\66\6661e2b44599279f27d439802b616487
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\66\66e7fb1315ff3b3ce584b91426d2397b
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\66\66e7fb1315ff3b3ce584b91426d2397b
-    projectPath: Library\Artifacts\66\66e7fb1315ff3b3ce584b91426d2397b
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\66\66fae9eb166541b53d5e3fa7e4e8b861
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\66\66fae9eb166541b53d5e3fa7e4e8b861
-    projectPath: Library\Artifacts\66\66fae9eb166541b53d5e3fa7e4e8b861
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\67\67e1e714afebacc97dc9486e6ae4851f
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\67\67e1e714afebacc97dc9486e6ae4851f
-    projectPath: Library\Artifacts\67\67e1e714afebacc97dc9486e6ae4851f
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\69\697a988c01b898e0757c0c0f209c1b4f
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\69\697a988c01b898e0757c0c0f209c1b4f
-    projectPath: Library\Artifacts\69\697a988c01b898e0757c0c0f209c1b4f
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\6a\6aa034b88c501cf988c1a963f5bf1190
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\6a\6aa034b88c501cf988c1a963f5bf1190
-    projectPath: Library\Artifacts\6a\6aa034b88c501cf988c1a963f5bf1190
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\6b\6b262e01f8bba5d286401273439fd069
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\6b\6b262e01f8bba5d286401273439fd069
-    projectPath: Library\Artifacts\6b\6b262e01f8bba5d286401273439fd069
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\6b\6bfd3446ae91e85da22dea366433fc69
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\6b\6bfd3446ae91e85da22dea366433fc69
-    projectPath: Library\Artifacts\6b\6bfd3446ae91e85da22dea366433fc69
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Library\Artifacts\6b\6bfda59d1f1bdbc5644e27765c871f4b
     fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\6b\6bfda59d1f1bdbc5644e27765c871f4b
     projectPath: Library\Artifacts\6b\6bfda59d1f1bdbc5644e27765c871f4b
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library\Artifacts\6c\6c7ccacd2d6fcf684d6398de0d7f06cc
     fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\6c\6c7ccacd2d6fcf684d6398de0d7f06cc
     projectPath: Library\Artifacts\6c\6c7ccacd2d6fcf684d6398de0d7f06cc
     originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\7b\7b5414b61595a796a3240d799b9a711e
+    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\7b\7b5414b61595a796a3240d799b9a711e
+    projectPath: Library\Artifacts\7b\7b5414b61595a796a3240d799b9a711e
+    originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\Artifacts\6e\6e45fbd02906a8d5710a261be0cda2ac
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\6e\6e45fbd02906a8d5710a261be0cda2ac
-    projectPath: Library\Artifacts\6e\6e45fbd02906a8d5710a261be0cda2ac
+  - path: Library\Artifacts\82\8239f187e25216de415468b01addfb5c
+    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\82\8239f187e25216de415468b01addfb5c
+    projectPath: Library\Artifacts\82\8239f187e25216de415468b01addfb5c
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\6f\6f621f8b5b50d73daf7bc048afd195b7
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\6f\6f621f8b5b50d73daf7bc048afd195b7
-    projectPath: Library\Artifacts\6f\6f621f8b5b50d73daf7bc048afd195b7
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\71\710cbffe5b696632768ec6735c732ffd
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\71\710cbffe5b696632768ec6735c732ffd
-    projectPath: Library\Artifacts\71\710cbffe5b696632768ec6735c732ffd
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\71\7175293f4d4231229bc02c3a809a667d
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\71\7175293f4d4231229bc02c3a809a667d
-    projectPath: Library\Artifacts\71\7175293f4d4231229bc02c3a809a667d
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\74\74d8906e0687ae70e4483dfa84a9d3fc
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\74\74d8906e0687ae70e4483dfa84a9d3fc
-    projectPath: Library\Artifacts\74\74d8906e0687ae70e4483dfa84a9d3fc
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\75\75505ebc3d2672511cd4ebc0b2a4d22b
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\75\75505ebc3d2672511cd4ebc0b2a4d22b
-    projectPath: Library\Artifacts\75\75505ebc3d2672511cd4ebc0b2a4d22b
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\76\766a433f5244981f75f1c853de3f366a
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\76\766a433f5244981f75f1c853de3f366a
-    projectPath: Library\Artifacts\76\766a433f5244981f75f1c853de3f366a
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\76\76cc1883b4d64ff25b5fff66806205a9
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\76\76cc1883b4d64ff25b5fff66806205a9
-    projectPath: Library\Artifacts\76\76cc1883b4d64ff25b5fff66806205a9
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\77\770a9c982c3c864d76573caf09b2d5d9
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\77\770a9c982c3c864d76573caf09b2d5d9
-    projectPath: Library\Artifacts\77\770a9c982c3c864d76573caf09b2d5d9
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\77\779b8b5060ecad03298559490ecdb0d4
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\77\779b8b5060ecad03298559490ecdb0d4
-    projectPath: Library\Artifacts\77\779b8b5060ecad03298559490ecdb0d4
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\77\77eabdbbd1682dfd0e05716284333e0d
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\77\77eabdbbd1682dfd0e05716284333e0d
-    projectPath: Library\Artifacts\77\77eabdbbd1682dfd0e05716284333e0d
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\79\79a1336a317c3c1f31266bdb4c3473bf
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\79\79a1336a317c3c1f31266bdb4c3473bf
-    projectPath: Library\Artifacts\79\79a1336a317c3c1f31266bdb4c3473bf
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\79\79bae36cb80ef7491f9d33056cdd2b70
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\79\79bae36cb80ef7491f9d33056cdd2b70
-    projectPath: Library\Artifacts\79\79bae36cb80ef7491f9d33056cdd2b70
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\7a\7a2dd5fa0777605f7c874bbaf8331236
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\7a\7a2dd5fa0777605f7c874bbaf8331236
-    projectPath: Library\Artifacts\7a\7a2dd5fa0777605f7c874bbaf8331236
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\7d\7ddc0bf73110aa34df810689ed662041
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\7d\7ddc0bf73110aa34df810689ed662041
-    projectPath: Library\Artifacts\7d\7ddc0bf73110aa34df810689ed662041
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\7e\7e8efda790a2a9265682bffcaf09bace
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\7e\7e8efda790a2a9265682bffcaf09bace
-    projectPath: Library\Artifacts\7e\7e8efda790a2a9265682bffcaf09bace
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\7e\7efcb66397eec7575b542db6929a79c4
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\7e\7efcb66397eec7575b542db6929a79c4
-    projectPath: Library\Artifacts\7e\7efcb66397eec7575b542db6929a79c4
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\80\806f8b53f28dadcf713feba4a933f14c
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\80\806f8b53f28dadcf713feba4a933f14c
-    projectPath: Library\Artifacts\80\806f8b53f28dadcf713feba4a933f14c
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\81\815cec96be52519a1a9d4161dff2ef10
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\81\815cec96be52519a1a9d4161dff2ef10
-    projectPath: Library\Artifacts\81\815cec96be52519a1a9d4161dff2ef10
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\82\824d60d127c35cbdfda6b257698d3836
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\82\824d60d127c35cbdfda6b257698d3836
-    projectPath: Library\Artifacts\82\824d60d127c35cbdfda6b257698d3836
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\83\83780d1569597f07a6f79e9d813ece46
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\83\83780d1569597f07a6f79e9d813ece46
-    projectPath: Library\Artifacts\83\83780d1569597f07a6f79e9d813ece46
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\83\83b1335bb571625533f06ef7acfecd82
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\83\83b1335bb571625533f06ef7acfecd82
-    projectPath: Library\Artifacts\83\83b1335bb571625533f06ef7acfecd82
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\83\83d582189803f8fe7c6c5116359a28c0
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\83\83d582189803f8fe7c6c5116359a28c0
-    projectPath: Library\Artifacts\83\83d582189803f8fe7c6c5116359a28c0
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\85\855df96c54fe5f2a8402ba53e005f95f
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\85\855df96c54fe5f2a8402ba53e005f95f
-    projectPath: Library\Artifacts\85\855df96c54fe5f2a8402ba53e005f95f
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\85\858b416c584d678e32ecd03968e8025e
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\85\858b416c584d678e32ecd03968e8025e
-    projectPath: Library\Artifacts\85\858b416c584d678e32ecd03968e8025e
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Library\Artifacts\86\8665c11e0f6c534edea93b99e80dddfc
     fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\86\8665c11e0f6c534edea93b99e80dddfc
     projectPath: Library\Artifacts\86\8665c11e0f6c534edea93b99e80dddfc
     originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\87\87afa635a571d2a96d37f3e2d7262bbd
+    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\87\87afa635a571d2a96d37f3e2d7262bbd
+    projectPath: Library\Artifacts\87\87afa635a571d2a96d37f3e2d7262bbd
+    originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\Artifacts\88\889087951dac18af7a73196909ba2564
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\88\889087951dac18af7a73196909ba2564
-    projectPath: Library\Artifacts\88\889087951dac18af7a73196909ba2564
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\88\88f4e3538aa485a58be94403178b0f06
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\88\88f4e3538aa485a58be94403178b0f06
-    projectPath: Library\Artifacts\88\88f4e3538aa485a58be94403178b0f06
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\89\89b7b4841f25858f2fdfe4c7e1e46dab
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\89\89b7b4841f25858f2fdfe4c7e1e46dab
-    projectPath: Library\Artifacts\89\89b7b4841f25858f2fdfe4c7e1e46dab
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
   - path: Library\Artifacts\8a\8a119b609be2169b91a034f17ba09d50
     fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\8a\8a119b609be2169b91a034f17ba09d50
     projectPath: Library\Artifacts\8a\8a119b609be2169b91a034f17ba09d50
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\8a\8aeecb1780e799348197c7435f6b0f54
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\8a\8aeecb1780e799348197c7435f6b0f54
-    projectPath: Library\Artifacts\8a\8aeecb1780e799348197c7435f6b0f54
-    originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: Library\Artifacts\8a\8aff60ff292b72e83de410696e986e5f
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\8a\8aff60ff292b72e83de410696e986e5f
-    projectPath: Library\Artifacts\8a\8aff60ff292b72e83de410696e986e5f
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\8b\8bd87efef195a9d39cac6e789c9a02c4
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\8b\8bd87efef195a9d39cac6e789c9a02c4
-    projectPath: Library\Artifacts\8b\8bd87efef195a9d39cac6e789c9a02c4
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\8c\8c274c0465f21c9e6418ad5455d91cc2
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\8c\8c274c0465f21c9e6418ad5455d91cc2
-    projectPath: Library\Artifacts\8c\8c274c0465f21c9e6418ad5455d91cc2
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\8c\8c518e1542a9746e7df8df5a43cdad29
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\8c\8c518e1542a9746e7df8df5a43cdad29
-    projectPath: Library\Artifacts\8c\8c518e1542a9746e7df8df5a43cdad29
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\8d\8df1536ba59d1a18a336240448d5449d
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\8d\8df1536ba59d1a18a336240448d5449d
-    projectPath: Library\Artifacts\8d\8df1536ba59d1a18a336240448d5449d
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\8d\8dfd1b8973be88536dd4e451330a87b5
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\8d\8dfd1b8973be88536dd4e451330a87b5
-    projectPath: Library\Artifacts\8d\8dfd1b8973be88536dd4e451330a87b5
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\8e\8e74e34cc10e15a58c2d0ae77c3dc8c8
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\8e\8e74e34cc10e15a58c2d0ae77c3dc8c8
-    projectPath: Library\Artifacts\8e\8e74e34cc10e15a58c2d0ae77c3dc8c8
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\8f\8ff2b530b1ce47afd51ce22277c805f8
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\8f\8ff2b530b1ce47afd51ce22277c805f8
-    projectPath: Library\Artifacts\8f\8ff2b530b1ce47afd51ce22277c805f8
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\90\9043764be529142614024736fc01dcc7
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\90\9043764be529142614024736fc01dcc7
-    projectPath: Library\Artifacts\90\9043764be529142614024736fc01dcc7
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\90\9065c70aa69ba9f2d16b6beb22dedf1e
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\90\9065c70aa69ba9f2d16b6beb22dedf1e
-    projectPath: Library\Artifacts\90\9065c70aa69ba9f2d16b6beb22dedf1e
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\93\935919b3cb82155028caea6223a4a500
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\93\935919b3cb82155028caea6223a4a500
-    projectPath: Library\Artifacts\93\935919b3cb82155028caea6223a4a500
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\94\942b23b1beb09b2057e3a22fe1903b4d
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\94\942b23b1beb09b2057e3a22fe1903b4d
-    projectPath: Library\Artifacts\94\942b23b1beb09b2057e3a22fe1903b4d
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\95\95efc0c975bd2b17d4274ff8b6ebc65e
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\95\95efc0c975bd2b17d4274ff8b6ebc65e
-    projectPath: Library\Artifacts\95\95efc0c975bd2b17d4274ff8b6ebc65e
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\96\96cd54966b2cda92e117ccea8c5926d6
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\96\96cd54966b2cda92e117ccea8c5926d6
-    projectPath: Library\Artifacts\96\96cd54966b2cda92e117ccea8c5926d6
+  - path: Library\Artifacts\8d\8d6d71422d7687f391dece4137deaabc
+    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\8d\8d6d71422d7687f391dece4137deaabc
+    projectPath: Library\Artifacts\8d\8d6d71422d7687f391dece4137deaabc
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\Artifacts\96\96d577b2bb87ee7d749682f055310aa1
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\96\96d577b2bb87ee7d749682f055310aa1
-    projectPath: Library\Artifacts\96\96d577b2bb87ee7d749682f055310aa1
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\97\9726c06d62860ec9d17bd9a1ee0a4ee8
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\97\9726c06d62860ec9d17bd9a1ee0a4ee8
-    projectPath: Library\Artifacts\97\9726c06d62860ec9d17bd9a1ee0a4ee8
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\97\974cc0332a5ddc20420742121d2ef9c1
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\97\974cc0332a5ddc20420742121d2ef9c1
-    projectPath: Library\Artifacts\97\974cc0332a5ddc20420742121d2ef9c1
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\98\98b95cf0deba2c8e9c7ca142b7568cad
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\98\98b95cf0deba2c8e9c7ca142b7568cad
-    projectPath: Library\Artifacts\98\98b95cf0deba2c8e9c7ca142b7568cad
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\9a\9adddb28414d21a08c6baaa47b0bd889
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\9a\9adddb28414d21a08c6baaa47b0bd889
-    projectPath: Library\Artifacts\9a\9adddb28414d21a08c6baaa47b0bd889
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\9c\9cb673641a4ac81a062b784dbe46c8c2
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\9c\9cb673641a4ac81a062b784dbe46c8c2
-    projectPath: Library\Artifacts\9c\9cb673641a4ac81a062b784dbe46c8c2
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
   - path: Library\Artifacts\9d\9d3530529c396ecaed38544719044773
     fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\9d\9d3530529c396ecaed38544719044773
     projectPath: Library\Artifacts\9d\9d3530529c396ecaed38544719044773
     originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\a3\a36468c2ce01dd147d56bc425beccc49
+    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\a3\a36468c2ce01dd147d56bc425beccc49
+    projectPath: Library\Artifacts\a3\a36468c2ce01dd147d56bc425beccc49
+    originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\Artifacts\a1\a104a9b6b2b293bc3239a00893a7636b
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\a1\a104a9b6b2b293bc3239a00893a7636b
-    projectPath: Library\Artifacts\a1\a104a9b6b2b293bc3239a00893a7636b
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\a1\a10bda9a5fded59d7df1e14e09bac23f
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\a1\a10bda9a5fded59d7df1e14e09bac23f
-    projectPath: Library\Artifacts\a1\a10bda9a5fded59d7df1e14e09bac23f
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\a1\a1627752e094db306d6fb1e81c629ef4
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\a1\a1627752e094db306d6fb1e81c629ef4
-    projectPath: Library\Artifacts\a1\a1627752e094db306d6fb1e81c629ef4
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\a3\a3bf52badeddab1bbab0bfe411486cda
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\a3\a3bf52badeddab1bbab0bfe411486cda
-    projectPath: Library\Artifacts\a3\a3bf52badeddab1bbab0bfe411486cda
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\a3\a3f7ccacd9016e30aac9eeeb5786d8df
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\a3\a3f7ccacd9016e30aac9eeeb5786d8df
-    projectPath: Library\Artifacts\a3\a3f7ccacd9016e30aac9eeeb5786d8df
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\a4\a48a338103cf5b8e1df5c5bdbc18ebac
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\a4\a48a338103cf5b8e1df5c5bdbc18ebac
-    projectPath: Library\Artifacts\a4\a48a338103cf5b8e1df5c5bdbc18ebac
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\a6\a62d2b77c3b46e3f533538fbbc5bad07
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\a6\a62d2b77c3b46e3f533538fbbc5bad07
-    projectPath: Library\Artifacts\a6\a62d2b77c3b46e3f533538fbbc5bad07
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\a7\a7fe7f4cf624301dd2558ba0e49a909a
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\a7\a7fe7f4cf624301dd2558ba0e49a909a
-    projectPath: Library\Artifacts\a7\a7fe7f4cf624301dd2558ba0e49a909a
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\a8\a87202494b5fd0f6076cf2aeaa20aeaf
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\a8\a87202494b5fd0f6076cf2aeaa20aeaf
-    projectPath: Library\Artifacts\a8\a87202494b5fd0f6076cf2aeaa20aeaf
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\a9\a9a4f226d868d60011d2a15c685f5803
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\a9\a9a4f226d868d60011d2a15c685f5803
-    projectPath: Library\Artifacts\a9\a9a4f226d868d60011d2a15c685f5803
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
   - path: Library\Artifacts\a9\a9ea2b2f85c1d8126a20ba441563fe9c
     fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\a9\a9ea2b2f85c1d8126a20ba441563fe9c
     projectPath: Library\Artifacts\a9\a9ea2b2f85c1d8126a20ba441563fe9c
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\aa\aa8c186c760cdec21a763631fbff94f6
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\aa\aa8c186c760cdec21a763631fbff94f6
-    projectPath: Library\Artifacts\aa\aa8c186c760cdec21a763631fbff94f6
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\aa\aaeed2c7036175798e571cd05ec190ea
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\aa\aaeed2c7036175798e571cd05ec190ea
-    projectPath: Library\Artifacts\aa\aaeed2c7036175798e571cd05ec190ea
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\ad\ad4267086f31aa3b4ca58bbdc1d504f8
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\ad\ad4267086f31aa3b4ca58bbdc1d504f8
-    projectPath: Library\Artifacts\ad\ad4267086f31aa3b4ca58bbdc1d504f8
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\ad\ad49ed0904daae283b883bc57ecd0623
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\ad\ad49ed0904daae283b883bc57ecd0623
-    projectPath: Library\Artifacts\ad\ad49ed0904daae283b883bc57ecd0623
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\ad\adade2bdb12fdb60257e1294072f6c12
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\ad\adade2bdb12fdb60257e1294072f6c12
-    projectPath: Library\Artifacts\ad\adade2bdb12fdb60257e1294072f6c12
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\ae\ae71fda466e31678902717a06d5ac78a
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\ae\ae71fda466e31678902717a06d5ac78a
-    projectPath: Library\Artifacts\ae\ae71fda466e31678902717a06d5ac78a
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Library\Artifacts\af\af67f2452be9c5dee61a7ee472fe40de
     fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\af\af67f2452be9c5dee61a7ee472fe40de
     projectPath: Library\Artifacts\af\af67f2452be9c5dee61a7ee472fe40de
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\b0\b08a9c236f6db5fcf6eb38d3dd984d33
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\b0\b08a9c236f6db5fcf6eb38d3dd984d33
-    projectPath: Library\Artifacts\b0\b08a9c236f6db5fcf6eb38d3dd984d33
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
@@ -1286,29 +213,11 @@ MonoBehaviour:
     fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\b1\b10f4fe10107188d39b54ba68839aa82
     projectPath: Library\Artifacts\b1\b10f4fe10107188d39b54ba68839aa82
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\b1\b11dc39ad21b3cce553987d1fe2603ee
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\b1\b11dc39ad21b3cce553987d1fe2603ee
-    projectPath: Library\Artifacts\b1\b11dc39ad21b3cce553987d1fe2603ee
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\b2\b29e2b905541aaf285d02c8e57062861
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\b2\b29e2b905541aaf285d02c8e57062861
-    projectPath: Library\Artifacts\b2\b29e2b905541aaf285d02c8e57062861
-    originalPath: 
     indexStatus: 0
     workTreeStatus: 5
   - path: Library\Artifacts\b3\b3dd83800577dddb69d74f389397f72c
     fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\b3\b3dd83800577dddb69d74f389397f72c
     projectPath: Library\Artifacts\b3\b3dd83800577dddb69d74f389397f72c
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\b5\b57ec39c23f001ca257a2143de098a3d
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\b5\b57ec39c23f001ca257a2143de098a3d
-    projectPath: Library\Artifacts\b5\b57ec39c23f001ca257a2143de098a3d
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
@@ -1316,407 +225,77 @@ MonoBehaviour:
     fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\b5\b5db7f53ffe1d88078097e6a6f8af99a
     projectPath: Library\Artifacts\b5\b5db7f53ffe1d88078097e6a6f8af99a
     originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\b8\b866b26ce8fec95aa71f1be713a4180c
+    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\b8\b866b26ce8fec95aa71f1be713a4180c
+    projectPath: Library\Artifacts\b8\b866b26ce8fec95aa71f1be713a4180c
+    originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\Artifacts\b6\b65a711b48327c897c1f52425082cf33
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\b6\b65a711b48327c897c1f52425082cf33
-    projectPath: Library\Artifacts\b6\b65a711b48327c897c1f52425082cf33
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\b6\b695734adb461082ee2e9e7e9fb0f356
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\b6\b695734adb461082ee2e9e7e9fb0f356
-    projectPath: Library\Artifacts\b6\b695734adb461082ee2e9e7e9fb0f356
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\b6\b6eed793f42c8256f6a6a1b678a90fc6
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\b6\b6eed793f42c8256f6a6a1b678a90fc6
-    projectPath: Library\Artifacts\b6\b6eed793f42c8256f6a6a1b678a90fc6
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\b7\b70b2e4bd9a8200df7f12a923951eb3b
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\b7\b70b2e4bd9a8200df7f12a923951eb3b
-    projectPath: Library\Artifacts\b7\b70b2e4bd9a8200df7f12a923951eb3b
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\b8\b80591fa0531fe7bd3c9a3068ec62f77
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\b8\b80591fa0531fe7bd3c9a3068ec62f77
-    projectPath: Library\Artifacts\b8\b80591fa0531fe7bd3c9a3068ec62f77
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\b8\b8109a1773603cac78f7889909a1f8ef
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\b8\b8109a1773603cac78f7889909a1f8ef
-    projectPath: Library\Artifacts\b8\b8109a1773603cac78f7889909a1f8ef
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\b9\b91e6062d9909c903533ca71726db0bb
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\b9\b91e6062d9909c903533ca71726db0bb
-    projectPath: Library\Artifacts\b9\b91e6062d9909c903533ca71726db0bb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\b9\b9487a5ff845e620b48392755b97a932
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\b9\b9487a5ff845e620b48392755b97a932
-    projectPath: Library\Artifacts\b9\b9487a5ff845e620b48392755b97a932
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
   - path: Library\Artifacts\b9\b9a1850cd65abedc871142f039b850ee
     fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\b9\b9a1850cd65abedc871142f039b850ee
     projectPath: Library\Artifacts\b9\b9a1850cd65abedc871142f039b850ee
     originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\c1\c1cdb93bc8878ac09e7ad771f1b04506
+    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\c1\c1cdb93bc8878ac09e7ad771f1b04506
+    projectPath: Library\Artifacts\c1\c1cdb93bc8878ac09e7ad771f1b04506
+    originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\Artifacts\ba\ba5f1019553bf40986d6c765b579de23
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\ba\ba5f1019553bf40986d6c765b579de23
-    projectPath: Library\Artifacts\ba\ba5f1019553bf40986d6c765b579de23
+  - path: Library\Artifacts\c7\c701763667e6c608ab75340f69317bc7
+    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\c7\c701763667e6c608ab75340f69317bc7
+    projectPath: Library\Artifacts\c7\c701763667e6c608ab75340f69317bc7
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\ba\ba776df4d948cd27b614fd7ed4218c98
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\ba\ba776df4d948cd27b614fd7ed4218c98
-    projectPath: Library\Artifacts\ba\ba776df4d948cd27b614fd7ed4218c98
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\ba\ba8ae35be5458e8fcd6143198dd1ed74
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\ba\ba8ae35be5458e8fcd6143198dd1ed74
-    projectPath: Library\Artifacts\ba\ba8ae35be5458e8fcd6143198dd1ed74
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\ba\bac862d09fc842b828573607f3264c98
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\ba\bac862d09fc842b828573607f3264c98
-    projectPath: Library\Artifacts\ba\bac862d09fc842b828573607f3264c98
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\ba\bacd5fac51b62297502cc73fda9d0aca
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\ba\bacd5fac51b62297502cc73fda9d0aca
-    projectPath: Library\Artifacts\ba\bacd5fac51b62297502cc73fda9d0aca
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\bc\bcdda58c16bfa1d3a0d4ce28aa40a5d0
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\bc\bcdda58c16bfa1d3a0d4ce28aa40a5d0
-    projectPath: Library\Artifacts\bc\bcdda58c16bfa1d3a0d4ce28aa40a5d0
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\bd\bd2e2ad8c47abba21c33a8788c7c2151
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\bd\bd2e2ad8c47abba21c33a8788c7c2151
-    projectPath: Library\Artifacts\bd\bd2e2ad8c47abba21c33a8788c7c2151
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\be\be3c4a116e667fa0bba996ec0e574763
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\be\be3c4a116e667fa0bba996ec0e574763
-    projectPath: Library\Artifacts\be\be3c4a116e667fa0bba996ec0e574763
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\bf\bf2fbef6b94e55ed3505eb4ccce1dbec
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\bf\bf2fbef6b94e55ed3505eb4ccce1dbec
-    projectPath: Library\Artifacts\bf\bf2fbef6b94e55ed3505eb4ccce1dbec
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\c0\c04cf5ae13ba596331a85f41c71390b5
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\c0\c04cf5ae13ba596331a85f41c71390b5
-    projectPath: Library\Artifacts\c0\c04cf5ae13ba596331a85f41c71390b5
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\c1\c12dbceab1d743f21ca6309504ee0e9f
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\c1\c12dbceab1d743f21ca6309504ee0e9f
-    projectPath: Library\Artifacts\c1\c12dbceab1d743f21ca6309504ee0e9f
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\c1\c15eb1c8bdbbd147c3efb2986121596c
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\c1\c15eb1c8bdbbd147c3efb2986121596c
-    projectPath: Library\Artifacts\c1\c15eb1c8bdbbd147c3efb2986121596c
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\c1\c18d5f460ad370a2219303c73f9d1b7a
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\c1\c18d5f460ad370a2219303c73f9d1b7a
-    projectPath: Library\Artifacts\c1\c18d5f460ad370a2219303c73f9d1b7a
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\c1\c1b7850e505e6167f83da0c41ab82e76
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\c1\c1b7850e505e6167f83da0c41ab82e76
-    projectPath: Library\Artifacts\c1\c1b7850e505e6167f83da0c41ab82e76
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\c2\c24a5a248955142ead970a259836c3f5
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\c2\c24a5a248955142ead970a259836c3f5
-    projectPath: Library\Artifacts\c2\c24a5a248955142ead970a259836c3f5
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\c2\c257bd3b59cd65842f9b83029c40b9aa
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\c2\c257bd3b59cd65842f9b83029c40b9aa
-    projectPath: Library\Artifacts\c2\c257bd3b59cd65842f9b83029c40b9aa
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\c2\c27b0fa2016a183460b03617eeddcee6
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\c2\c27b0fa2016a183460b03617eeddcee6
-    projectPath: Library\Artifacts\c2\c27b0fa2016a183460b03617eeddcee6
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\c3\c3270542c89a1b9fee41245d1dbea7fc
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\c3\c3270542c89a1b9fee41245d1dbea7fc
-    projectPath: Library\Artifacts\c3\c3270542c89a1b9fee41245d1dbea7fc
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\c4\c404b55b5e4a38b6e04a56714613751d
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\c4\c404b55b5e4a38b6e04a56714613751d
-    projectPath: Library\Artifacts\c4\c404b55b5e4a38b6e04a56714613751d
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\c6\c6a5495b77a1ae03fdf7f8e1e4a6bf94
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\c6\c6a5495b77a1ae03fdf7f8e1e4a6bf94
-    projectPath: Library\Artifacts\c6\c6a5495b77a1ae03fdf7f8e1e4a6bf94
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\c7\c7c833b5ee7073577ef95bff1dccfb73
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\c7\c7c833b5ee7073577ef95bff1dccfb73
-    projectPath: Library\Artifacts\c7\c7c833b5ee7073577ef95bff1dccfb73
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\c7\c7f6998aa36216191209640c295cdc04
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\c7\c7f6998aa36216191209640c295cdc04
-    projectPath: Library\Artifacts\c7\c7f6998aa36216191209640c295cdc04
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\c9\c9f76a6de315f19f3e99d8740ad6f717
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\c9\c9f76a6de315f19f3e99d8740ad6f717
-    projectPath: Library\Artifacts\c9\c9f76a6de315f19f3e99d8740ad6f717
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\ce\ce3d40d35cebe0c100e49b2f12bff775
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\ce\ce3d40d35cebe0c100e49b2f12bff775
-    projectPath: Library\Artifacts\ce\ce3d40d35cebe0c100e49b2f12bff775
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\cf\cf417bf8ad0be84c330f86c56e355952
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\cf\cf417bf8ad0be84c330f86c56e355952
-    projectPath: Library\Artifacts\cf\cf417bf8ad0be84c330f86c56e355952
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\cf\cf47ab582b8f03b255a90e86b59bdd3c
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\cf\cf47ab582b8f03b255a90e86b59bdd3c
-    projectPath: Library\Artifacts\cf\cf47ab582b8f03b255a90e86b59bdd3c
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\d0\d0594b2da10013aee1ddefac7c7bb9b1
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\d0\d0594b2da10013aee1ddefac7c7bb9b1
-    projectPath: Library\Artifacts\d0\d0594b2da10013aee1ddefac7c7bb9b1
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\d0\d0bf53ada6abf26ff7e125cccbfa90fb
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\d0\d0bf53ada6abf26ff7e125cccbfa90fb
-    projectPath: Library\Artifacts\d0\d0bf53ada6abf26ff7e125cccbfa90fb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\d1\d110d653f2b150ffb069205e6bc02338
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\d1\d110d653f2b150ffb069205e6bc02338
-    projectPath: Library\Artifacts\d1\d110d653f2b150ffb069205e6bc02338
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\d1\d1b548dc57748f19a9886364135f0feb
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\d1\d1b548dc57748f19a9886364135f0feb
-    projectPath: Library\Artifacts\d1\d1b548dc57748f19a9886364135f0feb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\d1\d1fd157bac5ca54c29bfde428d3249d2
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\d1\d1fd157bac5ca54c29bfde428d3249d2
-    projectPath: Library\Artifacts\d1\d1fd157bac5ca54c29bfde428d3249d2
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\d2\d2467c4a91421fc9b411fb73488cb755
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\d2\d2467c4a91421fc9b411fb73488cb755
-    projectPath: Library\Artifacts\d2\d2467c4a91421fc9b411fb73488cb755
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\d2\d260b73ef3494f29c590164a8df47c66
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\d2\d260b73ef3494f29c590164a8df47c66
-    projectPath: Library\Artifacts\d2\d260b73ef3494f29c590164a8df47c66
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Library\Artifacts\d2\d2be47228a5c71b8f13ad6a49d764cda
     fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\d2\d2be47228a5c71b8f13ad6a49d764cda
     projectPath: Library\Artifacts\d2\d2be47228a5c71b8f13ad6a49d764cda
     originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\d4\d44074f8387f057557d4fbb4ff280aae
+    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\d4\d44074f8387f057557d4fbb4ff280aae
+    projectPath: Library\Artifacts\d4\d44074f8387f057557d4fbb4ff280aae
+    originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\Artifacts\d4\d4fb3aa8cbd333f813d6376b2be87c5a
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\d4\d4fb3aa8cbd333f813d6376b2be87c5a
-    projectPath: Library\Artifacts\d4\d4fb3aa8cbd333f813d6376b2be87c5a
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\d6\d623b6105ad740f0703cc17267f3facb
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\d6\d623b6105ad740f0703cc17267f3facb
-    projectPath: Library\Artifacts\d6\d623b6105ad740f0703cc17267f3facb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\d6\d647876ec79d9f969dc5cb10de6e60dc
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\d6\d647876ec79d9f969dc5cb10de6e60dc
-    projectPath: Library\Artifacts\d6\d647876ec79d9f969dc5cb10de6e60dc
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\d6\d6f776e82e4c82e3816d33156ba36046
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\d6\d6f776e82e4c82e3816d33156ba36046
-    projectPath: Library\Artifacts\d6\d6f776e82e4c82e3816d33156ba36046
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\d7\d756ed09fb48ae549dc37c5a4ea7f426
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\d7\d756ed09fb48ae549dc37c5a4ea7f426
-    projectPath: Library\Artifacts\d7\d756ed09fb48ae549dc37c5a4ea7f426
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\d8\d8029fabb51b3cc87f0ff987d952ef28
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\d8\d8029fabb51b3cc87f0ff987d952ef28
-    projectPath: Library\Artifacts\d8\d8029fabb51b3cc87f0ff987d952ef28
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
   - path: Library\Artifacts\d8\d886e8495be13017275ff6b146623c0e
     fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\d8\d886e8495be13017275ff6b146623c0e
     projectPath: Library\Artifacts\d8\d886e8495be13017275ff6b146623c0e
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library\Artifacts\da\daffbbdd22fb92a6b0d4f28800274e99
     fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\da\daffbbdd22fb92a6b0d4f28800274e99
     projectPath: Library\Artifacts\da\daffbbdd22fb92a6b0d4f28800274e99
     originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\dc\dc99c24dedfaab36530781874bb0b4d2
+    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\dc\dc99c24dedfaab36530781874bb0b4d2
+    projectPath: Library\Artifacts\dc\dc99c24dedfaab36530781874bb0b4d2
+    originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\Artifacts\db\db1db9f9aa4b472aea2284bf6eeb69d1
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\db\db1db9f9aa4b472aea2284bf6eeb69d1
-    projectPath: Library\Artifacts\db\db1db9f9aa4b472aea2284bf6eeb69d1
+  - path: Library\Artifacts\de\decfa66c9b127b909ecaf0cf65d1fea5
+    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\de\decfa66c9b127b909ecaf0cf65d1fea5
+    projectPath: Library\Artifacts\de\decfa66c9b127b909ecaf0cf65d1fea5
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\dc\dc0d96cf6402c8027c7905f99d3b022d
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\dc\dc0d96cf6402c8027c7905f99d3b022d
-    projectPath: Library\Artifacts\dc\dc0d96cf6402c8027c7905f99d3b022d
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\e0\e020b8278a52efa02f9f1146b71e7036
+    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\e0\e020b8278a52efa02f9f1146b71e7036
+    projectPath: Library\Artifacts\e0\e020b8278a52efa02f9f1146b71e7036
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\dc\dc42cbac73ac2bbec4cbcd5333b4a9bc
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\dc\dc42cbac73ac2bbec4cbcd5333b4a9bc
-    projectPath: Library\Artifacts\dc\dc42cbac73ac2bbec4cbcd5333b4a9bc
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\dc\dc9510c1f49661ebb6f7090ca7c60fb1
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\dc\dc9510c1f49661ebb6f7090ca7c60fb1
-    projectPath: Library\Artifacts\dc\dc9510c1f49661ebb6f7090ca7c60fb1
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\dc\dcde64b596b235f7b8d8017ee7c6f5a8
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\dc\dcde64b596b235f7b8d8017ee7c6f5a8
-    projectPath: Library\Artifacts\dc\dcde64b596b235f7b8d8017ee7c6f5a8
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\dd\dd408668878d140cc7150696d50ee4fa
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\dd\dd408668878d140cc7150696d50ee4fa
-    projectPath: Library\Artifacts\dd\dd408668878d140cc7150696d50ee4fa
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\dd\dddc5cfa88a11afc7811c1e0fc2828d1
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\dd\dddc5cfa88a11afc7811c1e0fc2828d1
-    projectPath: Library\Artifacts\dd\dddc5cfa88a11afc7811c1e0fc2828d1
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\de\de29c389b1c776375b8e0288f6b38d15
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\de\de29c389b1c776375b8e0288f6b38d15
-    projectPath: Library\Artifacts\de\de29c389b1c776375b8e0288f6b38d15
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\de\de5ceff0fe343b575b2c3ebc839c48bf
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\de\de5ceff0fe343b575b2c3ebc839c48bf
-    projectPath: Library\Artifacts\de\de5ceff0fe343b575b2c3ebc839c48bf
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\df\df105393241d344b63a72949bbb1db6e
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\df\df105393241d344b63a72949bbb1db6e
-    projectPath: Library\Artifacts\df\df105393241d344b63a72949bbb1db6e
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\df\dfd28213b584e2b1465c41bff52855bd
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\df\dfd28213b584e2b1465c41bff52855bd
-    projectPath: Library\Artifacts\df\dfd28213b584e2b1465c41bff52855bd
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\e0\e04c747511ddff655e21d2de4e2ef7db
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\e0\e04c747511ddff655e21d2de4e2ef7db
-    projectPath: Library\Artifacts\e0\e04c747511ddff655e21d2de4e2ef7db
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\e0\e0a9c2c7bd74a6913c6b7b7a5cdc723e
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\e0\e0a9c2c7bd74a6913c6b7b7a5cdc723e
-    projectPath: Library\Artifacts\e0\e0a9c2c7bd74a6913c6b7b7a5cdc723e
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\e0\e0b88e15d747efc77a6237a7e1877d01
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\e0\e0b88e15d747efc77a6237a7e1877d01
-    projectPath: Library\Artifacts\e0\e0b88e15d747efc77a6237a7e1877d01
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Library\Artifacts\e0\e0df8c165d509a3ddea7fa8ccaa6bf27
     fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\e0\e0df8c165d509a3ddea7fa8ccaa6bf27
     projectPath: Library\Artifacts\e0\e0df8c165d509a3ddea7fa8ccaa6bf27
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\e1\e16e404d932ea4ac50bd4e632fb70cbf
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\e1\e16e404d932ea4ac50bd4e632fb70cbf
-    projectPath: Library\Artifacts\e1\e16e404d932ea4ac50bd4e632fb70cbf
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
@@ -1724,125 +303,11 @@ MonoBehaviour:
     fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\e4\e442486ee025112ea938f8b2f2bf2b87
     projectPath: Library\Artifacts\e4\e442486ee025112ea938f8b2f2bf2b87
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\e6\e6254fa62721638a3e4d2acc9b43b8b1
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\e6\e6254fa62721638a3e4d2acc9b43b8b1
-    projectPath: Library\Artifacts\e6\e6254fa62721638a3e4d2acc9b43b8b1
-    originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: Library\Artifacts\e7\e75d6b2b5cbf03eff8a00f3b7b5510fb
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\e7\e75d6b2b5cbf03eff8a00f3b7b5510fb
-    projectPath: Library\Artifacts\e7\e75d6b2b5cbf03eff8a00f3b7b5510fb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\e7\e763c26f8d0059eb5950673ff00569c1
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\e7\e763c26f8d0059eb5950673ff00569c1
-    projectPath: Library\Artifacts\e7\e763c26f8d0059eb5950673ff00569c1
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\e7\e78e17d3b419a9da1f56b9f2f0180826
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\e7\e78e17d3b419a9da1f56b9f2f0180826
-    projectPath: Library\Artifacts\e7\e78e17d3b419a9da1f56b9f2f0180826
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\e7\e7d64b819befcaba84ae707d1f904afc
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\e7\e7d64b819befcaba84ae707d1f904afc
-    projectPath: Library\Artifacts\e7\e7d64b819befcaba84ae707d1f904afc
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\e8\e818941420030533e7783af7ff20eb2b
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\e8\e818941420030533e7783af7ff20eb2b
-    projectPath: Library\Artifacts\e8\e818941420030533e7783af7ff20eb2b
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\e8\e81da4854813dc13ad44f9391d297180
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\e8\e81da4854813dc13ad44f9391d297180
-    projectPath: Library\Artifacts\e8\e81da4854813dc13ad44f9391d297180
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\e8\e8da003ebca0d635e8af139c011140a9
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\e8\e8da003ebca0d635e8af139c011140a9
-    projectPath: Library\Artifacts\e8\e8da003ebca0d635e8af139c011140a9
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\eb\eb2f7e81711fec89b0fc34494760436a
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\eb\eb2f7e81711fec89b0fc34494760436a
-    projectPath: Library\Artifacts\eb\eb2f7e81711fec89b0fc34494760436a
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\eb\eb335a9ffc4093dc56df9a640ef40578
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\eb\eb335a9ffc4093dc56df9a640ef40578
-    projectPath: Library\Artifacts\eb\eb335a9ffc4093dc56df9a640ef40578
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\ec\eca69739f00b5545a5072e7aef782d66
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\ec\eca69739f00b5545a5072e7aef782d66
-    projectPath: Library\Artifacts\ec\eca69739f00b5545a5072e7aef782d66
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\ed\edbb8b502e652515c547302e6f5bea9d
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\ed\edbb8b502e652515c547302e6f5bea9d
-    projectPath: Library\Artifacts\ed\edbb8b502e652515c547302e6f5bea9d
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\ed\edc82879da27dc88070ff6d92e9217d2
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\ed\edc82879da27dc88070ff6d92e9217d2
-    projectPath: Library\Artifacts\ed\edc82879da27dc88070ff6d92e9217d2
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\f0\f0e1dbfaf96776b8e96f5395a3f97e36
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\f0\f0e1dbfaf96776b8e96f5395a3f97e36
-    projectPath: Library\Artifacts\f0\f0e1dbfaf96776b8e96f5395a3f97e36
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\f1\f1f7d26d9a4ee81b40abc75bb37ed3ef
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\f1\f1f7d26d9a4ee81b40abc75bb37ed3ef
-    projectPath: Library\Artifacts\f1\f1f7d26d9a4ee81b40abc75bb37ed3ef
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\f2\f29863fd4758e62d1e0c754697d825f4
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\f2\f29863fd4758e62d1e0c754697d825f4
-    projectPath: Library\Artifacts\f2\f29863fd4758e62d1e0c754697d825f4
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\f2\f2f97d8f6957bb22133d14046d417b43
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\f2\f2f97d8f6957bb22133d14046d417b43
-    projectPath: Library\Artifacts\f2\f2f97d8f6957bb22133d14046d417b43
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\f5\f5505988b562b59e5dd1ea44abc58527
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\f5\f5505988b562b59e5dd1ea44abc58527
-    projectPath: Library\Artifacts\f5\f5505988b562b59e5dd1ea44abc58527
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\f5\f5a05399ee69e2b1f1080532f9d761dc
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\f5\f5a05399ee69e2b1f1080532f9d761dc
-    projectPath: Library\Artifacts\f5\f5a05399ee69e2b1f1080532f9d761dc
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\f7\f75b1e817689665fe1b549bb2187de14
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\f7\f75b1e817689665fe1b549bb2187de14
-    projectPath: Library\Artifacts\f7\f75b1e817689665fe1b549bb2187de14
+  - path: Library\Artifacts\ed\ed40c98396a4263055be35623da52055
+    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\ed\ed40c98396a4263055be35623da52055
+    projectPath: Library\Artifacts\ed\ed40c98396a4263055be35623da52055
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
@@ -1850,62 +315,8 @@ MonoBehaviour:
     fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\f7\f7682f6b317ed41fd5efe55e5ac1f288
     projectPath: Library\Artifacts\f7\f7682f6b317ed41fd5efe55e5ac1f288
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\f8\f8054b7ec067a37b59862e1e0b299ba0
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\f8\f8054b7ec067a37b59862e1e0b299ba0
-    projectPath: Library\Artifacts\f8\f8054b7ec067a37b59862e1e0b299ba0
-    originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: Library\Artifacts\f9\f940d6955329f627a08c586798357395
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\f9\f940d6955329f627a08c586798357395
-    projectPath: Library\Artifacts\f9\f940d6955329f627a08c586798357395
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\f9\f990020d0c8a37c970c7cc37930ec75e
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\f9\f990020d0c8a37c970c7cc37930ec75e
-    projectPath: Library\Artifacts\f9\f990020d0c8a37c970c7cc37930ec75e
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\fb\fbe69de30471287ef93905dfb3856691
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\fb\fbe69de30471287ef93905dfb3856691
-    projectPath: Library\Artifacts\fb\fbe69de30471287ef93905dfb3856691
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\fc\fc41f63fbc621c366b571372bb787b18
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\fc\fc41f63fbc621c366b571372bb787b18
-    projectPath: Library\Artifacts\fc\fc41f63fbc621c366b571372bb787b18
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\fc\fc95d33fc8ec89c2573eee86be1497cd
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\fc\fc95d33fc8ec89c2573eee86be1497cd
-    projectPath: Library\Artifacts\fc\fc95d33fc8ec89c2573eee86be1497cd
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\fe\fe82fced716c481114d3a2a4ff515823
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\fe\fe82fced716c481114d3a2a4ff515823
-    projectPath: Library\Artifacts\fe\fe82fced716c481114d3a2a4ff515823
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\ff\ffd8914e0ccda982a0c31023555f979d
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\Artifacts\ff\ffd8914e0ccda982a0c31023555f979d
-    projectPath: Library\Artifacts\ff\ffd8914e0ccda982a0c31023555f979d
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\CurrentLayout-default.dwlt
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\CurrentLayout-default.dwlt
-    projectPath: Library\CurrentLayout-default.dwlt
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: Library\CurrentMaximizeLayout.dwlt
     fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\CurrentMaximizeLayout.dwlt
     projectPath: Library\CurrentMaximizeLayout.dwlt
@@ -1954,12 +365,6 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\InspectorExpandedItems.asset
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\InspectorExpandedItems.asset
-    projectPath: Library\InspectorExpandedItems.asset
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: Library\SceneVisibilityState.asset
     fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\SceneVisibilityState.asset
     projectPath: Library\SceneVisibilityState.asset
@@ -1996,18 +401,6 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\StateCache\SceneView\f6\f6723d637d7e19dc4d3d27c8d200cafc.json
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Library\StateCache\SceneView\f6\f6723d637d7e19dc4d3d27c8d200cafc.json
-    projectPath: Library\StateCache\SceneView\f6\f6723d637d7e19dc4d3d27c8d200cafc.json
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Logs\ApiUpdaterCheck.txt
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Logs\ApiUpdaterCheck.txt
-    projectPath: Logs\ApiUpdaterCheck.txt
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: Logs\AssetImportWorker0.log
     fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Logs\AssetImportWorker0.log
     projectPath: Logs\AssetImportWorker0.log
@@ -2018,8 +411,8 @@ MonoBehaviour:
     fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Logs\AssetImportWorker0-prev.log
     projectPath: Logs\AssetImportWorker0-prev.log
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Logs\shadercompiler-AssetImportWorker0.log
     fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Logs\shadercompiler-AssetImportWorker0.log
     projectPath: Logs\shadercompiler-AssetImportWorker0.log
@@ -2032,51 +425,9 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Logs\shadercompiler-UnityShaderCompiler.exe1.log
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Logs\shadercompiler-UnityShaderCompiler.exe1.log
-    projectPath: Logs\shadercompiler-UnityShaderCompiler.exe1.log
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Logs\shadercompiler-UnityShaderCompiler.exe2.log
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Logs\shadercompiler-UnityShaderCompiler.exe2.log
-    projectPath: Logs\shadercompiler-UnityShaderCompiler.exe2.log
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Logs\shadercompiler-UnityShaderCompiler.exe3.log
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Logs\shadercompiler-UnityShaderCompiler.exe3.log
-    projectPath: Logs\shadercompiler-UnityShaderCompiler.exe3.log
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Logs\shadercompiler-UnityShaderCompiler.exe4.log
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Logs\shadercompiler-UnityShaderCompiler.exe4.log
-    projectPath: Logs\shadercompiler-UnityShaderCompiler.exe4.log
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Logs\shadercompiler-UnityShaderCompiler.exe5.log
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Logs\shadercompiler-UnityShaderCompiler.exe5.log
-    projectPath: Logs\shadercompiler-UnityShaderCompiler.exe5.log
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Logs\shadercompiler-UnityShaderCompiler.exe6.log
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Logs\shadercompiler-UnityShaderCompiler.exe6.log
-    projectPath: Logs\shadercompiler-UnityShaderCompiler.exe6.log
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
   - path: Temp\__Backupscenes\0.backup
     fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Temp\__Backupscenes\0.backup
     projectPath: Temp\__Backupscenes\0.backup
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\ApiUpdater_CheckMovedFrome6efa269058e81248adb14943224175c
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Temp\ApiUpdater_CheckMovedFrome6efa269058e81248adb14943224175c
-    projectPath: Temp\ApiUpdater_CheckMovedFrome6efa269058e81248adb14943224175c
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -2104,183 +455,207 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-0ef96f2aa892f354eb1986fcbb5326f0
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Temp\UnityTempFile-0ef96f2aa892f354eb1986fcbb5326f0
-    projectPath: Temp\UnityTempFile-0ef96f2aa892f354eb1986fcbb5326f0
+  - path: Temp\UnityTempFile-055ddfa14446e5448b56f43c8a39bfe9
+    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Temp\UnityTempFile-055ddfa14446e5448b56f43c8a39bfe9
+    projectPath: Temp\UnityTempFile-055ddfa14446e5448b56f43c8a39bfe9
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-1711945ed9d026d46b10927095ea6ac1
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Temp\UnityTempFile-1711945ed9d026d46b10927095ea6ac1
-    projectPath: Temp\UnityTempFile-1711945ed9d026d46b10927095ea6ac1
+  - path: Temp\UnityTempFile-05eed63c36746ba4cb9c8d98e57462a6
+    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Temp\UnityTempFile-05eed63c36746ba4cb9c8d98e57462a6
+    projectPath: Temp\UnityTempFile-05eed63c36746ba4cb9c8d98e57462a6
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-325392ae757e6c441b651ab1e8c69584
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Temp\UnityTempFile-325392ae757e6c441b651ab1e8c69584
-    projectPath: Temp\UnityTempFile-325392ae757e6c441b651ab1e8c69584
+  - path: Temp\UnityTempFile-07597db137cabce4da2a26ee8482d3a5
+    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Temp\UnityTempFile-07597db137cabce4da2a26ee8482d3a5
+    projectPath: Temp\UnityTempFile-07597db137cabce4da2a26ee8482d3a5
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-3751080ccb3a62546b618004c24330c0
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Temp\UnityTempFile-3751080ccb3a62546b618004c24330c0
-    projectPath: Temp\UnityTempFile-3751080ccb3a62546b618004c24330c0
+  - path: Temp\UnityTempFile-0bb70a1ed6fd0bb44bf83cf2506e428b
+    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Temp\UnityTempFile-0bb70a1ed6fd0bb44bf83cf2506e428b
+    projectPath: Temp\UnityTempFile-0bb70a1ed6fd0bb44bf83cf2506e428b
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-3c099e5348125024db590780a97849a1
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Temp\UnityTempFile-3c099e5348125024db590780a97849a1
-    projectPath: Temp\UnityTempFile-3c099e5348125024db590780a97849a1
+  - path: Temp\UnityTempFile-0deb544dc2f114041a27e62ed0bf3306
+    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Temp\UnityTempFile-0deb544dc2f114041a27e62ed0bf3306
+    projectPath: Temp\UnityTempFile-0deb544dc2f114041a27e62ed0bf3306
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-45aabba15e0828a4698f318b4571e013
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Temp\UnityTempFile-45aabba15e0828a4698f318b4571e013
-    projectPath: Temp\UnityTempFile-45aabba15e0828a4698f318b4571e013
+  - path: Temp\UnityTempFile-180b4591639b8d64b85072741e8aca6d
+    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Temp\UnityTempFile-180b4591639b8d64b85072741e8aca6d
+    projectPath: Temp\UnityTempFile-180b4591639b8d64b85072741e8aca6d
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-4af2280bdf65f174eba7e23026936197
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Temp\UnityTempFile-4af2280bdf65f174eba7e23026936197
-    projectPath: Temp\UnityTempFile-4af2280bdf65f174eba7e23026936197
+  - path: Temp\UnityTempFile-186ba860f038ea34981c65dc05f29f9d
+    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Temp\UnityTempFile-186ba860f038ea34981c65dc05f29f9d
+    projectPath: Temp\UnityTempFile-186ba860f038ea34981c65dc05f29f9d
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-6039138b9811d044eb598d09aa9dfc73
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Temp\UnityTempFile-6039138b9811d044eb598d09aa9dfc73
-    projectPath: Temp\UnityTempFile-6039138b9811d044eb598d09aa9dfc73
+  - path: Temp\UnityTempFile-2b90002c0ebc6cf40aba8e9c015ba309
+    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Temp\UnityTempFile-2b90002c0ebc6cf40aba8e9c015ba309
+    projectPath: Temp\UnityTempFile-2b90002c0ebc6cf40aba8e9c015ba309
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-62ecfe51716730c4d9bf10997966a6d9
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Temp\UnityTempFile-62ecfe51716730c4d9bf10997966a6d9
-    projectPath: Temp\UnityTempFile-62ecfe51716730c4d9bf10997966a6d9
+  - path: Temp\UnityTempFile-2c106f78a124b464a81556dea5250265
+    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Temp\UnityTempFile-2c106f78a124b464a81556dea5250265
+    projectPath: Temp\UnityTempFile-2c106f78a124b464a81556dea5250265
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-6a216fff32281584fa4691cc158c975d
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Temp\UnityTempFile-6a216fff32281584fa4691cc158c975d
-    projectPath: Temp\UnityTempFile-6a216fff32281584fa4691cc158c975d
+  - path: Temp\UnityTempFile-39d1bef8a3cdd3d46b44b232a1706f4e
+    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Temp\UnityTempFile-39d1bef8a3cdd3d46b44b232a1706f4e
+    projectPath: Temp\UnityTempFile-39d1bef8a3cdd3d46b44b232a1706f4e
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-6afcc593114a8504781b9af6bfc76f14
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Temp\UnityTempFile-6afcc593114a8504781b9af6bfc76f14
-    projectPath: Temp\UnityTempFile-6afcc593114a8504781b9af6bfc76f14
+  - path: Temp\UnityTempFile-41b03441e01af60429ba91b9db5bb895
+    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Temp\UnityTempFile-41b03441e01af60429ba91b9db5bb895
+    projectPath: Temp\UnityTempFile-41b03441e01af60429ba91b9db5bb895
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-70250a92514d4ae48880836d873994f6
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Temp\UnityTempFile-70250a92514d4ae48880836d873994f6
-    projectPath: Temp\UnityTempFile-70250a92514d4ae48880836d873994f6
+  - path: Temp\UnityTempFile-4553f04455fae864ba2613ee9641c82a
+    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Temp\UnityTempFile-4553f04455fae864ba2613ee9641c82a
+    projectPath: Temp\UnityTempFile-4553f04455fae864ba2613ee9641c82a
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-82f10dea8f5a5fc4d86546ab1553009a
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Temp\UnityTempFile-82f10dea8f5a5fc4d86546ab1553009a
-    projectPath: Temp\UnityTempFile-82f10dea8f5a5fc4d86546ab1553009a
+  - path: Temp\UnityTempFile-4e17520b4407d864691b55437bbde77c
+    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Temp\UnityTempFile-4e17520b4407d864691b55437bbde77c
+    projectPath: Temp\UnityTempFile-4e17520b4407d864691b55437bbde77c
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-878c887f99542ad46b971c876fe2e087
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Temp\UnityTempFile-878c887f99542ad46b971c876fe2e087
-    projectPath: Temp\UnityTempFile-878c887f99542ad46b971c876fe2e087
+  - path: Temp\UnityTempFile-523e60e441ad74241a071744d8954468
+    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Temp\UnityTempFile-523e60e441ad74241a071744d8954468
+    projectPath: Temp\UnityTempFile-523e60e441ad74241a071744d8954468
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-9ade335ee50f1b34c92e4703e1a24c2f
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Temp\UnityTempFile-9ade335ee50f1b34c92e4703e1a24c2f
-    projectPath: Temp\UnityTempFile-9ade335ee50f1b34c92e4703e1a24c2f
+  - path: Temp\UnityTempFile-562e5e7519c6f1645a04b6a28b42d995
+    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Temp\UnityTempFile-562e5e7519c6f1645a04b6a28b42d995
+    projectPath: Temp\UnityTempFile-562e5e7519c6f1645a04b6a28b42d995
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-b27799ac0e3350145b6ebd7b4a55b5f6
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Temp\UnityTempFile-b27799ac0e3350145b6ebd7b4a55b5f6
-    projectPath: Temp\UnityTempFile-b27799ac0e3350145b6ebd7b4a55b5f6
+  - path: Temp\UnityTempFile-56b3dd3909368cb47bcee322e31c4a0b
+    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Temp\UnityTempFile-56b3dd3909368cb47bcee322e31c4a0b
+    projectPath: Temp\UnityTempFile-56b3dd3909368cb47bcee322e31c4a0b
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-bbb7dc9aceb27c14a8939526eda8aa09
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Temp\UnityTempFile-bbb7dc9aceb27c14a8939526eda8aa09
-    projectPath: Temp\UnityTempFile-bbb7dc9aceb27c14a8939526eda8aa09
+  - path: Temp\UnityTempFile-5806ae0d1f6c2ad42962e3c5297fae17
+    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Temp\UnityTempFile-5806ae0d1f6c2ad42962e3c5297fae17
+    projectPath: Temp\UnityTempFile-5806ae0d1f6c2ad42962e3c5297fae17
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-c2754573eb7a19f469a19df0c7efa4b7
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Temp\UnityTempFile-c2754573eb7a19f469a19df0c7efa4b7
-    projectPath: Temp\UnityTempFile-c2754573eb7a19f469a19df0c7efa4b7
+  - path: Temp\UnityTempFile-632faf51efcef7b43a92eafc01e4ed45
+    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Temp\UnityTempFile-632faf51efcef7b43a92eafc01e4ed45
+    projectPath: Temp\UnityTempFile-632faf51efcef7b43a92eafc01e4ed45
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-ccd3c566cbda5a54ea1350e6b68b4a31
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Temp\UnityTempFile-ccd3c566cbda5a54ea1350e6b68b4a31
-    projectPath: Temp\UnityTempFile-ccd3c566cbda5a54ea1350e6b68b4a31
+  - path: Temp\UnityTempFile-752388641c0dfe44fb87033b72cdadf2
+    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Temp\UnityTempFile-752388641c0dfe44fb87033b72cdadf2
+    projectPath: Temp\UnityTempFile-752388641c0dfe44fb87033b72cdadf2
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-cddd965974346834298e7842709363e2
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Temp\UnityTempFile-cddd965974346834298e7842709363e2
-    projectPath: Temp\UnityTempFile-cddd965974346834298e7842709363e2
+  - path: Temp\UnityTempFile-831d2b357cd26524ea23dd8ea05c9345
+    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Temp\UnityTempFile-831d2b357cd26524ea23dd8ea05c9345
+    projectPath: Temp\UnityTempFile-831d2b357cd26524ea23dd8ea05c9345
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-d832f9b383e785046bc9035478ae4ba1
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Temp\UnityTempFile-d832f9b383e785046bc9035478ae4ba1
-    projectPath: Temp\UnityTempFile-d832f9b383e785046bc9035478ae4ba1
+  - path: Temp\UnityTempFile-86266863202de774fb654d6aa50136e3
+    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Temp\UnityTempFile-86266863202de774fb654d6aa50136e3
+    projectPath: Temp\UnityTempFile-86266863202de774fb654d6aa50136e3
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-dc068d2d29e074a49896b0309c0d71ea
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Temp\UnityTempFile-dc068d2d29e074a49896b0309c0d71ea
-    projectPath: Temp\UnityTempFile-dc068d2d29e074a49896b0309c0d71ea
+  - path: Temp\UnityTempFile-88aad9426fe069e44a07531184fe7e5e
+    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Temp\UnityTempFile-88aad9426fe069e44a07531184fe7e5e
+    projectPath: Temp\UnityTempFile-88aad9426fe069e44a07531184fe7e5e
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-e0ea3643d10f1f645bf860e44728ec5a
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Temp\UnityTempFile-e0ea3643d10f1f645bf860e44728ec5a
-    projectPath: Temp\UnityTempFile-e0ea3643d10f1f645bf860e44728ec5a
+  - path: Temp\UnityTempFile-91fda25848e2c924da1cab5d98e0844a
+    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Temp\UnityTempFile-91fda25848e2c924da1cab5d98e0844a
+    projectPath: Temp\UnityTempFile-91fda25848e2c924da1cab5d98e0844a
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-e38ef0b1a4a73da47ab2c7cd8876d079
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Temp\UnityTempFile-e38ef0b1a4a73da47ab2c7cd8876d079
-    projectPath: Temp\UnityTempFile-e38ef0b1a4a73da47ab2c7cd8876d079
+  - path: Temp\UnityTempFile-96220ac6cff86f946b7c76cf1000e30d
+    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Temp\UnityTempFile-96220ac6cff86f946b7c76cf1000e30d
+    projectPath: Temp\UnityTempFile-96220ac6cff86f946b7c76cf1000e30d
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-e675b6134e22039459c0c2e56da7b5d4
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Temp\UnityTempFile-e675b6134e22039459c0c2e56da7b5d4
-    projectPath: Temp\UnityTempFile-e675b6134e22039459c0c2e56da7b5d4
+  - path: Temp\UnityTempFile-9ac4abcc9ef514a44a4e0b5d15e2cf10
+    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Temp\UnityTempFile-9ac4abcc9ef514a44a4e0b5d15e2cf10
+    projectPath: Temp\UnityTempFile-9ac4abcc9ef514a44a4e0b5d15e2cf10
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-eeee3fbea305b1646a7c8e740630ced5
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Temp\UnityTempFile-eeee3fbea305b1646a7c8e740630ced5
-    projectPath: Temp\UnityTempFile-eeee3fbea305b1646a7c8e740630ced5
+  - path: Temp\UnityTempFile-9e17096cb4f26ff4b989f8cd968cb38d
+    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Temp\UnityTempFile-9e17096cb4f26ff4b989f8cd968cb38d
+    projectPath: Temp\UnityTempFile-9e17096cb4f26ff4b989f8cd968cb38d
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-f0a9c800c8cf5a74193add59c0d390f1
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Temp\UnityTempFile-f0a9c800c8cf5a74193add59c0d390f1
-    projectPath: Temp\UnityTempFile-f0a9c800c8cf5a74193add59c0d390f1
+  - path: Temp\UnityTempFile-a2cbe8d72fe77034fb208e6c3b9e16ae
+    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Temp\UnityTempFile-a2cbe8d72fe77034fb208e6c3b9e16ae
+    projectPath: Temp\UnityTempFile-a2cbe8d72fe77034fb208e6c3b9e16ae
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-f237eda8cfd41544c8a7fb5d5392baeb
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Temp\UnityTempFile-f237eda8cfd41544c8a7fb5d5392baeb
-    projectPath: Temp\UnityTempFile-f237eda8cfd41544c8a7fb5d5392baeb
+  - path: Temp\UnityTempFile-a8871e4f16867cd46801b0600c67b13f
+    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Temp\UnityTempFile-a8871e4f16867cd46801b0600c67b13f
+    projectPath: Temp\UnityTempFile-a8871e4f16867cd46801b0600c67b13f
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-f5145ce135d65de4e9159a31b4613573
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Temp\UnityTempFile-f5145ce135d65de4e9159a31b4613573
-    projectPath: Temp\UnityTempFile-f5145ce135d65de4e9159a31b4613573
+  - path: Temp\UnityTempFile-ae32ac048e4d451408fb4eb3b43f38eb
+    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Temp\UnityTempFile-ae32ac048e4d451408fb4eb3b43f38eb
+    projectPath: Temp\UnityTempFile-ae32ac048e4d451408fb4eb3b43f38eb
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-f93d9dacf921d4541bb9b181daa310a3
-    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Temp\UnityTempFile-f93d9dacf921d4541bb9b181daa310a3
-    projectPath: Temp\UnityTempFile-f93d9dacf921d4541bb9b181daa310a3
+  - path: Temp\UnityTempFile-c6ac4d7d0d6c02e489d9313e442720c9
+    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Temp\UnityTempFile-c6ac4d7d0d6c02e489d9313e442720c9
+    projectPath: Temp\UnityTempFile-c6ac4d7d0d6c02e489d9313e442720c9
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-c6cc104f9a34ab84cb7ffc1c219c6c43
+    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Temp\UnityTempFile-c6cc104f9a34ab84cb7ffc1c219c6c43
+    projectPath: Temp\UnityTempFile-c6cc104f9a34ab84cb7ffc1c219c6c43
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-cdd3c1f8c281d7344b57afce3736f6be
+    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Temp\UnityTempFile-cdd3c1f8c281d7344b57afce3736f6be
+    projectPath: Temp\UnityTempFile-cdd3c1f8c281d7344b57afce3736f6be
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-d77bf601770855c41917f68ec301e018
+    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Temp\UnityTempFile-d77bf601770855c41917f68ec301e018
+    projectPath: Temp\UnityTempFile-d77bf601770855c41917f68ec301e018
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-f4947a2983be63645b6bac381d2a288e
+    fullPath: D:\shooting_game\Unity-Multiplayer-Shooter\Temp\UnityTempFile-f4947a2983be63645b6bac381d2a288e
+    projectPath: Temp\UnityTempFile-f4947a2983be63645b6bac381d2a288e
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1

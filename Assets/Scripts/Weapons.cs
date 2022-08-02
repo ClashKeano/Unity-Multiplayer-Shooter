@@ -17,6 +17,8 @@ public class Weapons : MonoBehaviour
     private float heatCounter;
     private bool overheated;
     LayerMask mask;
+    public Vector3 normalPosition;
+    public float aimSmoothing = 100f;
 
     // Start is called before the first frame update
     void Start()
@@ -28,6 +30,7 @@ public class Weapons : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        aim();
         muzzleFlash.gameObject.SetActive(false);
 
         if (!overheated)
@@ -68,6 +71,13 @@ public class Weapons : MonoBehaviour
         }
 
         UIController.instance.weaponHeatSlider.value = heatCounter;
+    }
+
+    void aim()
+    {
+        Vector3 target = normalPosition;
+        Vector3 desiredPosition = Vector3.Lerp(transform.localPosition, target, Time.deltaTime * aimSmoothing);
+        transform.localPosition = desiredPosition;
     }
 
     private void Shoot()
@@ -113,9 +123,9 @@ public class Weapons : MonoBehaviour
     {
         float time = 0;
         Vector3 startPosition = trail.transform.position;
-
         while (time < 1)
         {
+            transform.localPosition -= Vector3.forward * 0.02f;
             trail.transform.position = Vector3.Lerp(startPosition, hit.point, time);
             time += Time.deltaTime / trail.time;
             yield return null;
