@@ -1,8 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Photon.Pun;
 
-public class Weapons : MonoBehaviour
+public class Weapons : MonoBehaviourPunCallbacks
 {
     public bool isAutomatic;
     public float fireRate = .1f, heatPerShot = 1f;
@@ -11,6 +12,7 @@ public class Weapons : MonoBehaviour
 
     public TrailRenderer BulletTrail;
     public GameObject bulletImpact;
+    public GameObject playerHitImpact;
     private float shotCounter;
     private Camera cam;
     public float maxWeaponHeat = 10f, coolRate = 4f, overheatCoolRate = 5f;
@@ -30,47 +32,50 @@ public class Weapons : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        aim();
-        muzzleFlash.gameObject.SetActive(false);
-
-        if (!overheated)
+        if (photonView.IsMine)
         {
-            if (Input.GetMouseButtonDown(0))
-            {
-                Shoot();
-            }
+            aim();
+            muzzleFlash.gameObject.SetActive(false);
 
-            if (Input.GetMouseButton(0) && isAutomatic == true)
+            if (!overheated)
             {
-                shotCounter -= Time.deltaTime;
-
-                if (shotCounter <= 0)
+                if (Input.GetMouseButtonDown(0))
                 {
                     Shoot();
                 }
 
-            }
+                if (Input.GetMouseButton(0) && isAutomatic == true)
+                {
+                    shotCounter -= Time.deltaTime;
 
-            heatCounter -= coolRate * Time.deltaTime;
-        }
-        else
-        {
-            heatCounter -= overheatCoolRate * Time.deltaTime;
-            if (heatCounter <= 0)
+                    if (shotCounter <= 0)
+                    {
+                        Shoot();
+                    }
+
+                }
+
+                heatCounter -= coolRate * Time.deltaTime;
+            }
+            else
             {
-                overheated = false;
+                heatCounter -= overheatCoolRate * Time.deltaTime;
+                if (heatCounter <= 0)
+                {
+                    overheated = false;
 
-                UIController.instance.overheatedMessage.gameObject.SetActive(false);
+                    UIController.instance.overheatedMessage.gameObject.SetActive(false);
 
+                }
             }
-        }
 
-        if (heatCounter < 0)
-        {
-            heatCounter = 0;
-        }
+            if (heatCounter < 0)
+            {
+                heatCounter = 0;
+            }
 
-        UIController.instance.weaponHeatSlider.value = heatCounter;
+            UIController.instance.weaponHeatSlider.value = heatCounter;
+        }
     }
 
     void aim()
@@ -93,6 +98,7 @@ public class Weapons : MonoBehaviour
         }
 
         ray.origin = cam.transform.position;
+
        if (Physics.Raycast(ray, out RaycastHit hit))
         {
             TrailRenderer trail = Instantiate(BulletTrail, muzzleFlash.transform.position, Quaternion.identity);
@@ -118,7 +124,6 @@ public class Weapons : MonoBehaviour
         }
     }
 
-
     IEnumerator SpawnTrail(TrailRenderer trail, RaycastHit hit)
     {
         float time = 0;
@@ -131,9 +136,38 @@ public class Weapons : MonoBehaviour
             yield return null;
         }
         trail.transform.position = hit.point;
-        GameObject bulletImpactObject = Instantiate(bulletImpact, hit.point, Quaternion.LookRotation(hit.normal));
 
-        Destroy(trail.gameObject, trail.time);
-        Destroy(bulletImpactObject, 5f);
+        if(hit.collider.gameObject.tag == "Player")
+        {
+            PhotonNetwork.Instantiate(playerHitImpact.name, hit.point, Quaternion.identity);
+
+            hit.collider.gameObject.GetPhotonView().RPC("PlayerDamage", RpcTarget.All, photonView.Owner.NickName);
+        }
+        else
+        {
+            GameObject bulletImpactObject = Instantiate(bulletImpact, hit.point, Quaternion.LookRotation(hit.normal));
+
+            Destroy(trail.gameObject, trail.time);
+            Destroy(bulletImpactObject, 5f);
+        }
+        
     }
+
+    
+    [PunRPC]
+    public void PlayerDamage(string damager)
+    {
+        TakeDamage(damager);
+    }
+
+    public void TakeDamage(string damager)
+    {
+        Debug.Log(photonView.Owner.NickName + " has been hit by " + damager);
+
+        gameObject.SetActive(false);
+       
+    }
+  
+   
+
 }

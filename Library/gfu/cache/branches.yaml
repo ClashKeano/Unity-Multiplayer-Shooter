@@ -13,28 +13,24 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 2
-  lastUpdatedAtString: 2022-08-02T17:07:51.518+02:00
-  initializedAtString: 2022-08-02T17:07:51.218+02:00
+  lastUpdatedAtString: 2022-08-05T12:40:16.465+02:00
+  initializedAtString: 2022-08-05T12:40:15.376+02:00
   localBranches:
   - name: main
-    tracking: origin/main
+    tracking: 
   remoteBranches:
-  - name: origin/HEAD
-    tracking: '[None]'
   - name: origin/main
-    tracking: '[None]'
-  - name: shooting/main
     tracking: '[None]'
   remotes:
   - name: origin
-    url: https://github.com/ClashKeano/Unity-Multiplayer-Shooter.git
+    url: git@github.com:ClashKeano/Unity-Multiplayer-Shooter.git
     login: 
     user: 
     host: 
     function: 0
     token: 
-  - name: shooting
-    url: https://github.com/ClashKeano/Unity-Multiplayer-Shooter.git
+  - name: upstream
+    url: https://github.com/ClashKeano/Unity-Multiplayer-Shooter
     login: 
     user: 
     host: 
@@ -46,43 +42,28 @@ MonoBehaviour:
     values:
     - name: main
       remote:
-        name: origin
-        url: https://github.com/ClashKeano/Unity-Multiplayer-Shooter.git
-      trackingBranch: main
+        name: 
+        url: 
+      trackingBranch: 
   remoteConfigBranches:
     keys:
     - origin
-    - shooting
     subKeys:
-    - Values:
-      - HEAD
-      - main
     - Values:
       - main
     subKeyValues:
     - Values:
-      - name: HEAD
-        remote:
-          name: origin
-          url: https://github.com/ClashKeano/Unity-Multiplayer-Shooter.git
-        trackingBranch: 
       - name: main
         remote:
           name: origin
-          url: https://github.com/ClashKeano/Unity-Multiplayer-Shooter.git
-        trackingBranch: 
-    - Values:
-      - name: main
-        remote:
-          name: shooting
-          url: https://github.com/ClashKeano/Unity-Multiplayer-Shooter.git
+          url: git@github.com:ClashKeano/Unity-Multiplayer-Shooter.git
         trackingBranch: 
   configRemotes:
     keys:
     - origin
-    - shooting
+    - upstream
     values:
     - name: origin
-      url: https://github.com/ClashKeano/Unity-Multiplayer-Shooter.git
-    - name: shooting
-      url: https://github.com/ClashKeano/Unity-Multiplayer-Shooter.git
+      url: git@github.com:ClashKeano/Unity-Multiplayer-Shooter.git
+    - name: upstream
+      url: https://github.com/ClashKeano/Unity-Multiplayer-Shooter

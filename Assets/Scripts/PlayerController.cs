@@ -1,8 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Photon.Pun;
 
-public class PlayerController : MonoBehaviour
+public class PlayerController : MonoBehaviourPunCallbacks
 {
     public Transform viewPoint;
     private float vertRotation;
@@ -31,9 +32,12 @@ public class PlayerController : MonoBehaviour
 
 
 
+
+
     // Start is called before the first frame update
     void Start()
     {
+
 
         Cursor.lockState = CursorLockMode.Locked; //Prevent cursor from clicking outside the game window
 
@@ -45,147 +49,151 @@ public class PlayerController : MonoBehaviour
 
         Transform newSpawnTransform = SpawnManager.instance.spawn(); // Generate random spawn tranform values
 
-        transform.position = newSpawnTransform.position;
-        transform.rotation = newSpawnTransform.rotation;  // Apply above transform values to plaher spawn location
+
+        // transform.position = newSpawnTransform.position;
+        // transform.rotation = newSpawnTransform.rotation;  // Apply above transform values to plaher spawn location
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        /* Camera Movement */
-        mouseInput = new Vector2(Input.GetAxisRaw("Mouse X"), Input.GetAxisRaw("Mouse Y")) * mouseSens; // Get mouse input
-
-        transform.rotation = Quaternion.Euler(transform.rotation.eulerAngles.x, transform.rotation.eulerAngles.y + mouseInput.x, transform.rotation.eulerAngles.z); // Move camera on X axis based on mouse input
-
-        vertRotation -= mouseInput.y;
-        vertRotation = Mathf.Clamp(vertRotation, -60, 60); // Limit vertical rotation between -60 and 60 degrees
-
-        viewPoint.rotation = Quaternion.Euler(vertRotation, viewPoint.rotation.eulerAngles.y, viewPoint.rotation.eulerAngles.z); // Move camera on Y axis based on mouse input
-        /*******************/
-
-
-        /* Player Movement */
-        moveInput = new Vector3(Input.GetAxisRaw("Horizontal"), 0, Input.GetAxisRaw("Vertical")); // Get keyboard input for player movement
-
-        float velY = moveDir.y;
-        moveDir = ((transform.forward * moveInput.z) + (transform.right * moveInput.x).normalized) * moveSpeed;  //Set the values to move in direction relative to current view point location
-        moveDir.y = velY;
-
-        if (Input.GetButtonDown("Jump") && charControl.isGrounded)
+        if (photonView.IsMine)
         {
-            moveDir.y = jump;
-            // Add jump functionality
-        }
+            /* Camera Movement */
+            mouseInput = new Vector2(Input.GetAxisRaw("Mouse X"), Input.GetAxisRaw("Mouse Y")) * mouseSens; // Get mouse input
 
-        moveDir.y += Physics.gravity.y * Time.deltaTime; // Apply gravity to movement
+            transform.rotation = Quaternion.Euler(transform.rotation.eulerAngles.x, transform.rotation.eulerAngles.y + mouseInput.x, transform.rotation.eulerAngles.z); // Move camera on X axis based on mouse input
 
-        charControl.Move(moveDir * Time.deltaTime); // Move player
+            vertRotation -= mouseInput.y;
+            vertRotation = Mathf.Clamp(vertRotation, -60, 60); // Limit vertical rotation between -60 and 60 degrees
 
-        /*******************/
-
-
-        /* Gun Shooting and Overheating */
-
-        //allWeapons[currentWeapon].muzzleFlash.gameObject.SetActive(false);
-
-        //if (!overheated)
-        //{
-        //    if (Input.GetMouseButtonDown(0))
-        //    {
-        //        Shoot();
-        //    }
-
-        //    if (Input.GetMouseButton(0) && (allWeapons[currentWeapon].isAutomatic == true))
-        //    {
-        //        shotCounter -= Time.deltaTime;
-
-        //        if (shotCounter <= 0)
-        //        {
-        //            Shoot();
-        //        }
-
-        //    }
-
-        //    heatCounter -= coolRate * Time.deltaTime;
-        //}
-        //else
-        //{
-        //    heatCounter -= overheatCoolRate * Time.deltaTime;
-        //    if (heatCounter <= 0)
-        //    {
-        //        overheated = false;
-
-        //        UIController.instance.overheatedMessage.gameObject.SetActive(false);
-
-        //    }
-        //}
-
-        //if (heatCounter < 0)
-        //{
-        //    heatCounter = 0;
-        //}
-
-        //UIController.instance.weaponHeatSlider.value = heatCounter;
-        /*******************/
+            viewPoint.rotation = Quaternion.Euler(vertRotation, viewPoint.rotation.eulerAngles.y, viewPoint.rotation.eulerAngles.z); // Move camera on Y axis based on mouse input
+            /*******************/
 
 
-        /* Weapon Controls */
+            /* Player Movement */
+            moveInput = new Vector3(Input.GetAxisRaw("Horizontal"), 0, Input.GetAxisRaw("Vertical")); // Get keyboard input for player movement
 
-        if (Input.GetAxisRaw("Mouse ScrollWheel") > 0f)
-        {
-            currentWeapon++; // Scroll up through weapons with mouse wheel
+            float velY = moveDir.y;
+            moveDir = ((transform.forward * moveInput.z) + (transform.right * moveInput.x).normalized) * moveSpeed;  //Set the values to move in direction relative to current view point location
+            moveDir.y = velY;
 
-            if (currentWeapon >= allWeapons.Length)
+            if (Input.GetButtonDown("Jump") && charControl.isGrounded)
             {
-                currentWeapon = 0; // Allow for looping when scrolling
+                moveDir.y = jump;
+                // Add jump functionality
             }
 
+            moveDir.y += Physics.gravity.y * Time.deltaTime; // Apply gravity to movement
 
-            switchWeapon();
+            charControl.Move(moveDir * Time.deltaTime); // Move player
 
-        }
-        else if (Input.GetAxisRaw("Mouse ScrollWheel") < 0f)
-        {
-            currentWeapon--;  // SCroll down through weapons with mouse wheel
+            /*******************/
 
-            if (currentWeapon < 0)
+
+            /* Gun Shooting and Overheating */
+
+            //allWeapons[currentWeapon].muzzleFlash.gameObject.SetActive(false);
+
+            //if (!overheated)
+            //{
+            //    if (Input.GetMouseButtonDown(0))
+            //    {
+            //        Shoot();
+            //    }
+
+            //    if (Input.GetMouseButton(0) && (allWeapons[currentWeapon].isAutomatic == true))
+            //    {
+            //        shotCounter -= Time.deltaTime;
+
+            //        if (shotCounter <= 0)
+            //        {
+            //            Shoot();
+            //        }
+
+            //    }
+
+            //    heatCounter -= coolRate * Time.deltaTime;
+            //}
+            //else
+            //{
+            //    heatCounter -= overheatCoolRate * Time.deltaTime;
+            //    if (heatCounter <= 0)
+            //    {
+            //        overheated = false;
+
+            //        UIController.instance.overheatedMessage.gameObject.SetActive(false);
+
+            //    }
+            //}
+
+            //if (heatCounter < 0)
+            //{
+            //    heatCounter = 0;
+            //}
+
+            //UIController.instance.weaponHeatSlider.value = heatCounter;
+            /*******************/
+
+
+            /* Weapon Controls */
+
+            if (Input.GetAxisRaw("Mouse ScrollWheel") > 0f)
             {
-                currentWeapon = allWeapons.Length - 1;// Allow for looping when scrolling
+                currentWeapon++; // Scroll up through weapons with mouse wheel
+
+                if (currentWeapon >= allWeapons.Length)
+                {
+                    currentWeapon = 0; // Allow for looping when scrolling
+                }
+
+
+                switchWeapon();
+
+            }
+            else if (Input.GetAxisRaw("Mouse ScrollWheel") < 0f)
+            {
+                currentWeapon--;  // SCroll down through weapons with mouse wheel
+
+                if (currentWeapon < 0)
+                {
+                    currentWeapon = allWeapons.Length - 1;// Allow for looping when scrolling
+                }
+
+                switchWeapon();
             }
 
-            switchWeapon();
-        }
-
-        for (int i = 1; i <= allWeapons.Length; i++)
-        {
-            if (Input.GetKeyDown(i.ToString()))
+            for (int i = 1; i <= allWeapons.Length; i++)
             {
-                currentWeapon = i - 1;
-                switchWeapon();            // Change weapon based on number key input
-            }
-        }
-
-        /*******************/
-
-
-
-        /* Cursor Lock*/
-        if (Input.GetKeyDown(KeyCode.Escape))
-        {
-            Cursor.lockState = CursorLockMode.None; // Free mouse if player presses escape
-        }
-        else if (Cursor.lockState == CursorLockMode.None)
-        {
-            if (Input.GetMouseButtonDown(0))
-            {
-                Cursor.lockState = CursorLockMode.Locked; // Re-lock cursor if player clicks within game window again
+                if (Input.GetKeyDown(i.ToString()))
+                {
+                    currentWeapon = i - 1;
+                    switchWeapon();            // Change weapon based on number key input
+                }
             }
 
-        }
-        /*******************/
+            /*******************/
 
+
+
+            /* Cursor Lock*/
+            if (Input.GetKeyDown(KeyCode.Escape))
+            {
+                Cursor.lockState = CursorLockMode.None; // Free mouse if player presses escape
+            }
+            else if (Cursor.lockState == CursorLockMode.None)
+            {
+                if (Input.GetMouseButtonDown(0))
+                {
+                    Cursor.lockState = CursorLockMode.Locked; // Re-lock cursor if player clicks within game window again
+                }
+
+            }
+            /*******************/
+
+        }
     }
-
     //private void Shoot()
     //{
     //    Ray ray = cam.ViewportPointToRay(new Vector3(.5f, .5f, 0f)); // Create direction for raycast from centre of player view
@@ -234,8 +242,12 @@ public class PlayerController : MonoBehaviour
     // Called once per frame, after every update function is complete
     private void LateUpdate()
     {
-        cam.transform.position = viewPoint.position;
-        cam.transform.rotation = viewPoint.rotation;
+        if (photonView.IsMine)
+        {
+            cam.transform.position = viewPoint.position;
+            cam.transform.rotation = viewPoint.rotation;
+        }
+        
 
 
         // Tie main camera to view point location

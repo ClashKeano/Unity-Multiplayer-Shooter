@@ -13,11 +13,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 1
-  lastUpdatedAtString: 2022-08-02T17:07:47.537+02:00
-  initializedAtString: 2022-08-02T17:07:47.537+02:00
+  lastUpdatedAtString: 2022-08-05T13:42:02.576+02:00
+  initializedAtString: 2022-08-05T13:42:02.576+02:00
   currentGitRemote:
     name: origin
-    url: https://github.com/ClashKeano/Unity-Multiplayer-Shooter.git
+    url: git@github.com:ClashKeano/Unity-Multiplayer-Shooter.git
     login: 
     user: 
     host: 
@@ -25,14 +25,14 @@ MonoBehaviour:
     token: 
   currentGitBranch:
     name: main
-    tracking: origin/main
+    tracking: 
   currentConfigBranch:
     name: main
     remote:
-      name: origin
-      url: https://github.com/ClashKeano/Unity-Multiplayer-Shooter.git
-    trackingBranch: main
+      name: 
+      url: 
+    trackingBranch: 
   currentConfigRemote:
     name: origin
-    url: https://github.com/ClashKeano/Unity-Multiplayer-Shooter.git
+    url: git@github.com:ClashKeano/Unity-Multiplayer-Shooter.git
   currentHead: 

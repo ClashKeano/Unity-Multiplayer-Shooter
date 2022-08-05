@@ -7,6 +7,7 @@ using Photon.Realtime;
 using UnityEngine.SceneManagement;
 
 
+
 public class MultiplayerLauncher : MonoBehaviourPunCallbacks
 {
 
@@ -36,6 +37,8 @@ public class MultiplayerLauncher : MonoBehaviourPunCallbacks
     public GameObject playerNameScreen;
     public TMP_InputField playerNameInput;
     private bool isNameSet;
+    public string currentLevel;
+    public GameObject startGameButton;
 
     static class Constants
     {
@@ -71,6 +74,10 @@ public class MultiplayerLauncher : MonoBehaviourPunCallbacks
 
         PhotonNetwork.JoinLobby();
         loadingText.text = "Joining Lobby...";
+
+        PhotonNetwork.AutomaticallySyncScene = true;
+
+        
     }
 
     public override void OnJoinedLobby()
@@ -84,7 +91,13 @@ public class MultiplayerLauncher : MonoBehaviourPunCallbacks
             closeMenus();
             playerNameScreen.SetActive(true);
 
+            if (PlayerPrefs.HasKey("playerName")) // Check if player name has been already saved to player prefs
+            {
+                playerNameInput.text = PlayerPrefs.GetString("playerName"); // Assigns previously set player name
+            }
         }
+
+
     }
 
     public void SetName()
@@ -92,6 +105,9 @@ public class MultiplayerLauncher : MonoBehaviourPunCallbacks
         if (!string.IsNullOrEmpty(playerNameInput.text) && playerNameInput.text.Length <= Constants.maxPlayerNameLength)
         {
             PhotonNetwork.NickName = playerNameInput.text;
+
+            PlayerPrefs.SetString("playerName", playerNameInput.text); // Stores player name between sessions
+
             closeMenus();
             menuButtons.SetActive(true);
 
@@ -140,7 +156,16 @@ public class MultiplayerLauncher : MonoBehaviourPunCallbacks
 
         listPlayers();
 
-   
+        if (PhotonNetwork.IsMasterClient)
+        {
+            startGameButton.SetActive(true);    // Only show start game button for master player
+        }
+        else
+        {
+            startGameButton.SetActive(false);
+        }
+
+
     }
 
     private void listPlayers()
@@ -253,6 +278,23 @@ public class MultiplayerLauncher : MonoBehaviourPunCallbacks
         closeMenus();
         loadingText.text = loadingText.text = "Joining Room (" + inputRoomInfo.Name + ") ...";
         loadingScreen.SetActive(true);
+    }
+
+    public void StartGame()
+    {
+        PhotonNetwork.LoadLevel(currentLevel);
+    }
+
+    public override void OnMasterClientSwitched(Player newMasterClient)
+    {
+        if (PhotonNetwork.IsMasterClient)
+        {
+            startGameButton.SetActive(true);    // Only show start game button for master player
+        }
+        else
+        {
+            startGameButton.SetActive(false);
+        }
     }
 
     // Update is called once per frame
