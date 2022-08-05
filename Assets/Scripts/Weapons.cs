@@ -5,6 +5,13 @@ using Photon.Pun;
 
 public class Weapons : MonoBehaviourPunCallbacks
 {
+    public static Weapons instance;
+
+    private void Awake()
+    {
+        instance = this;
+    }
+
     public bool isAutomatic;
     public float fireRate = .1f, heatPerShot = 1f;
     public GameObject muzzleFlash;
@@ -154,20 +161,7 @@ public class Weapons : MonoBehaviourPunCallbacks
     }
 
     
-    [PunRPC]
-    public void PlayerDamage(string damager)
-    {
-        TakeDamage(damager);
-    }
-
-    public void TakeDamage(string damager)
-    {
-        Debug.Log(photonView.Owner.NickName + " has been hit by " + damager);
-
-        gameObject.SetActive(false);
-       
-    }
-  
    
+    
 
 }

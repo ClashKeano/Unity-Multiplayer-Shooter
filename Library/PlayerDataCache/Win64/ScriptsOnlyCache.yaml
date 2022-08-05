@@ -12,6 +12,7 @@ ScriptsOnlyBuild:
     - Weapons
     GitHub.Unity.45.dll:
     - GitHub.Unity.ApplicationCache
+    - GitHub.Unity.BranchesCache
     - GitHub.Unity.EnvironmentCache
     - GitHub.Unity.GitAheadBehindCache
     - GitHub.Unity.GitLocksCache
@@ -1093,7 +1094,7 @@ ScriptsOnlyBuild:
     className: MotionBlur
   - hash:
       serializedVersion: 2
-      Hash: 78ac0bcea5302eebdbb01e8deace16d1
+      Hash: d5c08b605559d3863016dd7876c870a5
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: PlayerController

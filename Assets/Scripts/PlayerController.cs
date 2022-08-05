@@ -5,6 +5,13 @@ using Photon.Pun;
 
 public class PlayerController : MonoBehaviourPunCallbacks
 {
+    public static PlayerController instance;
+
+    private void Awake()
+    {
+        instance = this;
+    }
+
     public Transform viewPoint;
     private float vertRotation;
     private Vector2 mouseInput;
@@ -18,6 +25,8 @@ public class PlayerController : MonoBehaviourPunCallbacks
     private Camera cam;
     public float jump = 7;
 
+    public GameObject bulletImpact;
+    public GameObject playerHitImpact;
 
     //public GameObject bulletImpact;
     //private float shotCounter;
@@ -235,6 +244,53 @@ public class PlayerController : MonoBehaviourPunCallbacks
         }
 
         allWeapons[currentWeapon].gameObject.SetActive(true); // Activate only currently selected weapon
+
+
+    }
+
+    IEnumerator SpawnTrail(TrailRenderer trail, RaycastHit hit)
+    {
+        float time = 0;
+        Vector3 startPosition = trail.transform.position;
+        while (time < 1)
+        {
+            transform.localPosition -= Vector3.forward * 0.02f;
+            trail.transform.position = Vector3.Lerp(startPosition, hit.point, time);
+            time += Time.deltaTime / trail.time;
+            yield return null;
+        }
+        trail.transform.position = hit.point;
+
+        if (hit.collider.gameObject.tag == "Player")
+        {
+            PhotonNetwork.Instantiate(playerHitImpact.name, hit.point, Quaternion.identity);
+
+            hit.collider.gameObject.GetPhotonView().RPC("PlayerDamage", RpcTarget.All, photonView.Owner.NickName);
+        }
+        else
+        {
+            GameObject bulletImpactObject = Instantiate(bulletImpact, hit.point, Quaternion.LookRotation(hit.normal));
+
+            Destroy(trail.gameObject, trail.time);
+            Destroy(bulletImpactObject, 5f);
+        }
+
+    }
+
+
+    [PunRPC]
+    private void PlayerDamage(string damager)
+    {
+        TakeDamage(damager);
+    }
+
+    private void TakeDamage(string damager)
+    {
+        if(photonView.IsMine)
+        {
+            SpawnManager.instance.PlayerDeath();
+        }
+        
 
 
     }

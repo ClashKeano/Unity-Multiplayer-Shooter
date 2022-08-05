@@ -4749,6 +4749,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4863145337018783057, guid: 03f0788244a8bb741911dddf25c17787,
+        type: 3}
+      propertyPath: bulletImpact
+      value: 
+      objectReference: {fileID: 9124136987186845368, guid: 7a15eacef8d147d43bae9d1857ffdeae,
+        type: 3}
+    - target: {fileID: 4863145337018783057, guid: 03f0788244a8bb741911dddf25c17787,
+        type: 3}
+      propertyPath: playerHitImpact
+      value: 
+      objectReference: {fileID: 9124136987186845368, guid: b29b1387652350747a3c126e9102d81d,
+        type: 3}
     - target: {fileID: 4863145337018783060, guid: 03f0788244a8bb741911dddf25c17787,
         type: 3}
       propertyPath: m_Name

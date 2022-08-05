@@ -50,4 +50,11 @@ public class SpawnManager : MonoBehaviour
     {
         return spawnPoints[Random.Range(0, spawnPoints.Length)];
     }
+
+    public void PlayerDeath()
+    {
+        PhotonNetwork.Destroy(player);
+
+        SpawnPlayer();
+    }
 }
