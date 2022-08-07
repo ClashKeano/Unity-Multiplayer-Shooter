@@ -248,34 +248,6 @@ public class PlayerController : MonoBehaviourPunCallbacks
 
     }
 
-    IEnumerator SpawnTrail(TrailRenderer trail, RaycastHit hit)
-    {
-        float time = 0;
-        Vector3 startPosition = trail.transform.position;
-        while (time < 1)
-        {
-            transform.localPosition -= Vector3.forward * 0.02f;
-            trail.transform.position = Vector3.Lerp(startPosition, hit.point, time);
-            time += Time.deltaTime / trail.time;
-            yield return null;
-        }
-        trail.transform.position = hit.point;
-
-        if (hit.collider.gameObject.tag == "Player")
-        {
-            PhotonNetwork.Instantiate(playerHitImpact.name, hit.point, Quaternion.identity);
-
-            hit.collider.gameObject.GetPhotonView().RPC("PlayerDamage", RpcTarget.All, photonView.Owner.NickName);
-        }
-        else
-        {
-            GameObject bulletImpactObject = Instantiate(bulletImpact, hit.point, Quaternion.LookRotation(hit.normal));
-
-            Destroy(trail.gameObject, trail.time);
-            Destroy(bulletImpactObject, 5f);
-        }
-
-    }
 
 
     [PunRPC]
