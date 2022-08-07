@@ -13,18 +13,24 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2022-08-05T17:08:02.718+02:00
-  initializedAtString: 2022-08-05T17:01:42.690+02:00
+  lastUpdatedAtString: 2022-08-07T18:23:22.320+02:00
+  initializedAtString: 2022-08-07T18:22:44.879+02:00
   entries:
-  - path: .vs\Multiplayer Shooter\FileContentIndex\6254655a-0210-4674-bedc-3a46d4091869.vsidx
-    fullPath: C:\Users\Aidan\Multiplayer Shooter\.vs\Multiplayer Shooter\FileContentIndex\6254655a-0210-4674-bedc-3a46d4091869.vsidx
-    projectPath: .vs\Multiplayer Shooter\FileContentIndex\6254655a-0210-4674-bedc-3a46d4091869.vsidx
+  - path: .vs\Multiplayer Shooter\FileContentIndex\13ded13e-a06f-40d5-8a64-1e94b7973f62.vsidx
+    fullPath: C:\Users\Aidan\Multiplayer Shooter\.vs\Multiplayer Shooter\FileContentIndex\13ded13e-a06f-40d5-8a64-1e94b7973f62.vsidx
+    projectPath: .vs\Multiplayer Shooter\FileContentIndex\13ded13e-a06f-40d5-8a64-1e94b7973f62.vsidx
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: .vs\Multiplayer Shooter\FileContentIndex\958d2b3a-9ff2-40ea-bcfa-07195a6cfea4.vsidx
-    fullPath: C:\Users\Aidan\Multiplayer Shooter\.vs\Multiplayer Shooter\FileContentIndex\958d2b3a-9ff2-40ea-bcfa-07195a6cfea4.vsidx
-    projectPath: .vs\Multiplayer Shooter\FileContentIndex\958d2b3a-9ff2-40ea-bcfa-07195a6cfea4.vsidx
+  - path: .vs\Multiplayer Shooter\FileContentIndex\255dc542-8890-4e05-b7f3-9f7485c44c0b.vsidx
+    fullPath: C:\Users\Aidan\Multiplayer Shooter\.vs\Multiplayer Shooter\FileContentIndex\255dc542-8890-4e05-b7f3-9f7485c44c0b.vsidx
+    projectPath: .vs\Multiplayer Shooter\FileContentIndex\255dc542-8890-4e05-b7f3-9f7485c44c0b.vsidx
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: .vs\Multiplayer Shooter\FileContentIndex\6254655a-0210-4674-bedc-3a46d4091869.vsidx
+    fullPath: C:\Users\Aidan\Multiplayer Shooter\.vs\Multiplayer Shooter\FileContentIndex\6254655a-0210-4674-bedc-3a46d4091869.vsidx
+    projectPath: .vs\Multiplayer Shooter\FileContentIndex\6254655a-0210-4674-bedc-3a46d4091869.vsidx
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
@@ -32,47 +38,23 @@ MonoBehaviour:
     fullPath: C:\Users\Aidan\Multiplayer Shooter\.vs\Multiplayer Shooter\FileContentIndex\975a8030-3e01-49e8-8eb6-bebfc265e4a1.vsidx
     projectPath: .vs\Multiplayer Shooter\FileContentIndex\975a8030-3e01-49e8-8eb6-bebfc265e4a1.vsidx
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: .vs\Multiplayer Shooter\FileContentIndex\a604d7b4-ca4b-48b9-a545-a3ce149b9cb5.vsidx
     fullPath: C:\Users\Aidan\Multiplayer Shooter\.vs\Multiplayer Shooter\FileContentIndex\a604d7b4-ca4b-48b9-a545-a3ce149b9cb5.vsidx
     projectPath: .vs\Multiplayer Shooter\FileContentIndex\a604d7b4-ca4b-48b9-a545-a3ce149b9cb5.vsidx
     originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: .vs\Multiplayer Shooter\FileContentIndex\b798ce63-561b-46fd-a348-1917be3858ae.vsidx
+    fullPath: C:\Users\Aidan\Multiplayer Shooter\.vs\Multiplayer Shooter\FileContentIndex\b798ce63-561b-46fd-a348-1917be3858ae.vsidx
+    projectPath: .vs\Multiplayer Shooter\FileContentIndex\b798ce63-561b-46fd-a348-1917be3858ae.vsidx
+    originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: .vs\Multiplayer Shooter\FileContentIndex\c11f33f4-d995-4f4a-8c81-ab235bae169b.vsidx
-    fullPath: C:\Users\Aidan\Multiplayer Shooter\.vs\Multiplayer Shooter\FileContentIndex\c11f33f4-d995-4f4a-8c81-ab235bae169b.vsidx
-    projectPath: .vs\Multiplayer Shooter\FileContentIndex\c11f33f4-d995-4f4a-8c81-ab235bae169b.vsidx
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: .vs\Multiplayer Shooter\FileContentIndex\e372a36c-5fe9-4af1-abb3-0786bdf6c964.vsidx
-    fullPath: C:\Users\Aidan\Multiplayer Shooter\.vs\Multiplayer Shooter\FileContentIndex\e372a36c-5fe9-4af1-abb3-0786bdf6c964.vsidx
-    projectPath: .vs\Multiplayer Shooter\FileContentIndex\e372a36c-5fe9-4af1-abb3-0786bdf6c964.vsidx
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
   - path: .vs\Multiplayer Shooter\v17\.suo
     fullPath: C:\Users\Aidan\Multiplayer Shooter\.vs\Multiplayer Shooter\v17\.suo
     projectPath: .vs\Multiplayer Shooter\v17\.suo
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\Prefabs\Player.prefab
-    fullPath: C:\Users\Aidan\Multiplayer Shooter\Assets\Prefabs\Player.prefab
-    projectPath: Assets\Prefabs\Player.prefab
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\Resources\Player.prefab
-    fullPath: C:\Users\Aidan\Multiplayer Shooter\Assets\Resources\Player.prefab
-    projectPath: Assets\Resources\Player.prefab
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\Scenes\Future City Map.unity
-    fullPath: C:\Users\Aidan\Multiplayer Shooter\Assets\Scenes\Future City Map.unity
-    projectPath: Assets\Scenes\Future City Map.unity
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -82,77 +64,21 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Assets\Scripts\SpawnManager.cs
-    fullPath: C:\Users\Aidan\Multiplayer Shooter\Assets\Scripts\SpawnManager.cs
-    projectPath: Assets\Scripts\SpawnManager.cs
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\Scripts\Weapons.cs
-    fullPath: C:\Users\Aidan\Multiplayer Shooter\Assets\Scripts\Weapons.cs
-    projectPath: Assets\Scripts\Weapons.cs
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\TextMesh Pro\Resources\Fonts & Materials\LiberationSans SDF - Fallback.asset
-    fullPath: C:\Users\Aidan\Multiplayer Shooter\Assets\TextMesh Pro\Resources\Fonts
-      & Materials\LiberationSans SDF - Fallback.asset
-    projectPath: Assets\TextMesh Pro\Resources\Fonts & Materials\LiberationSans SDF
-      - Fallback.asset
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: Library\ArtifactDB
     fullPath: C:\Users\Aidan\Multiplayer Shooter\Library\ArtifactDB
     projectPath: Library\ArtifactDB
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\Artifacts\18\1842629ccd2131cc887f5cea5ceff661
-    fullPath: C:\Users\Aidan\Multiplayer Shooter\Library\Artifacts\18\1842629ccd2131cc887f5cea5ceff661
-    projectPath: Library\Artifacts\18\1842629ccd2131cc887f5cea5ceff661
+  - path: Library\ArtifactDB-lock
+    fullPath: C:\Users\Aidan\Multiplayer Shooter\Library\ArtifactDB-lock
+    projectPath: Library\ArtifactDB-lock
     originalPath: 
     indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\1e\1e467c3e1eab939bb9b09309082dcae0
-    fullPath: C:\Users\Aidan\Multiplayer Shooter\Library\Artifacts\1e\1e467c3e1eab939bb9b09309082dcae0
-    projectPath: Library\Artifacts\1e\1e467c3e1eab939bb9b09309082dcae0
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\4b\4b9ff249d205f8de0c48228602fd6636
-    fullPath: C:\Users\Aidan\Multiplayer Shooter\Library\Artifacts\4b\4b9ff249d205f8de0c48228602fd6636
-    projectPath: Library\Artifacts\4b\4b9ff249d205f8de0c48228602fd6636
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\58\580243af612125506433db964f024f20
-    fullPath: C:\Users\Aidan\Multiplayer Shooter\Library\Artifacts\58\580243af612125506433db964f024f20
-    projectPath: Library\Artifacts\58\580243af612125506433db964f024f20
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\58\58b8537dfe06bca73ee1c05d78396d27
-    fullPath: C:\Users\Aidan\Multiplayer Shooter\Library\Artifacts\58\58b8537dfe06bca73ee1c05d78396d27
-    projectPath: Library\Artifacts\58\58b8537dfe06bca73ee1c05d78396d27
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\68\68386689548fa59173a705cee0c8d0d1
-    fullPath: C:\Users\Aidan\Multiplayer Shooter\Library\Artifacts\68\68386689548fa59173a705cee0c8d0d1
-    projectPath: Library\Artifacts\68\68386689548fa59173a705cee0c8d0d1
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\68\689cab1a3d001531c9d7d2d14ccfb301
-    fullPath: C:\Users\Aidan\Multiplayer Shooter\Library\Artifacts\68\689cab1a3d001531c9d7d2d14ccfb301
-    projectPath: Library\Artifacts\68\689cab1a3d001531c9d7d2d14ccfb301
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\82\829efedcd48171642b9968b3e3e764c7
-    fullPath: C:\Users\Aidan\Multiplayer Shooter\Library\Artifacts\82\829efedcd48171642b9968b3e3e764c7
-    projectPath: Library\Artifacts\82\829efedcd48171642b9968b3e3e764c7
+    workTreeStatus: 3
+  - path: Library\Artifacts\11\11c382751ef829791a0224373fbfbb94
+    fullPath: C:\Users\Aidan\Multiplayer Shooter\Library\Artifacts\11\11c382751ef829791a0224373fbfbb94
+    projectPath: Library\Artifacts\11\11c382751ef829791a0224373fbfbb94
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -160,62 +86,26 @@ MonoBehaviour:
     fullPath: C:\Users\Aidan\Multiplayer Shooter\Library\Artifacts\93\93af3fe0dce63cf24b9d3d7140ddb4f6
     projectPath: Library\Artifacts\93\93af3fe0dce63cf24b9d3d7140ddb4f6
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\a9\a9ea2b2f85c1d8126a20ba441563fe9c
-    fullPath: C:\Users\Aidan\Multiplayer Shooter\Library\Artifacts\a9\a9ea2b2f85c1d8126a20ba441563fe9c
-    projectPath: Library\Artifacts\a9\a9ea2b2f85c1d8126a20ba441563fe9c
-    originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: Library\Artifacts\b0\b0776b7e295509c1d8a2d3d3a440da65
-    fullPath: C:\Users\Aidan\Multiplayer Shooter\Library\Artifacts\b0\b0776b7e295509c1d8a2d3d3a440da65
-    projectPath: Library\Artifacts\b0\b0776b7e295509c1d8a2d3d3a440da65
+  - path: Library\Artifacts\a3\a342a1f34b85b13d4c570fc0a3b5c6ef
+    fullPath: C:\Users\Aidan\Multiplayer Shooter\Library\Artifacts\a3\a342a1f34b85b13d4c570fc0a3b5c6ef
+    projectPath: Library\Artifacts\a3\a342a1f34b85b13d4c570fc0a3b5c6ef
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\Artifacts\b1\b1cf781f8b3298db234f0a0c64ceb13b
-    fullPath: C:\Users\Aidan\Multiplayer Shooter\Library\Artifacts\b1\b1cf781f8b3298db234f0a0c64ceb13b
-    projectPath: Library\Artifacts\b1\b1cf781f8b3298db234f0a0c64ceb13b
+  - path: Library\Artifacts\a3\a360421a0afc25b3a0203b5e792aabc3
+    fullPath: C:\Users\Aidan\Multiplayer Shooter\Library\Artifacts\a3\a360421a0afc25b3a0203b5e792aabc3
+    projectPath: Library\Artifacts\a3\a360421a0afc25b3a0203b5e792aabc3
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: Library\Artifacts\da\da4c177ce430af652aa9f55aa313b352
-    fullPath: C:\Users\Aidan\Multiplayer Shooter\Library\Artifacts\da\da4c177ce430af652aa9f55aa313b352
-    projectPath: Library\Artifacts\da\da4c177ce430af652aa9f55aa313b352
+  - path: Library\Artifacts\a9\a9a4f226d868d60011d2a15c685f5803
+    fullPath: C:\Users\Aidan\Multiplayer Shooter\Library\Artifacts\a9\a9a4f226d868d60011d2a15c685f5803
+    projectPath: Library\Artifacts\a9\a9a4f226d868d60011d2a15c685f5803
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: Library\Artifacts\f3\f3e6d59f9dbcaf7cf987128f1daa9f44
-    fullPath: C:\Users\Aidan\Multiplayer Shooter\Library\Artifacts\f3\f3e6d59f9dbcaf7cf987128f1daa9f44
-    projectPath: Library\Artifacts\f3\f3e6d59f9dbcaf7cf987128f1daa9f44
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\BuildPlayerData\Editor\TypeDb-All.json
-    fullPath: C:\Users\Aidan\Multiplayer Shooter\Library\BuildPlayerData\Editor\TypeDb-All.json
-    projectPath: Library\BuildPlayerData\Editor\TypeDb-All.json
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\BuildPlayerData\Player\TypeDb-All.json
-    fullPath: C:\Users\Aidan\Multiplayer Shooter\Library\BuildPlayerData\Player\TypeDb-All.json
-    projectPath: Library\BuildPlayerData\Player\TypeDb-All.json
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\CurrentLayout-default.dwlt
-    fullPath: C:\Users\Aidan\Multiplayer Shooter\Library\CurrentLayout-default.dwlt
-    projectPath: Library\CurrentLayout-default.dwlt
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\CurrentMaximizeLayout.dwlt
-    fullPath: C:\Users\Aidan\Multiplayer Shooter\Library\CurrentMaximizeLayout.dwlt
-    projectPath: Library\CurrentMaximizeLayout.dwlt
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: Library\EditorInstance.json
     fullPath: C:\Users\Aidan\Multiplayer Shooter\Library\EditorInstance.json
     projectPath: Library\EditorInstance.json
@@ -225,12 +115,6 @@ MonoBehaviour:
   - path: Library\EditorSnapSettings.asset
     fullPath: C:\Users\Aidan\Multiplayer Shooter\Library\EditorSnapSettings.asset
     projectPath: Library\EditorSnapSettings.asset
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\gfu\cache\branches.yaml
-    fullPath: C:\Users\Aidan\Multiplayer Shooter\Library\gfu\cache\branches.yaml
-    projectPath: Library\gfu\cache\branches.yaml
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -264,66 +148,6 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\LastBuild.buildreport
-    fullPath: C:\Users\Aidan\Multiplayer Shooter\Library\LastBuild.buildreport
-    projectPath: Library\LastBuild.buildreport
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\LastSceneManagerSetup.txt
-    fullPath: C:\Users\Aidan\Multiplayer Shooter\Library\LastSceneManagerSetup.txt
-    projectPath: Library\LastSceneManagerSetup.txt
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\PlayerDataCache\Win64\Data\boot.config
-    fullPath: C:\Users\Aidan\Multiplayer Shooter\Library\PlayerDataCache\Win64\Data\boot.config
-    projectPath: Library\PlayerDataCache\Win64\Data\boot.config
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\PlayerDataCache\Win64\Data\globalgamemanagers
-    fullPath: C:\Users\Aidan\Multiplayer Shooter\Library\PlayerDataCache\Win64\Data\globalgamemanagers
-    projectPath: Library\PlayerDataCache\Win64\Data\globalgamemanagers
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\PlayerDataCache\Win64\Data\globalgamemanagers.assets
-    fullPath: C:\Users\Aidan\Multiplayer Shooter\Library\PlayerDataCache\Win64\Data\globalgamemanagers.assets
-    projectPath: Library\PlayerDataCache\Win64\Data\globalgamemanagers.assets
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\PlayerDataCache\Win64\Data\level2
-    fullPath: C:\Users\Aidan\Multiplayer Shooter\Library\PlayerDataCache\Win64\Data\level2
-    projectPath: Library\PlayerDataCache\Win64\Data\level2
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\PlayerDataCache\Win64\Data\Managed\Assembly-CSharp.dll
-    fullPath: C:\Users\Aidan\Multiplayer Shooter\Library\PlayerDataCache\Win64\Data\Managed\Assembly-CSharp.dll
-    projectPath: Library\PlayerDataCache\Win64\Data\Managed\Assembly-CSharp.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\PlayerDataCache\Win64\Data\Managed\Assembly-CSharp.pdb
-    fullPath: C:\Users\Aidan\Multiplayer Shooter\Library\PlayerDataCache\Win64\Data\Managed\Assembly-CSharp.pdb
-    projectPath: Library\PlayerDataCache\Win64\Data\Managed\Assembly-CSharp.pdb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\PlayerDataCache\Win64\Data\resources.assets
-    fullPath: C:\Users\Aidan\Multiplayer Shooter\Library\PlayerDataCache\Win64\Data\resources.assets
-    projectPath: Library\PlayerDataCache\Win64\Data\resources.assets
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\PlayerDataCache\Win64\ScriptsOnlyCache.yaml
-    fullPath: C:\Users\Aidan\Multiplayer Shooter\Library\PlayerDataCache\Win64\ScriptsOnlyCache.yaml
-    projectPath: Library\PlayerDataCache\Win64\ScriptsOnlyCache.yaml
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: Library\SceneVisibilityState.asset
     fullPath: C:\Users\Aidan\Multiplayer Shooter\Library\SceneVisibilityState.asset
     projectPath: Library\SceneVisibilityState.asset
@@ -342,15 +166,15 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\ShaderCache\EditorEncounteredVariants
-    fullPath: C:\Users\Aidan\Multiplayer Shooter\Library\ShaderCache\EditorEncounteredVariants
-    projectPath: Library\ShaderCache\EditorEncounteredVariants
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: Library\SourceAssetDB
     fullPath: C:\Users\Aidan\Multiplayer Shooter\Library\SourceAssetDB
     projectPath: Library\SourceAssetDB
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\SourceAssetDB-lock
+    fullPath: C:\Users\Aidan\Multiplayer Shooter\Library\SourceAssetDB-lock
+    projectPath: Library\SourceAssetDB-lock
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -384,18 +208,6 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
-    fullPath: C:\Users\Aidan\Multiplayer Shooter\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
-    projectPath: obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Temp\__Backupscenes\0.backup
-    fullPath: C:\Users\Aidan\Multiplayer Shooter\Temp\__Backupscenes\0.backup
-    projectPath: Temp\__Backupscenes\0.backup
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
   - path: Temp\Assembly-CSharp.dll.hash
     fullPath: C:\Users\Aidan\Multiplayer Shooter\Temp\Assembly-CSharp.dll.hash
     projectPath: Temp\Assembly-CSharp.dll.hash
@@ -414,99 +226,33 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\tempFile.res
-    fullPath: C:\Users\Aidan\Multiplayer Shooter\Temp\tempFile.res
-    projectPath: Temp\tempFile.res
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\tempFile.resG
-    fullPath: C:\Users\Aidan\Multiplayer Shooter\Temp\tempFile.resG
-    projectPath: Temp\tempFile.resG
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
   - path: Temp\UnityLockfile
     fullPath: C:\Users\Aidan\Multiplayer Shooter\Temp\UnityLockfile
     projectPath: Temp\UnityLockfile
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-275e111f97d22af4dad0acd4d0d3a180
-    fullPath: C:\Users\Aidan\Multiplayer Shooter\Temp\UnityTempFile-275e111f97d22af4dad0acd4d0d3a180
-    projectPath: Temp\UnityTempFile-275e111f97d22af4dad0acd4d0d3a180
+  - path: Temp\UnityTempFile-0f50006c5ef6fad469648bc76d382232
+    fullPath: C:\Users\Aidan\Multiplayer Shooter\Temp\UnityTempFile-0f50006c5ef6fad469648bc76d382232
+    projectPath: Temp\UnityTempFile-0f50006c5ef6fad469648bc76d382232
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-3e5a861e1b5eb5144a4a960b121db8a4
-    fullPath: C:\Users\Aidan\Multiplayer Shooter\Temp\UnityTempFile-3e5a861e1b5eb5144a4a960b121db8a4
-    projectPath: Temp\UnityTempFile-3e5a861e1b5eb5144a4a960b121db8a4
+  - path: Temp\UnityTempFile-2e77bbfc75a82aa47a623292cc8a8f22
+    fullPath: C:\Users\Aidan\Multiplayer Shooter\Temp\UnityTempFile-2e77bbfc75a82aa47a623292cc8a8f22
+    projectPath: Temp\UnityTempFile-2e77bbfc75a82aa47a623292cc8a8f22
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-4222b196a16fee241978e886172c4333
-    fullPath: C:\Users\Aidan\Multiplayer Shooter\Temp\UnityTempFile-4222b196a16fee241978e886172c4333
-    projectPath: Temp\UnityTempFile-4222b196a16fee241978e886172c4333
+  - path: Temp\UnityTempFile-44beb3f8408625741923dc87d85dfb6e
+    fullPath: C:\Users\Aidan\Multiplayer Shooter\Temp\UnityTempFile-44beb3f8408625741923dc87d85dfb6e
+    projectPath: Temp\UnityTempFile-44beb3f8408625741923dc87d85dfb6e
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-453160295113b8d48bc9f972b0a7f785
-    fullPath: C:\Users\Aidan\Multiplayer Shooter\Temp\UnityTempFile-453160295113b8d48bc9f972b0a7f785
-    projectPath: Temp\UnityTempFile-453160295113b8d48bc9f972b0a7f785
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-539b2c55d450c194f9eb442d24731f1a
-    fullPath: C:\Users\Aidan\Multiplayer Shooter\Temp\UnityTempFile-539b2c55d450c194f9eb442d24731f1a
-    projectPath: Temp\UnityTempFile-539b2c55d450c194f9eb442d24731f1a
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-625662cdb840c2341a88165a03138acc
-    fullPath: C:\Users\Aidan\Multiplayer Shooter\Temp\UnityTempFile-625662cdb840c2341a88165a03138acc
-    projectPath: Temp\UnityTempFile-625662cdb840c2341a88165a03138acc
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-98274468324651b42beef7e0805a0347
-    fullPath: C:\Users\Aidan\Multiplayer Shooter\Temp\UnityTempFile-98274468324651b42beef7e0805a0347
-    projectPath: Temp\UnityTempFile-98274468324651b42beef7e0805a0347
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-d4d76515bbfc140418e4cab96cda0cd8
-    fullPath: C:\Users\Aidan\Multiplayer Shooter\Temp\UnityTempFile-d4d76515bbfc140418e4cab96cda0cd8
-    projectPath: Temp\UnityTempFile-d4d76515bbfc140418e4cab96cda0cd8
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-e7801148ca29b2b4bac979087661b842
-    fullPath: C:\Users\Aidan\Multiplayer Shooter\Temp\UnityTempFile-e7801148ca29b2b4bac979087661b842
-    projectPath: Temp\UnityTempFile-e7801148ca29b2b4bac979087661b842
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-e92ff818d26a89b418cbf8f5b37cc477
-    fullPath: C:\Users\Aidan\Multiplayer Shooter\Temp\UnityTempFile-e92ff818d26a89b418cbf8f5b37cc477
-    projectPath: Temp\UnityTempFile-e92ff818d26a89b418cbf8f5b37cc477
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-f38ec8da9b1e7fd4485e0928fa43ef5a
-    fullPath: C:\Users\Aidan\Multiplayer Shooter\Temp\UnityTempFile-f38ec8da9b1e7fd4485e0928fa43ef5a
-    projectPath: Temp\UnityTempFile-f38ec8da9b1e7fd4485e0928fa43ef5a
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-f8ccab392e63aff439aeacbb56ef2b19
-    fullPath: C:\Users\Aidan\Multiplayer Shooter\Temp\UnityTempFile-f8ccab392e63aff439aeacbb56ef2b19
-    projectPath: Temp\UnityTempFile-f8ccab392e63aff439aeacbb56ef2b19
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-fce856978bc59bd448413c2254dcbfa8
-    fullPath: C:\Users\Aidan\Multiplayer Shooter\Temp\UnityTempFile-fce856978bc59bd448413c2254dcbfa8
-    projectPath: Temp\UnityTempFile-fce856978bc59bd448413c2254dcbfa8
+  - path: Temp\UnityTempFile-af435cad9cf0a984ebf930134bcc7c46
+    fullPath: C:\Users\Aidan\Multiplayer Shooter\Temp\UnityTempFile-af435cad9cf0a984ebf930134bcc7c46
+    projectPath: Temp\UnityTempFile-af435cad9cf0a984ebf930134bcc7c46
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1

@@ -251,12 +251,12 @@ public class PlayerController : MonoBehaviourPunCallbacks
 
 
     [PunRPC]
-    private void PlayerDamage(string damager)
+    public void PlayerDamage(string damager)
     {
         TakeDamage(damager);
     }
 
-    private void TakeDamage(string damager)
+    public void TakeDamage(string damager)
     {
         if(photonView.IsMine)
         {
