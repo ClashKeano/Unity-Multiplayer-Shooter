@@ -28,6 +28,7 @@ public class Weapons : MonoBehaviourPunCallbacks
     LayerMask mask;
     public Vector3 normalPosition;
     public float aimSmoothing = 100f;
+    public int weaponDamage;
 
     // Start is called before the first frame update
     void Start()
@@ -148,7 +149,7 @@ public class Weapons : MonoBehaviourPunCallbacks
         {
             PhotonNetwork.Instantiate(playerHitImpact.name, hit.point, Quaternion.identity);
 
-            hit.collider.gameObject.GetPhotonView().RPC("PlayerDamage", RpcTarget.All, photonView.Owner.NickName);
+            hit.collider.gameObject.GetPhotonView().RPC("PlayerDamage", RpcTarget.All, photonView.Owner.NickName, weaponDamage);
         }
         else
         {

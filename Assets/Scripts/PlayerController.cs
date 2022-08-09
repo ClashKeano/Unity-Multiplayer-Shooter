@@ -36,8 +36,8 @@ public class PlayerController : MonoBehaviourPunCallbacks
     public Weapons[] allWeapons;
     private int currentWeapon;
 
-
-
+    public int maxHealth = 100;
+    int currentHealth;
 
 
 
@@ -55,8 +55,9 @@ public class PlayerController : MonoBehaviourPunCallbacks
         switchWeapon();  // Activate first weapon in array
 
         Transform newSpawnTransform = SpawnManager.instance.spawn(); // Generate random spawn tranform values
-
-
+        currentHealth = maxHealth;
+        UIController.instance.healthBar.maxValue = maxHealth;
+        UIController.instance.healthBar.value = currentHealth;
         // transform.position = newSpawnTransform.position;
         // transform.rotation = newSpawnTransform.rotation;  // Apply above transform values to plaher spawn location
 
@@ -249,19 +250,25 @@ public class PlayerController : MonoBehaviourPunCallbacks
 
 
     [PunRPC]
-    public void PlayerDamage(string damager)
+    public void PlayerDamage(string damager, int healthLost)
     {
-        TakeDamage(damager);
+        TakeDamage(damager, healthLost);
     }
 
-    public void TakeDamage(string damager)
+    public void TakeDamage(string damager, int healthLost)
     {
         if(photonView.IsMine)
         {
-            Debug.Log(photonView.Owner.NickName + "hit by " + damager);
-            SpawnManager.instance.PlayerDeath(damager);
+            currentHealth -= healthLost;
+            if (currentHealth <= 0)
+            {
+                currentHealth = 0;
+                SpawnManager.instance.PlayerDeath(damager);
+            }
+            UIController.instance.healthBar.value = currentHealth;
+
         }
-        
+
 
 
     }

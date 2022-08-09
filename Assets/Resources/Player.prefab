@@ -123,6 +123,7 @@ MonoBehaviour:
   - {fileID: 4863145338530111139}
   - {fileID: 4863145337892626194}
   - {fileID: 4863145338828319434}
+  maxHealth: 100
 --- !u!143 &4863145337018783070
 CharacterController:
   m_ObjectHideFlags: 0
@@ -397,6 +398,7 @@ MonoBehaviour:
   overheatCoolRate: 5
   normalPosition: {x: 0.25, y: -0.1, z: 0.4}
   aimSmoothing: 100
+  weaponDamage: 20
 --- !u!1 &4863145338530111141
 GameObject:
   m_ObjectHideFlags: 0
@@ -457,6 +459,7 @@ MonoBehaviour:
   overheatCoolRate: 5
   normalPosition: {x: 0.25, y: 0.33, z: 0.292}
   aimSmoothing: 100
+  weaponDamage: 20
 --- !u!1 &4863145338828319436
 GameObject:
   m_ObjectHideFlags: 0
@@ -517,6 +520,7 @@ MonoBehaviour:
   overheatCoolRate: 5
   normalPosition: {x: 0.25, y: -0.1, z: 0.4}
   aimSmoothing: 100
+  weaponDamage: 60
 --- !u!1 &4863145339131348624
 GameObject:
   m_ObjectHideFlags: 0
