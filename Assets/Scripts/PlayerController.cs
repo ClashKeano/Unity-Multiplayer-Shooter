@@ -25,8 +25,6 @@ public class PlayerController : MonoBehaviourPunCallbacks
     private Camera cam;
     public float jump = 7;
 
-    public GameObject bulletImpact;
-    public GameObject playerHitImpact;
 
     //public GameObject bulletImpact;
     //private float shotCounter;
@@ -260,6 +258,7 @@ public class PlayerController : MonoBehaviourPunCallbacks
     {
         if(photonView.IsMine)
         {
+            Debug.Log(photonView.Owner.NickName + "hit by " + damager);
             SpawnManager.instance.PlayerDeath();
         }
         

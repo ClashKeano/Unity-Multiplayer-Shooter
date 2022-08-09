@@ -6,7 +6,7 @@ using Photon.Pun;
 public class Weapons : MonoBehaviourPunCallbacks
 {
     public static Weapons instance;
-
+    PlayerController playerController;
     private void Awake()
     {
         instance = this;

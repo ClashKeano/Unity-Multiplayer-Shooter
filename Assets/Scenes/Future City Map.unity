@@ -2579,6 +2579,8 @@ MonoBehaviour:
   - {fileID: 1883698881}
   - {fileID: 83744911}
   - {fileID: 924273538}
+  deathEffect: {fileID: 1329845292236604, guid: 9bba9cf244c53c5439505dfc96fdd11c,
+    type: 3}
   playerPrefab: {fileID: 4863145337018783060, guid: 03f0788244a8bb741911dddf25c17787,
     type: 3}
 --- !u!1 &1030573547 stripped

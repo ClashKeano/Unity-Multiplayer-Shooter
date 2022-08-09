@@ -119,8 +119,6 @@ MonoBehaviour:
   moveSpeed: 5
   charControl: {fileID: 4863145337018783070}
   jump: 5
-  bulletImpact: {fileID: 0}
-  playerHitImpact: {fileID: 0}
   allWeapons:
   - {fileID: 4863145338530111139}
   - {fileID: 4863145337892626194}

@@ -8,6 +8,7 @@ public class SpawnManager : MonoBehaviour
     public static SpawnManager instance;
 
     public Transform[] spawnPoints;
+    public GameObject deathEffect;
 
     private void Awake()
     {
@@ -53,6 +54,7 @@ public class SpawnManager : MonoBehaviour
 
     public void PlayerDeath()
     {
+        PhotonNetwork.Instantiate(deathEffect.name, player.transform.position, Quaternion.identity);
         PhotonNetwork.Destroy(player);
 
         SpawnPlayer();
