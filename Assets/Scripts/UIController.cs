@@ -10,7 +10,8 @@ public class UIController : MonoBehaviour
 
     public TMP_Text overheatedMessage;
     public Slider weaponHeatSlider;
-
+    public GameObject deathMessage;
+    public TMP_Text deathText;
     private void Awake()
     {
         instance = this;

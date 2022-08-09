@@ -259,7 +259,7 @@ public class PlayerController : MonoBehaviourPunCallbacks
         if(photonView.IsMine)
         {
             Debug.Log(photonView.Owner.NickName + "hit by " + damager);
-            SpawnManager.instance.PlayerDeath();
+            SpawnManager.instance.PlayerDeath(damager);
         }
         
 
