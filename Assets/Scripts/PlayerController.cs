@@ -39,7 +39,8 @@ public class PlayerController : MonoBehaviourPunCallbacks
 
     public int maxHealth = 100;
     int currentHealth;
-
+    public GameObject playerModel;
+    public Transform modelGunPoint, gunHolder;
 
 
     // Start is called before the first frame update
@@ -53,15 +54,25 @@ public class PlayerController : MonoBehaviourPunCallbacks
 
         //UIController.instance.weaponHeatSlider.maxValue = maxWeaponHeat;
 
-        switchWeapon();  // Activate first weapon in array
+        photonView.RPC("setGun", RpcTarget.All, currentWeapon);  // Activate first weapon in array
 
         Transform newSpawnTransform = SpawnManager.instance.spawn(); // Generate random spawn tranform values
         currentHealth = maxHealth;
-        UIController.instance.healthBar.maxValue = maxHealth;
-        UIController.instance.healthBar.value = currentHealth;
         // transform.position = newSpawnTransform.position;
         // transform.rotation = newSpawnTransform.rotation;  // Apply above transform values to plaher spawn location
-
+        if(photonView.IsMine)
+        {
+            playerModel.SetActive(false);
+            UIController.instance.healthBar.maxValue = maxHealth;
+            UIController.instance.healthBar.value = currentHealth;
+        }
+        else
+        {
+            //set the gun postion to hand (look like holding gun at enemy view)
+            gunHolder.parent = modelGunPoint;
+            gunHolder.localPosition = Vector3.zero;
+            gunHolder.localRotation = Quaternion.identity;
+        }
     }
 
     // Update is called once per frame
@@ -168,7 +179,7 @@ public class PlayerController : MonoBehaviourPunCallbacks
                 }
 
 
-                switchWeapon();
+                photonView.RPC("setGun", RpcTarget.All, currentWeapon);
 
             }
             else if (Input.GetAxisRaw("Mouse ScrollWheel") < 0f)
@@ -180,7 +191,7 @@ public class PlayerController : MonoBehaviourPunCallbacks
                     currentWeapon = allWeapons.Length - 1;// Allow for looping when scrolling
                 }
 
-                switchWeapon();
+                photonView.RPC("setGun", RpcTarget.All, currentWeapon);
             }
 
             for (int i = 1; i <= allWeapons.Length; i++)
@@ -188,7 +199,7 @@ public class PlayerController : MonoBehaviourPunCallbacks
                 if (Input.GetKeyDown(i.ToString()))
                 {
                     currentWeapon = i - 1;
-                    switchWeapon();            // Change weapon based on number key input
+                    photonView.RPC("setGun", RpcTarget.All, currentWeapon);           // Change weapon based on number key input
                 }
             }
 
@@ -297,5 +308,15 @@ public class PlayerController : MonoBehaviourPunCallbacks
 
 
         // Tie main camera to view point location
+    }
+    //make the switch gun visible to other player view
+    [PunRPC]
+    public void setGun(int switchGunTo)
+    {
+        if(switchGunTo < allWeapons.Length)
+        {
+            currentWeapon = switchGunTo;
+            switchWeapon();
+        }
     }
 }
