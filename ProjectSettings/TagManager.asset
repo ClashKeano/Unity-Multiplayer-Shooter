@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - Shootable
+  - head
+  - body
+  - leg
   layers:
   - Default
   - TransparentFX
