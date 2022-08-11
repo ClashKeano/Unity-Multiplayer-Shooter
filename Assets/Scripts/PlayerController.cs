@@ -6,6 +6,7 @@ using Photon.Pun;
 public class PlayerController : MonoBehaviourPunCallbacks
 {
     public static PlayerController instance;
+    public Animator animation;
 
     private void Awake()
     {
@@ -84,8 +85,18 @@ public class PlayerController : MonoBehaviourPunCallbacks
             moveInput = new Vector3(Input.GetAxisRaw("Horizontal"), 0, Input.GetAxisRaw("Vertical")); // Get keyboard input for player movement
 
             float velY = moveDir.y;
-            moveDir = ((transform.forward * moveInput.z) + (transform.right * moveInput.x).normalized) * moveSpeed;  //Set the values to move in direction relative to current view point location
+            if (Input.GetKey(KeyCode.LeftShift))
+            {
+                moveDir = ((transform.forward * moveInput.z) + (transform.right * moveInput.x).normalized) * (moveSpeed + 4);  //the player will run if press left shift
+            }
+            else
+            {
+
+                moveDir = ((transform.forward * moveInput.z) + (transform.right * moveInput.x).normalized) * moveSpeed;  //the player walk normally
+
+            }
             moveDir.y = velY;
+
 
             if (Input.GetButtonDown("Jump") && charControl.isGrounded)
             {
@@ -182,8 +193,9 @@ public class PlayerController : MonoBehaviourPunCallbacks
             }
 
             /*******************/
-
-
+            //set animation when player walking/ running/ jump
+            animation.SetBool("grounded", charControl.isGrounded);
+            animation.SetFloat("speed", moveInput.magnitude);
 
             /* Cursor Lock*/
             if (Input.GetKeyDown(KeyCode.Escape))
