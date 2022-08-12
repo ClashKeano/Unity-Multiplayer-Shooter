@@ -57,6 +57,7 @@ public class SpawnManager : MonoBehaviour
 
         UIController.instance.deathText.text = "You were killed by " + damager;
 
+        MatchManager.instance.SendUpdatePlayerDataEvent(PhotonNetwork.LocalPlayer.ActorNumber, 1); // Increment death stat for local player
 
         if(player != null)
         {

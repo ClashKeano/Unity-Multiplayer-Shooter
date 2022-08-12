@@ -149,7 +149,7 @@ public class Weapons : MonoBehaviourPunCallbacks
         {
             PhotonNetwork.Instantiate(playerHitImpact.name, hit.point, Quaternion.identity);
 
-            hit.collider.gameObject.GetPhotonView().RPC("PlayerDamage", RpcTarget.All, photonView.Owner.NickName, weaponDamage);
+            hit.collider.gameObject.GetPhotonView().RPC("DealDamage", RpcTarget.All, photonView.Owner.NickName, weaponDamage, PhotonNetwork.LocalPlayer.ActorNumber);
         }
         else
         {

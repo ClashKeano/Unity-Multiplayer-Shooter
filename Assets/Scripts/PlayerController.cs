@@ -273,12 +273,12 @@ public class PlayerController : MonoBehaviourPunCallbacks
 
 
     [PunRPC]
-    public void PlayerDamage(string damager, int healthLost)
+    public void DealDamage(string damager, int healthLost, int playerNumber)
     {
-        TakeDamage(damager, healthLost);
+        TakeDamage(damager, healthLost, playerNumber);
     }
 
-    public void TakeDamage(string damager, int healthLost)
+    public void TakeDamage(string damager, int healthLost, int playerNumber)
     {
         if(photonView.IsMine)
         {
@@ -287,7 +287,10 @@ public class PlayerController : MonoBehaviourPunCallbacks
             {
                 currentHealth = 0;
                 SpawnManager.instance.PlayerDeath(damager);
+
+                MatchManager.instance.SendUpdatePlayerDataEvent(playerNumber, 0); // Increment kill stats of relevent player
             }
+
             UIController.instance.healthBar.value = currentHealth;
 
         }
