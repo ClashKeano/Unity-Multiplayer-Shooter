@@ -17,6 +17,9 @@ public class UIController : MonoBehaviour
     public bool UIHiddenStatus = false;
     public int waitTime;
 
+    public GameObject Leaderboard;
+    public Leaderboard topPlayer;
+
     private void Awake()
     {
         instance = this;

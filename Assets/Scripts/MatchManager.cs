@@ -19,6 +19,8 @@ public class MatchManager : MonoBehaviourPunCallbacks, IOnEventCallback
     public List<PlayerData> allPlayerData = new List<PlayerData>();
     private int localPlayerIndex;
 
+    private List<Leaderboard> leaderboardPlayer = new List<Leaderboard>();
+
     public enum EventCodes : byte
     {
         NewPlayer,
@@ -44,7 +46,17 @@ public class MatchManager : MonoBehaviourPunCallbacks, IOnEventCallback
     // Update is called once per frame
     void Update()
     {
-        
+        if(Input.GetKeyDown(KeyCode.Tab))
+        {
+            if(UIController.instance.Leaderboard.activeInHierarchy)
+            {
+                UIController.instance.Leaderboard.SetActive(false);
+            }
+            else
+            {
+                ShowLeaderboard();
+            }
+        }
     }
 
     public void OnEvent(EventData photonEvent)
@@ -190,6 +202,11 @@ public class MatchManager : MonoBehaviourPunCallbacks, IOnEventCallback
                     updateStatsLabels();
                 }
 
+                if(UIController.instance.Leaderboard.activeInHierarchy)
+                {
+                    ShowLeaderboard();
+                }
+
                 break; // Break as the correct player has been found
             }
         }
@@ -200,6 +217,55 @@ public class MatchManager : MonoBehaviourPunCallbacks, IOnEventCallback
         UIController.instance.kills.text = "Kills: " + allPlayerData[localPlayerIndex].kills; // Update UI to show local player kills
 
         UIController.instance.deaths.text = "Deaths: " + allPlayerData[localPlayerIndex].deaths; // Update UI to show local player stats
+    }
+
+    void ShowLeaderboard()
+    {
+        UIController.instance.Leaderboard.SetActive(true);
+        
+        foreach(Leaderboard lp in leaderboardPlayer)
+        {
+            Destroy(lp.gameObject);
+        }
+        leaderboardPlayer.Clear();
+        UIController.instance.topPlayer.gameObject.SetActive(false);
+        List<PlayerData> sorted = sortPlayer(allPlayerData);
+        foreach(PlayerData player in sorted)
+        {
+            Leaderboard newPlayerDisplay = Instantiate(UIController.instance.topPlayer, UIController.instance.topPlayer.transform.parent);
+
+            newPlayerDisplay.PlayerStat(player.name, player.kills, player.deaths);
+
+            newPlayerDisplay.gameObject.SetActive(true);
+
+            leaderboardPlayer.Add(newPlayerDisplay);
+        }
+    }
+
+    private List<PlayerData> sortPlayer(List<PlayerData> players)
+    {
+        List<PlayerData> sorted = new List<PlayerData>();
+
+        while(sorted.Count < players.Count)
+        {
+            int highest = -1;
+            PlayerData selection = players[0];
+            foreach(PlayerData player in players)
+            {
+                if (!sorted.Contains(player))
+                {
+                    if (player.kills > highest)
+                    {
+                        selection = player;
+                        highest = player.kills;
+                    }
+                }
+            }
+
+            sorted.Add(selection);
+        }
+
+        return sorted;
     }
 }
 
