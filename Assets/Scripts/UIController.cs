@@ -20,6 +20,10 @@ public class UIController : MonoBehaviour
     public GameObject Leaderboard;
     public Leaderboard topPlayer;
 
+    public TMP_Text timer;
+
+    public GameObject EndMatch;
+
     private void Awake()
     {
         instance = this;

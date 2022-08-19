@@ -36,7 +36,7 @@ public class MultiplayerLauncher : MonoBehaviourPunCallbacks
     private List<TMP_Text>playerNameList = new List<TMP_Text>();
     public GameObject playerNameScreen;
     public TMP_InputField playerNameInput;
-    private bool isNameSet;
+    public static bool isNameSet;
     public string currentLevel;
     public GameObject startGameButton;
 
@@ -54,6 +54,9 @@ public class MultiplayerLauncher : MonoBehaviourPunCallbacks
         loadingText.text = "Connecting to Network...";
 
         PhotonNetwork.ConnectUsingSettings();
+
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
     }
 
     

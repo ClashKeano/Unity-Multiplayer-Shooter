@@ -70,11 +70,18 @@ public class SpawnManager : MonoBehaviour
     {
         PhotonNetwork.Instantiate(deathEffect.name, player.transform.position, Quaternion.identity);
         PhotonNetwork.Destroy(player);
+
+        player = null;
+
         UIController.instance.deathMessage.SetActive(true);
 
         yield return new WaitForSeconds(respawnTime);
 
         UIController.instance.deathMessage.SetActive(false);
-        SpawnPlayer();
+
+        if (MatchManager.instance.state == MatchManager.GameState.Playing && player == null)
+        {
+            SpawnPlayer();
+        }
     }
 }
