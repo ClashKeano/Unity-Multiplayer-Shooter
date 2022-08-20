@@ -38,7 +38,10 @@ public class MultiplayerLauncher : MonoBehaviourPunCallbacks
     public TMP_InputField playerNameInput;
     public static bool isNameSet;
     public string currentLevel;
+    public GameObject gameOptionsButton;
     public GameObject startGameButton;
+    private string selectedMap = "Future City Map";
+    public GameObject gameOptionsScreen;
 
     static class Constants
     {
@@ -53,7 +56,10 @@ public class MultiplayerLauncher : MonoBehaviourPunCallbacks
         loadingScreen.SetActive(true);
         loadingText.text = "Connecting to Network...";
 
-        PhotonNetwork.ConnectUsingSettings();
+        if (!PhotonNetwork.IsConnected)
+        {
+            PhotonNetwork.ConnectUsingSettings();
+        }
 
         Cursor.lockState = CursorLockMode.None;
         Cursor.visible = true;
@@ -70,6 +76,7 @@ public class MultiplayerLauncher : MonoBehaviourPunCallbacks
         errorScreen.SetActive(false);
         roomFinderScreen.SetActive(false);
         playerNameScreen.SetActive(false);
+        gameOptionsScreen.SetActive(false);
     }
 
     public override void OnConnectedToMaster()
@@ -161,11 +168,13 @@ public class MultiplayerLauncher : MonoBehaviourPunCallbacks
 
         if (PhotonNetwork.IsMasterClient)
         {
-            startGameButton.SetActive(true);    // Only show start game button for master player
+            startGameButton.SetActive(true); // Only show start game button for master player
+            gameOptionsButton.SetActive(true);
         }
         else
         {
             startGameButton.SetActive(false);
+            gameOptionsButton.SetActive(false);
         }
 
 
@@ -285,7 +294,7 @@ public class MultiplayerLauncher : MonoBehaviourPunCallbacks
 
     public void StartGame()
     {
-        PhotonNetwork.LoadLevel(currentLevel);
+        PhotonNetwork.LoadLevel(selectedMap);
     }
 
     public override void OnMasterClientSwitched(Player newMasterClient)
@@ -298,6 +307,26 @@ public class MultiplayerLauncher : MonoBehaviourPunCallbacks
         {
             startGameButton.SetActive(false);
         }
+    }
+
+    public void GameOptions()
+    {
+        closeMenus();
+        gameOptionsScreen.SetActive(true);
+    }
+
+    public void SetMap1()
+    {
+        selectedMap = "Future City Map";
+        closeMenus();
+        roomScreen.SetActive(true);
+    }
+
+    public void SetMap2()
+    {
+        selectedMap = "Guantlet Map";
+        closeMenus();
+        roomScreen.SetActive(true);
     }
 
     // Update is called once per frame

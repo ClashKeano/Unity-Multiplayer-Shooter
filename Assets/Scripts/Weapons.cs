@@ -21,7 +21,7 @@ public class Weapons : MonoBehaviourPunCallbacks
     public GameObject bulletImpact;
     public GameObject playerHitImpact;
     private float shotCounter;
-    private Camera cam;
+    public Camera cam;
     public float maxWeaponHeat = 10f, coolRate = 4f, overheatCoolRate = 5f;
     private float heatCounter;
     private bool overheated;
@@ -29,6 +29,14 @@ public class Weapons : MonoBehaviourPunCallbacks
     public Vector3 normalPosition;
     public float aimSmoothing = 100f;
     public int weaponDamage;
+    
+    
+    public float aimZoom;
+    public float aimSpeed = 5f;
+
+    public AudioSource shotSound;
+    
+
 
     // Start is called before the first frame update
     void Start()
@@ -83,7 +91,10 @@ public class Weapons : MonoBehaviourPunCallbacks
             }
 
             UIController.instance.weaponHeatSlider.value = heatCounter;
+
         }
+
+   
     }
 
     void aim()
@@ -130,6 +141,10 @@ public class Weapons : MonoBehaviourPunCallbacks
             UIController.instance.overheatedMessage.gameObject.SetActive(true);
 
         }
+
+        shotSound.Stop();
+        shotSound.Play();
+        
     }
 
     IEnumerator SpawnTrail(TrailRenderer trail, RaycastHit hit)

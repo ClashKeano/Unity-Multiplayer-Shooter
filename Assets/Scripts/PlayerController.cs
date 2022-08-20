@@ -35,12 +35,17 @@ public class PlayerController : MonoBehaviourPunCallbacks
     //private bool overheated;
 
     public Weapons[] allWeapons;
-    private int currentWeapon;
+    public int currentWeapon;
+    public float aimSpeed = 5f; 
 
     public int maxHealth = 100;
     int currentHealth;
     public GameObject playerModel;
     public Transform modelGunPoint, gunHolder;
+ 
+    public Material[] skins;
+
+    public AudioSource fsFast, fsSlow;
 
 
     // Start is called before the first frame update
@@ -48,7 +53,7 @@ public class PlayerController : MonoBehaviourPunCallbacks
     {
 
 
-        Cursor.lockState = CursorLockMode.Locked; //Prevent cursor from clicking outside the game window
+        Cursor.lockState = CursorLockMode.Locked; //Prevent cursor from clicking outside the game windowzzz
 
         cam = Camera.main;
 
@@ -73,6 +78,14 @@ public class PlayerController : MonoBehaviourPunCallbacks
             gunHolder.localPosition = Vector3.zero;
             gunHolder.localRotation = Quaternion.identity;
         }
+
+        int actorNumber = photonView.Owner.ActorNumber;
+
+        if (photonView.Owner.ActorNumber > skins.Length)
+        {
+            actorNumber = skins.Length; // Ensure that we are not attempting to access outside the bounds of the skins array
+        }
+        playerModel.GetComponent<Renderer>().material = skins[actorNumber]; // Assign skin to player based on actor number
     }
 
     // Update is called once per frame
@@ -99,13 +112,31 @@ public class PlayerController : MonoBehaviourPunCallbacks
             if (Input.GetKey(KeyCode.LeftShift))
             {
                 moveDir = ((transform.forward * moveInput.z) + (transform.right * moveInput.x).normalized) * (moveSpeed + 4);  //the player will run if press left shift
+
+                if(!fsFast.isPlaying && moveDir != Vector3.zero) // If footsteps aren't already playing and player is not stationary
+                {
+                    fsFast.Play();
+                    fsSlow.Stop();
+                }
             }
             else
             {
 
                 moveDir = ((transform.forward * moveInput.z) + (transform.right * moveInput.x).normalized) * moveSpeed;  //the player walk normally
-
+               
+                if (!fsSlow.isPlaying && moveDir != Vector3.zero) // If footsteps aren't already playing and player is not stationary
+                {
+                    fsSlow.Play();
+                    fsFast.Stop();
+                }
             }
+
+            if(moveDir == Vector3.zero || !charControl.isGrounded) // If player is not moving or not grounded, stop footsteps 
+            {
+                fsSlow.Stop();
+                fsFast.Stop();
+            }
+
             moveDir.y = velY;
 
 
@@ -208,6 +239,18 @@ public class PlayerController : MonoBehaviourPunCallbacks
             animation.SetBool("grounded", charControl.isGrounded);
             animation.SetFloat("speed", moveInput.magnitude);
 
+
+            
+            if(Input.GetMouseButton(1))
+            {
+                cam.fieldOfView = Mathf.Lerp(cam.fieldOfView, allWeapons[currentWeapon].aimZoom, aimSpeed * Time.deltaTime); // Zoom in from current view to zoom view at a rate determined by aim speed
+            }
+            else
+            {
+                cam.fieldOfView = Mathf.Lerp(cam.fieldOfView, 60f, aimSpeed * Time.deltaTime); // Reset camera back to default field of view
+            }
+            
+            
             /* Cursor Lock*/
             if (Input.GetKeyDown(KeyCode.Escape))
             {
@@ -215,7 +258,7 @@ public class PlayerController : MonoBehaviourPunCallbacks
             }
             else if (Cursor.lockState == CursorLockMode.None)
             {
-                if (Input.GetMouseButtonDown(0))
+                if (Input.GetMouseButtonDown(0) && !UIController.instance.optionsScreen.activeInHierarchy)
                 {
                     Cursor.lockState = CursorLockMode.Locked; // Re-lock cursor if player clicks within game window again
                 }

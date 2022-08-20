@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using Photon.Pun;
 
 public class UIController : MonoBehaviour
 {
@@ -23,6 +24,7 @@ public class UIController : MonoBehaviour
     public TMP_Text timer;
 
     public GameObject EndMatch;
+    public GameObject optionsScreen;
 
     private void Awake()
     {
@@ -38,40 +40,43 @@ public class UIController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        // Toggling of kills and deaths on screen
-        // Works in game in editor
-        // But doesn't work smoothly in built version
-
-        /*
-        if (UIHiddenStatus == false)
+        
+        if(Input.GetKeyUp(KeyCode.Escape))
         {
-            if(Input.GetKey(KeyCode.H) && waitTime <= 0)
-            {
-                kills.gameObject.SetActive(false);
-                deaths.gameObject.SetActive(false);
-
-                UIHiddenStatus = true;
-
-                waitTime = 10;
-            }
-            waitTime--;
-            // Hide kills and deaths statistics if player presses H key
+            options();
         }
-        if (UIHiddenStatus == true)
+
+        if(optionsScreen.activeInHierarchy && Cursor.lockState != CursorLockMode.None)
         {
-            if (Input.GetKey(KeyCode.H) && waitTime <= 0)
-            {
-                kills.gameObject.SetActive(true);
-                deaths.gameObject.SetActive(true);
+            Cursor.lockState = CursorLockMode.None;
+            Cursor.visible = true;
 
-                UIHiddenStatus = false;
+            // If cursor is not unlocked when options screen is active: unlock it
+        }
 
-                waitTime = 10;
-            }
-            waitTime--;
-            // Hide kills and deaths statistics if player presses H key
-        }*/
+    }
 
+    public void options()
+    { 
+        if(!optionsScreen.activeInHierarchy)
+        {
+            optionsScreen.SetActive(true);
+  
+        }else
+        {
+            optionsScreen.SetActive(false);
+        }
 
+    }
+
+    public void returnToMainMenu()
+    {
+        PhotonNetwork.AutomaticallySyncScene = false;
+        PhotonNetwork.LeaveRoom();
+    }
+
+    public void quitGame()
+    {
+        Application.Quit();
     }
 }
