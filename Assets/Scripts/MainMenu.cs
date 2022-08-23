@@ -5,12 +5,29 @@ using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
+    public static MainMenu instance;
+
+    private void Awake()
+    {
+        instance = this;
+    }
+
+    public static bool isSinglePlayer = false;
 
     public void LoadScene(string sceneName)
     {
 
         SceneManager.LoadScene(sceneName);
        
+    }
+
+    public void LoadSceneSinglePlayer(string sceneName)
+    {
+
+        SceneManager.LoadScene(sceneName);
+        isSinglePlayer = true;
+
+
     }
 
     public void quitGame()

@@ -35,7 +35,6 @@ public class Weapons : MonoBehaviourPunCallbacks
     public float aimSpeed = 5f;
 
     public AudioSource shotSound;
-    
 
 
     // Start is called before the first frame update
@@ -48,7 +47,7 @@ public class Weapons : MonoBehaviourPunCallbacks
     // Update is called once per frame
     void Update()
     {
-        if (photonView.IsMine)
+        if (MainMenu.isSinglePlayer == true || photonView.IsMine)
         {
             aim();
             muzzleFlash.gameObject.SetActive(false);
