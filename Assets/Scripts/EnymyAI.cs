@@ -80,7 +80,7 @@ public class EnymyAI : MonoBehaviour
     void animateAttack()
     {
         if (target == null) return;
-        //target.GetComponent<SinglePlayerController>().DealDamage(damage);
+        target.GetComponent<SinglePlayerController>().DealDamage(damage);
         Debug.Log("attacking " + target.name);
     }
 
