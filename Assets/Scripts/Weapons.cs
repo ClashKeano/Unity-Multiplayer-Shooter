@@ -165,6 +165,12 @@ public class Weapons : MonoBehaviourPunCallbacks
 
             hit.collider.gameObject.GetPhotonView().RPC("DealDamage", RpcTarget.All, photonView.Owner.NickName, weaponDamage, PhotonNetwork.LocalPlayer.ActorNumber);
         }
+        else if(hit.collider.gameObject.tag == "AI")
+        {
+            Instantiate(playerHitImpact, hit.point, Quaternion.identity);
+            AIHealth target = hit.transform.GetComponent<AIHealth>();
+            target.TakeDamage(weaponDamage);
+        }
         else
         {
             GameObject bulletImpactObject = Instantiate(bulletImpact, hit.point, Quaternion.LookRotation(hit.normal));

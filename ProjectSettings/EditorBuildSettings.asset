@@ -17,10 +17,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Gauntlet Map.unity
     guid: 55935905c2c7e3348b719fa7654cf210
+  - enabled: 1
+    path: Assets/Scenes/Single Player Test.unity
+    guid: 8a323c4ddb5f5624eab2b5c59d64eea2
   - enabled: 0
     path: Assets/Scenes/Movement Testing 1.unity
     guid: 9ef75a3dfefbaa34eb92621b9128f6a4
-  - enabled: 1
-    path: Assets/Scenes/Single Player Test.unity
-    guid: 611940359811475469700527e701ed23
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   m_configObjects: {}

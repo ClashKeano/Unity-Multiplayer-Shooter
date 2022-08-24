@@ -8,6 +8,7 @@ TagManager:
   - head
   - body
   - leg
+  - AI
   layers:
   - Default
   - TransparentFX

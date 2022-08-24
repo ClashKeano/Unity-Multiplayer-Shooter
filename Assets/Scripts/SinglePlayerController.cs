@@ -28,8 +28,8 @@ public class SinglePlayerController : MonoBehaviour
     public int currentWeapon;
     public float aimSpeed = 5f;
 
-    public int maxHealth = 100;
-    int currentHealth;
+    public float maxHealth = 100;
+    float currentHealth;
 
 
     public AudioSource fsFast, fsSlow;
@@ -46,7 +46,6 @@ public class SinglePlayerController : MonoBehaviour
 
         //UIController.instance.weaponHeatSlider.maxValue = maxWeaponHeat;
 
-        Transform newSpawnTransform = SpawnManager.instance.spawn(); // Generate random spawn tranform values
         currentHealth = maxHealth;
         // transform.position = newSpawnTransform.position;
         // transform.rotation = newSpawnTransform.rotation;  // Apply above transform values to plaher spawn location
@@ -275,7 +274,51 @@ public class SinglePlayerController : MonoBehaviour
 
     }
 
+    public void DealDamage(float healthLost)
+    {
+        TakeDamage(healthLost);
+    }
 
+    public void TakeDamage(float healthLost)
+    {
+
+            currentHealth -= healthLost;
+            if (currentHealth <= 0)
+            {
+                currentHealth = 0;
+            PlayerDeath();
+
+            }
+
+            UIController.instance.healthBar.value = currentHealth;
+
+
+
+    }
+
+    public void PlayerDeath()
+    {
+
+        UIController.instance.deathText.text = "You were killed by Zombie";
+
+
+        if (gameObject != null)
+        {
+           Die(); 
+        }
+
+    }
+
+    public void Die()
+    {
+        Destroy(gameObject);
+
+
+        UIController.instance.deathMessage.SetActive(true);
+
+
+
+    }
 
     // Called once per frame, after every update function is complete
     private void LateUpdate()
