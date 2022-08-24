@@ -10,29 +10,41 @@ public class EnymyAI : MonoBehaviour
     public float chaseRange = 10f;
     float distanceToTarget = Mathf.Infinity;
     NavMeshAgent nav;
-    public float damage = 10f;
+    public float damage = 5f;
 
     bool isProvoked = false;
+
+    AIHealth health;
     // Start is called before the first frame update
     void Start()
     {
         nav = GetComponent<NavMeshAgent>();
+        health = GetComponent<AIHealth>();
     }
 
     // Update is called once per frame
     void Update()
     {
+
         if (target != null)
         {
-            distanceToTarget = Vector3.Distance(target.position, transform.position);
-            if (isProvoked)
+            if (health.IsDead())
             {
-                EngageTarget();
+                enabled = false;
+                nav.enabled = false;
             }
-            else if (distanceToTarget <= chaseRange)
+            else
             {
-                isProvoked = true;
-                //nav.SetDestination(target.position);
+                distanceToTarget = Vector3.Distance(target.position, transform.position);
+                if (isProvoked)
+                {
+                    EngageTarget();
+                }
+                else if (distanceToTarget <= chaseRange)
+                {
+                    isProvoked = true;
+                    //nav.SetDestination(target.position);
+                }
             }
         }
         
@@ -52,15 +64,24 @@ public class EnymyAI : MonoBehaviour
 
     void ChaseTarget()
     {
+        GetComponent<Animator>().SetBool("Attack", false);
+        GetComponent<Animator>().SetTrigger("move");
         nav.SetDestination(target.position);
+
 
     }
     void AttackTarget()
     {
         if (target == null) return;
-        target.GetComponent<SinglePlayerController>().DealDamage(damage);
-        Debug.Log("attacking " + target.name);
+        GetComponent<Animator>().SetBool("Attack", true);
         
+    }
+
+    void animateAttack()
+    {
+        if (target == null) return;
+        //target.GetComponent<SinglePlayerController>().DealDamage(damage);
+        Debug.Log("attacking " + target.name);
     }
 
     private void OnDrawGizmosSelected()

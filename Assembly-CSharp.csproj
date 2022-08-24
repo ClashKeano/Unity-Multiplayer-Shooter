@@ -57,6 +57,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Photon\PhotonLibs\WebSocket\WebSocket.cs" />
+    <Compile Include="Assets\Scripts\EnemySpawner.cs" />
     <Compile Include="Assets\Shared\Scripts\SimpleCharacterMotor.cs" />
     <Compile Include="Assets\Scripts\MainMenu.cs" />
     <Compile Include="Assets\Photon\PhotonLibs\WebSocket\SocketWebTcp.cs" />
@@ -66,6 +67,7 @@
     <Compile Include="Assets\Shared\Scripts\ProximityActivate.cs" />
     <Compile Include="Assets\SoftEffects\Scripts\GPUWorker.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
+    <Compile Include="Assets\Scripts\EnymyAI.cs" />
     <Compile Include="Assets\SoftEffects\Scripts\PrintData.cs" />
     <Compile Include="Assets\Scripts\SinglePlayerController.cs" />
     <Compile Include="Assets\Scripts\Leaderboard.cs" />
@@ -80,14 +82,13 @@
     <Compile Include="Assets\Shared\Scripts\SimpleCameraController.cs" />
     <Compile Include="Assets\Scripts\UIController.cs" />
     <Compile Include="Assets\EffectExamples\Misc Effects\Scripts\SpawnEffect.cs" />
+    <Compile Include="Assets\Scripts\AIHealth.cs" />
     <Compile Include="Assets\Scripts\PlayerController.cs" />
     <Compile Include="Assets\SoftEffects\Scripts\SoftEffectsFont.cs" />
+    <Compile Include="Assets\Scripts\SingleSpawner.cs" />
     <Compile Include="Assets\Scifi-Gun\ReadMe.cs" />
     <Compile Include="Assets\Scripts\SinglePlayer.cs" />
     <Compile Include="Assets\Scripts\MatchManager.cs" />
-    <Compile Include="Assets\Scripts\SingleSpawner.cs" />
-    <Compile Include="Assets\Scripts\EnymyAI.cs" />
-    <Compile Include="Assets\Scripts\AIHealth.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

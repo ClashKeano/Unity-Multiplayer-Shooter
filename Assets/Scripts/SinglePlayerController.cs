@@ -17,7 +17,7 @@ public class SinglePlayerController : MonoBehaviour
     public float mouseSens = 1f;
 
     public float moveSpeed = 1f;
-    private Vector3 moveInput, moveDir;
+    public Vector3 moveInput, moveDir;
 
     public CharacterController charControl;
 
@@ -33,6 +33,7 @@ public class SinglePlayerController : MonoBehaviour
 
 
     public AudioSource fsFast, fsSlow;
+
 
 
     // Start is called before the first frame update
@@ -55,8 +56,8 @@ public class SinglePlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-            /* Camera Movement */
-            mouseInput = new Vector2(Input.GetAxisRaw("Mouse X"), Input.GetAxisRaw("Mouse Y")) * mouseSens; // Get mouse input
+        /* Camera Movement */
+        mouseInput = new Vector2(Input.GetAxisRaw("Mouse X"), Input.GetAxisRaw("Mouse Y")) * mouseSens; // Get mouse input
 
             transform.rotation = Quaternion.Euler(transform.rotation.eulerAngles.x, transform.rotation.eulerAngles.y + mouseInput.x, transform.rotation.eulerAngles.z); // Move camera on X axis based on mouse input
 
