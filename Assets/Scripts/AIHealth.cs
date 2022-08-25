@@ -12,6 +12,7 @@ public class AIHealth : MonoBehaviour
         return isDead;
     }
 
+   
 
     // Start is called before the first frame update
     public void TakeDamage(float damage)
@@ -20,16 +21,27 @@ public class AIHealth : MonoBehaviour
         if(Health <= 0)
         {
             Die();
+            
         }
     }
+  
+
 
     void Die()
     {
         if (isDead) return;
         isDead = true;
         GetComponent<Animator>().SetTrigger("die");
+        
+        SinglePlayerController.instance.updatePlayerKills();
+
         Destroy(gameObject, 3f);
-    }
+        
+        
 
     }
+    
+
+
+}
 

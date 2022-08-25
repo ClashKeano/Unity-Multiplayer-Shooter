@@ -6,7 +6,7 @@ using TMPro;
 public class Leaderboard : MonoBehaviour
 {
     public TMP_Text playerName, Kills, Deaths;
-
+    
     public void PlayerStat(string name, int kills, int deaths)
     {
         playerName.text = name;

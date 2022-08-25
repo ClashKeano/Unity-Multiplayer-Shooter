@@ -20,7 +20,6 @@ public class SinglePlayerController : MonoBehaviour
     public Vector3 moveInput, moveDir;
 
     public CharacterController charControl;
-
     private Camera cam;
     public float jump = 7;
 
@@ -31,10 +30,12 @@ public class SinglePlayerController : MonoBehaviour
     public float maxHealth = 100;
     float currentHealth;
 
+    public AudioSource fsFast, fsSlow, zombieHit;
 
-    public AudioSource fsFast, fsSlow;
+    public int playerKills, highScore = 0;
+    public string highScoreStore;
 
-
+    
 
     // Start is called before the first frame update
     void Start()
@@ -283,15 +284,18 @@ public class SinglePlayerController : MonoBehaviour
     public void TakeDamage(float healthLost)
     {
 
-            currentHealth -= healthLost;
-            if (currentHealth <= 0)
-            {
-                currentHealth = 0;
+        currentHealth -= healthLost;
+        if (currentHealth <= 0)
+        {
+            currentHealth = 0;
             PlayerDeath();
 
-            }
+        }
 
-            UIController.instance.healthBar.value = currentHealth;
+        UIController.instance.healthBar.value = currentHealth;
+
+        zombieHit.Play();
+
 
 
 
@@ -301,6 +305,7 @@ public class SinglePlayerController : MonoBehaviour
     {
 
         UIController.instance.deathText.text = "You were killed by Zombie";
+
 
 
         if (gameObject != null)
@@ -316,9 +321,33 @@ public class SinglePlayerController : MonoBehaviour
 
 
         UIController.instance.deathMessage.SetActive(true);
+        Cursor.lockState = CursorLockMode.None;
+        updateScore();
 
 
 
+    }
+
+    public void updatePlayerKills()
+    {
+        playerKills++;
+        UIController.instance.kills.text = "Kills: " + playerKills;
+    }
+
+    public void SetHighScore(int score)
+    {
+        PlayerPrefs.SetInt(highScoreStore, score);
+        
+    }
+    public void updateScore()
+    {
+        if (playerKills > PlayerPrefs.GetInt(highScoreStore))
+        {
+            highScore = playerKills;
+            SetHighScore(highScore);
+        }
+
+        UIController.instance.highScoreMessage.text = "Your Score: " + playerKills + "         High Score: " + PlayerPrefs.GetInt(highScoreStore);
     }
 
     // Called once per frame, after every update function is complete

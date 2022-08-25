@@ -14,7 +14,7 @@ public class UIController : MonoBehaviour
     public GameObject deathMessage;
     public TMP_Text deathText;
     public Slider healthBar;
-    public TMP_Text kills, deaths;
+    public TMP_Text kills, deaths, highScoreMessage;
     public bool UIHiddenStatus = false;
     public int waitTime;
 
@@ -25,6 +25,7 @@ public class UIController : MonoBehaviour
 
     public GameObject EndMatch;
     public GameObject optionsScreen;
+
 
     private void Awake()
     {

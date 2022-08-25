@@ -2282,7 +2282,9 @@ MonoBehaviour:
   waitTime: 0
   Leaderboard: {fileID: 2224084050472817697}
   topPlayer: {fileID: 2224084051865250643}
+  timer: {fileID: 0}
   EndMatch: {fileID: 2224084050661476801}
+  optionsScreen: {fileID: 0}
 --- !u!1 &2224084052010155393
 GameObject:
   m_ObjectHideFlags: 0

@@ -601,7 +601,6 @@ MonoBehaviour:
   aimZoom: 45
   aimSpeed: 5
   shotSound: {fileID: 1100310884359997747}
-  isSinglePlayer: 1
 --- !u!82 &1100310884359997747
 AudioSource:
   m_ObjectHideFlags: 0
@@ -765,7 +764,6 @@ MonoBehaviour:
   aimZoom: 50
   aimSpeed: 5
   shotSound: {fileID: 3517487465719531390}
-  isSinglePlayer: 1
 --- !u!82 &3517487465719531390
 AudioSource:
   m_ObjectHideFlags: 0
@@ -929,7 +927,6 @@ MonoBehaviour:
   aimZoom: 30
   aimSpeed: 5
   shotSound: {fileID: 7003924272715197038}
-  isSinglePlayer: 1
 --- !u!82 &7003924272715197038
 AudioSource:
   m_ObjectHideFlags: 0
