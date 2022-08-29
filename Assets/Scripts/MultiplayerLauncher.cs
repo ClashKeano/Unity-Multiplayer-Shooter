@@ -324,7 +324,7 @@ public class MultiplayerLauncher : MonoBehaviourPunCallbacks
 
     public void SetMap2()
     {
-        selectedMap = "Guantlet Map";
+        selectedMap = "Gauntlet Map";
         closeMenus();
         roomScreen.SetActive(true);
     }
